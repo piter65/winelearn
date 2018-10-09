@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","We must finish the layouts.","vs_sven_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Have you seen my mechanical pencil?","vs_sven_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","It's all about design.","vs_sven_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Sleek lines and contoured surfaces.","vs_sven_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

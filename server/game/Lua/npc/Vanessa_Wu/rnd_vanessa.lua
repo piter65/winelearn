@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","It's all about being the best.","vs_deloitte_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","It's important to see the big picture.","vs_deloitte_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I'm invested in my client's success.","vs_deloitte_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Being yourself is important.","vs_deloitte_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

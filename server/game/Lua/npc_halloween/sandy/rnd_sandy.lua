@@ -1,0 +1,26 @@
+local dialogtext = {
+{"if","player","~=",1,"random"},
+{"if","week","<",3,"random"},
+{"goto","1"},
+
+{"label","random"},
+{"if","rnddialog","==",0,"3"},
+{"if","rnddialog","==",2,"3"},
+{"goto","4"},
+{"label","1"},
+{"if","rnddialog","==",0,"2"},
+{"if","rnddialog","==",2,"2"},
+    {"ns","Glad I could help, hope it didn't hurt.","vs_w2p1e1_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Hope I was more helpful than the film critics.","vs_w2p1e1_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I'm getting a great idea for a movie.","vs_w2p1e1_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","The movie was great, have you read the book?","vs_w2p1e1_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

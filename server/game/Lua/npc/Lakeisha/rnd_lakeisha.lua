@@ -1,0 +1,26 @@
+local dialogtext = {
+{"if","player","~=",1,"random"},
+{"if","week","<",4,"random"},
+{"goto","1"},
+
+{"label","random"},
+{"if","rnddialog","==",0,"3"},
+{"if","rnddialog","==",2,"3"},
+{"goto","4"},
+{"label","1"},
+{"if","rnddialog","==",0,"2"},
+{"if","rnddialog","==",2,"2"},
+    {"ns","Hey, what's up. Hope I sent you the right way.","vs_w3p1e1_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Word up! I hope I helped.","vs_w3p1e1_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I'm just chilling.","vs_w3p1e1_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","I've got a song in my head.","vs_w3p1e1_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Have you heard that new techno single?","vs_daryl_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Personally, I think it's all about house music.","vs_daryl_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","If I'm late for work again Lakeisha gonna fire me!","vs_daryl_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","How can anyone pick just one favorite song?","vs_daryl_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

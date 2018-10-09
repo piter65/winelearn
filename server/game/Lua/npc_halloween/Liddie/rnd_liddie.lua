@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Have you seen the ad layouts?","vs_mkutsch_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","We have a deadline tomorrow.","vs_mkutsch_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","My favorite typeface is garamond.","vs_mkutsch_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Kerning is the art of adjusting the space between characters in order to ensure a smooth flow of information from the text to the brain.","vs_mkutsch_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

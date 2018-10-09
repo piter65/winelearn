@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 1a666921d51b243768954e5f0bccdb83
+timeCreated: 1446708427
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CHAIRS
+    100002: Direct01.Target
+    100004: Direct02.Target
+    100006: directionalLight1
+    100008: directionalLight2
+    100010: EXIT_Lib
+    100012: //RootNode
+    100014: LibraryInside
+    100016: NPC_FloraSharpe
+    100018: NPC_RitaNovell
+    100020: Plant
+    100022: Player_Start
+    100024: pointLight1
+    100026: Spot01.Target
+    100028: Spot02.Target
+    100030: Spot03.Target
+    100032: Spot04.Target
+    100034: Spot05.Target
+    100036: Spot06.Target
+    100038: Spot07.Target
+    100040: Spot08.Target
+    100042: Spot09.Target
+    100044: Spot10.Target
+    100046: Spot11.Target
+    100048: Spot12.Target
+    100050: Spot13.Target
+    100052: Spot14.Target
+    100054: Spot15.Target
+    100056: spotLight1
+    100058: spotLight10
+    100060: spotLight11
+    100062: spotLight12
+    100064: spotLight13
+    100066: spotLight14
+    100068: spotLight15
+    100070: spotLight2
+    100072: spotLight3
+    100074: spotLight4
+    100076: spotLight5
+    100078: spotLight6
+    100080: spotLight7
+    100082: spotLight8
+    100084: spotLight9
+    100086: WALKMESH
+    100088: Windows
+    400000: CHAIRS
+    400002: Direct01.Target
+    400004: Direct02.Target
+    400006: directionalLight1
+    400008: directionalLight2
+    400010: EXIT_Lib
+    400012: //RootNode
+    400014: LibraryInside
+    400016: NPC_FloraSharpe
+    400018: NPC_RitaNovell
+    400020: Plant
+    400022: Player_Start
+    400024: pointLight1
+    400026: Spot01.Target
+    400028: Spot02.Target
+    400030: Spot03.Target
+    400032: Spot04.Target
+    400034: Spot05.Target
+    400036: Spot06.Target
+    400038: Spot07.Target
+    400040: Spot08.Target
+    400042: Spot09.Target
+    400044: Spot10.Target
+    400046: Spot11.Target
+    400048: Spot12.Target
+    400050: Spot13.Target
+    400052: Spot14.Target
+    400054: Spot15.Target
+    400056: spotLight1
+    400058: spotLight10
+    400060: spotLight11
+    400062: spotLight12
+    400064: spotLight13
+    400066: spotLight14
+    400068: spotLight15
+    400070: spotLight2
+    400072: spotLight3
+    400074: spotLight4
+    400076: spotLight5
+    400078: spotLight6
+    400080: spotLight7
+    400082: spotLight8
+    400084: spotLight9
+    400086: WALKMESH
+    400088: Windows
+    2300000: CHAIRS
+    2300002: EXIT_Lib
+    2300004: LibraryInside
+    2300006: Plant
+    2300008: WALKMESH
+    2300010: Windows
+    3300000: CHAIRS
+    3300002: EXIT_Lib
+    3300004: LibraryInside
+    3300006: Plant
+    3300008: WALKMESH
+    3300010: Windows
+    4300000: LibraryInside
+    4300002: Windows
+    4300004: Plant
+    4300006: CHAIRS
+    4300008: WALKMESH
+    4300010: EXIT_Lib
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

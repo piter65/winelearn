@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 525445fc9757a4393966c30370d98330
+timeCreated: 1446708440
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BulletinBoard
+    100002: directionalLight1
+    100004: directionalLight2
+    100006: EXIT_TO
+    100008: GlassTable
+    100010: NPC_Evelyn
+    100012: NPC_Freeman
+    100014: NPC_OfficeScribe
+    100016: NPC_Sandy
+    100018: Object01
+    100020: Object02
+    100022: Omni06.Target
+    100024: Omni07.Target
+    100026: Plants
+    100028: Player_Start
+    100030: PLC_TeamIcky_SP
+    100032: PLC_TeamNewsreel_SP
+    100034: pointLight1
+    100036: pointLight2
+    100038: Spot12.Target
+    100040: Spot13.Target
+    100042: spotLight1
+    100044: spotLight2
+    100046: //RootNode
+    100048: TeamOffice
+    100050: TO_CAM
+    100052: TO_EVELYN_CAM
+    100054: Walkmesh
+    100056: Windows
+    400000: BulletinBoard
+    400002: directionalLight1
+    400004: directionalLight2
+    400006: EXIT_TO
+    400008: GlassTable
+    400010: NPC_Evelyn
+    400012: NPC_Freeman
+    400014: NPC_OfficeScribe
+    400016: NPC_Sandy
+    400018: Object01
+    400020: Object02
+    400022: Omni06.Target
+    400024: Omni07.Target
+    400026: Plants
+    400028: Player_Start
+    400030: PLC_TeamIcky_SP
+    400032: PLC_TeamNewsreel_SP
+    400034: pointLight1
+    400036: pointLight2
+    400038: Spot12.Target
+    400040: Spot13.Target
+    400042: spotLight1
+    400044: spotLight2
+    400046: //RootNode
+    400048: TeamOffice
+    400050: TO_CAM
+    400052: TO_EVELYN_CAM
+    400054: Walkmesh
+    400056: Windows
+    2300000: BulletinBoard
+    2300002: EXIT_TO
+    2300004: GlassTable
+    2300006: Object01
+    2300008: Object02
+    2300010: Plants
+    2300012: TeamOffice
+    2300014: Walkmesh
+    2300016: Windows
+    3300000: BulletinBoard
+    3300002: EXIT_TO
+    3300004: GlassTable
+    3300006: Object01
+    3300008: Object02
+    3300010: Plants
+    3300012: TeamOffice
+    3300014: Walkmesh
+    3300016: Windows
+    4300000: Walkmesh
+    4300002: TeamOffice
+    4300004: Windows
+    4300006: GlassTable
+    4300008: Plants
+    4300010: BulletinBoard
+    4300012: EXIT_TO
+    4300014: Object01
+    4300016: Object02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

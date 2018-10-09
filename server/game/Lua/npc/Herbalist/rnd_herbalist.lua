@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","She loves the chamomile, mint combination.","vs_herbal_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","I make her the barley tea right before her sound checks.","vs_herbal_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","St. John's wort for headaches.","vs_herbal_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Herbs are the spice of life.","vs_herbal_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Yeee hi!","vs_counwes_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Ride 'em, cowboy!","vs_counwes_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","Keep them doggies rollin'!","vs_counwes_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","It's a lonesome day on the prairie.","vs_counwes_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

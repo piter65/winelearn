@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 7f23419f957672247a3a174206945ea3
+timeCreated: 1463631384
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arch
+    100002: bench
+    100004: //RootNode
+    100006: bridge
+    100008: floor
+    100010: leaves
+    100012: leaves01
+    100014: leaves01 1
+    100016: leaves02
+    100018: leaves03
+    100020: leaves04
+    100022: leaves05
+    100024: leaves06
+    100026: leaves07
+    100028: leaves08
+    100030: NPC_Evelyn
+    100032: NPC_Freeman
+    100034: pondwater
+    100036: TO_CAM
+    100038: trunk
+    100040: trunk01
+    100042: trunk01 1
+    100044: trunk02
+    100046: trunk03
+    100048: trunk04
+    100050: trunk05
+    100052: trunk06
+    100054: trunk07
+    100056: trunk08
+    100058: Walkmesh
+    100060: wall01
+    100062: wall02
+    100064: wall03
+    100066: wall04
+    100068: wisterialeaves
+    400000: arch
+    400002: bench
+    400004: //RootNode
+    400006: bridge
+    400008: floor
+    400010: leaves
+    400012: leaves01
+    400014: leaves01 1
+    400016: leaves02
+    400018: leaves03
+    400020: leaves04
+    400022: leaves05
+    400024: leaves06
+    400026: leaves07
+    400028: leaves08
+    400030: NPC_Evelyn
+    400032: NPC_Freeman
+    400034: pondwater
+    400036: TO_CAM
+    400038: trunk
+    400040: trunk01
+    400042: trunk01 1
+    400044: trunk02
+    400046: trunk03
+    400048: trunk04
+    400050: trunk05
+    400052: trunk06
+    400054: trunk07
+    400056: trunk08
+    400058: Walkmesh
+    400060: wall01
+    400062: wall02
+    400064: wall03
+    400066: wall04
+    400068: wisterialeaves
+    2300000: arch
+    2300002: bench
+    2300004: bridge
+    2300006: floor
+    2300008: leaves
+    2300010: leaves01
+    2300012: leaves01 1
+    2300014: leaves02
+    2300016: leaves03
+    2300018: leaves04
+    2300020: leaves05
+    2300022: leaves06
+    2300024: leaves07
+    2300026: leaves08
+    2300028: pondwater
+    2300030: trunk
+    2300032: trunk01
+    2300034: trunk01 1
+    2300036: trunk02
+    2300038: trunk03
+    2300040: trunk04
+    2300042: trunk05
+    2300044: trunk06
+    2300046: trunk07
+    2300048: trunk08
+    2300050: Walkmesh
+    2300052: wall01
+    2300054: wall02
+    2300056: wall03
+    2300058: wall04
+    2300060: wisterialeaves
+    3300000: arch
+    3300002: bench
+    3300004: bridge
+    3300006: floor
+    3300008: leaves
+    3300010: leaves01
+    3300012: leaves01 1
+    3300014: leaves02
+    3300016: leaves03
+    3300018: leaves04
+    3300020: leaves05
+    3300022: leaves06
+    3300024: leaves07
+    3300026: leaves08
+    3300028: pondwater
+    3300030: trunk
+    3300032: trunk01
+    3300034: trunk01 1
+    3300036: trunk02
+    3300038: trunk03
+    3300040: trunk04
+    3300042: trunk05
+    3300044: trunk06
+    3300046: trunk07
+    3300048: trunk08
+    3300050: Walkmesh
+    3300052: wall01
+    3300054: wall02
+    3300056: wall03
+    3300058: wall04
+    3300060: wisterialeaves
+    4300000: floor
+    4300002: wall02
+    4300004: wall03
+    4300006: wall04
+    4300008: wall01
+    4300010: pondwater
+    4300012: trunk
+    4300014: leaves
+    4300016: leaves01
+    4300018: trunk01
+    4300020: leaves01
+    4300022: trunk01
+    4300024: trunk02
+    4300026: leaves02
+    4300028: trunk03
+    4300030: leaves03
+    4300032: trunk04
+    4300034: leaves04
+    4300036: trunk05
+    4300038: leaves05
+    4300040: trunk06
+    4300042: leaves06
+    4300044: leaves07
+    4300046: trunk07
+    4300048: leaves08
+    4300050: trunk08
+    4300052: arch
+    4300054: wisterialeaves
+    4300056: Walkmesh
+    4300058: bench
+    4300060: bridge
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

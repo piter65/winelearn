@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: ccf2b66730c89154b95ecad72e5e5deb
+timeCreated: 1462679863
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AmusementWorld(OB1)
+    100002: directionalLight1
+    100004: EXIT_AWIOB1
+    100006: NPC_IgorStranglovich
+    100008: NPC_IvanStranglovich
+    100010: NPC_JuanWheeler
+    100012: //RootNode
+    100014: Object01
+    100016: Omni06.Target
+    100018: Plants
+    100020: Player_Start
+    100022: PLC_BizCard_SP
+    100024: pointLight1
+    100026: pointLight2
+    100028: pointLight3
+    100030: pointLight4
+    100032: pointLight5
+    100034: pointLight6
+    100036: pointLight7
+    100038: pointLight8
+    100040: Spot04.Target
+    100042: Spot05.Target
+    100044: Spot06.Target
+    100046: Spot07.Target
+    100048: Spot08.Target
+    100050: Spot09.Target
+    100052: spotLight1
+    100054: spotLight2
+    100056: spotLight3
+    100058: spotLight4
+    100060: spotLight5
+    100062: spotLight6
+    100064: Walkmesh
+    100066: Windows
+    400000: AmusementWorld(OB1)
+    400002: directionalLight1
+    400004: EXIT_AWIOB1
+    400006: NPC_IgorStranglovich
+    400008: NPC_IvanStranglovich
+    400010: NPC_JuanWheeler
+    400012: //RootNode
+    400014: Object01
+    400016: Omni06.Target
+    400018: Plants
+    400020: Player_Start
+    400022: PLC_BizCard_SP
+    400024: pointLight1
+    400026: pointLight2
+    400028: pointLight3
+    400030: pointLight4
+    400032: pointLight5
+    400034: pointLight6
+    400036: pointLight7
+    400038: pointLight8
+    400040: Spot04.Target
+    400042: Spot05.Target
+    400044: Spot06.Target
+    400046: Spot07.Target
+    400048: Spot08.Target
+    400050: Spot09.Target
+    400052: spotLight1
+    400054: spotLight2
+    400056: spotLight3
+    400058: spotLight4
+    400060: spotLight5
+    400062: spotLight6
+    400064: Walkmesh
+    400066: Windows
+    2300000: AmusementWorld(OB1)
+    2300002: EXIT_AWIOB1
+    2300004: Object01
+    2300006: Plants
+    2300008: Walkmesh
+    2300010: Windows
+    3300000: AmusementWorld(OB1)
+    3300002: EXIT_AWIOB1
+    3300004: Object01
+    3300006: Plants
+    3300008: Walkmesh
+    3300010: Windows
+    4300000: Windows
+    4300002: Walkmesh
+    4300004: AmusementWorld(OB1)
+    4300006: Plants
+    4300008: EXIT_AWIOB1
+    4300010: Object01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

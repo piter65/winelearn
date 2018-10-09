@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 6728453d3bfd6494d87e4a4df26dde39
+timeCreated: 1462679818
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BuonFortuna
+    100004: Direct01
+    100006: Direct01.Target
+    100008: Direct02
+    100010: Direct02.Target
+    100012: EXIT_BF
+    100014: lightFixtures
+    100016: NPC_Freeman
+    100018: NPC_RoseanneBellagiornio
+    100020: NPC_SheriffSamShortback
+    100022: Omni01
+    100024: Plants
+    100026: Player_Start
+    100028: PLC_BizCard_SP
+    100030: Spot01
+    100032: Spot01.Target
+    100034: Spot02
+    100036: Spot02.Target
+    100038: Spot03
+    100040: Spot03.Target
+    100042: Spot04
+    100044: Spot04.Target
+    100046: Spot05
+    100048: Spot05.Target
+    100050: Spot06
+    100052: Spot06.Target
+    100054: Spot08
+    100056: Spot08.Target
+    100058: Spot09
+    100060: Spot09.Target
+    100062: Spot10
+    100064: Spot10.Target
+    100066: Spot11
+    100068: Spot11.Target
+    100070: Spot12
+    100072: Spot12.Target
+    100074: Spot13
+    100076: Spot13.Target
+    100078: Spot14
+    100080: Spot14.Target
+    100082: Spot15
+    100084: Spot15.Target
+    100086: Walkmesh
+    100088: Window
+    100090: WinsExterior
+    400000: BuonFortuna
+    400002: //RootNode
+    400004: Direct01
+    400006: Direct01.Target
+    400008: Direct02
+    400010: Direct02.Target
+    400012: EXIT_BF
+    400014: lightFixtures
+    400016: NPC_Freeman
+    400018: NPC_RoseanneBellagiornio
+    400020: NPC_SheriffSamShortback
+    400022: Omni01
+    400024: Plants
+    400026: Player_Start
+    400028: PLC_BizCard_SP
+    400030: Spot01
+    400032: Spot01.Target
+    400034: Spot02
+    400036: Spot02.Target
+    400038: Spot03
+    400040: Spot03.Target
+    400042: Spot04
+    400044: Spot04.Target
+    400046: Spot05
+    400048: Spot05.Target
+    400050: Spot06
+    400052: Spot06.Target
+    400054: Spot08
+    400056: Spot08.Target
+    400058: Spot09
+    400060: Spot09.Target
+    400062: Spot10
+    400064: Spot10.Target
+    400066: Spot11
+    400068: Spot11.Target
+    400070: Spot12
+    400072: Spot12.Target
+    400074: Spot13
+    400076: Spot13.Target
+    400078: Spot14
+    400080: Spot14.Target
+    400082: Spot15
+    400084: Spot15.Target
+    400086: Walkmesh
+    400088: Window
+    400090: WinsExterior
+    2300000: BuonFortuna
+    2300002: EXIT_BF
+    2300004: lightFixtures
+    2300006: Plants
+    2300008: Walkmesh
+    2300010: Window
+    2300012: WinsExterior
+    3300000: BuonFortuna
+    3300002: EXIT_BF
+    3300004: lightFixtures
+    3300006: Plants
+    3300008: Walkmesh
+    3300010: Window
+    3300012: WinsExterior
+    4300000: Window
+    4300002: Walkmesh
+    4300004: BuonFortuna
+    4300006: Plants
+    4300008: EXIT_BF
+    4300010: WinsExterior
+    4300012: lightFixtures
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"label","1"},
+    {"n","You'd look great in some new clothes.  You can buy and sell from me."},
+    {"pg","Show me what you have.","showgoods"},
+    {"pg","No thanks.","end"},
+{"label","2"},
+    {"n","I can help you with new clothes.  You can buy and sell from me."},
+    {"pg","Show me what you have.","showgoods"},
+    {"pg","No thanks.","end"},
+{"label","3"},
+    {"n","Want to pick out a new outfit?  You can buy and sell from me."},
+    {"pg","Show me what you have.","showgoods"},
+    {"pg","No thanks.","end"},
+{"label","showgoods"},
+		{"fun",paulinesgoods},
+{"label","end"},
+}
+ return dialogtext

@@ -1,0 +1,776 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 9C1E-E3A3
+
+ Directory of C:\aa\spilldec\unitysource\Assets
+
+01/11/2017  10:35 PM           238,207 Screen Shot 2015-12-03 at 3.05.07 PM.png
+               1 File(s)        238,207 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\dummy.fbm
+
+02/13/2017  03:37 PM            21,582 FuseModel_packed0_diffuse.png
+               1 File(s)         21,582 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\PCs\new\f_avatar.fbm
+
+02/13/2017  03:36 PM           265,496 eye_mat.png
+02/13/2017  03:36 PM           139,126 female01_Body_diffuse.png
+02/13/2017  03:36 PM            49,614 female01_Bottom_diffuse.png
+02/13/2017  03:36 PM           105,053 female01_Hair_diffuse.png
+02/13/2017  03:36 PM            26,972 female01_Shoes_diffuse.png
+02/13/2017  03:36 PM           212,380 female01_Top_diffuse.png
+02/13/2017  03:36 PM           115,187 female02_Bottom_diffuse.png
+02/13/2017  03:36 PM            91,630 female02_Hair_diffuse.png
+02/13/2017  03:36 PM            85,228 female02_Shoes_diffuse.png
+02/13/2017  03:36 PM           353,534 female02_Top_diffuse.png
+02/13/2017  03:36 PM            88,134 female03_Bottom_diffuse.png
+02/13/2017  03:36 PM            90,591 female03_Hair_diffuse.png
+02/13/2017  03:36 PM            89,061 female03_Shoes_diffuse.png
+02/13/2017  03:36 PM           106,426 female03_Top_diffuse.png
+02/13/2017  03:36 PM            42,870 female04_hair_Bottom_diffuse.png
+02/13/2017  03:36 PM            86,131 female04_hair_Hair_diffuse.png
+02/13/2017  03:36 PM            56,594 female04_hair_Shoes_diffuse.png
+02/13/2017  03:36 PM           264,673 female04_hair_Top_diffuse.png
+02/13/2017  03:36 PM            88,858 female05_hair_Bottom_diffuse.png
+02/13/2017  03:36 PM            96,108 female05_hair_Glove_diffuse.png
+02/13/2017  03:36 PM           101,200 female05_hair_Hair_diffuse.png
+02/13/2017  03:36 PM            74,045 female05_hair_Shoes_diffuse.png
+02/13/2017  03:36 PM           387,420 female05_hair_Top_diffuse.png
+02/13/2017  03:36 PM            60,440 female06_hair_Hair_diffuse.png
+02/13/2017  03:36 PM            20,899 female06_hair_Shoes_diffuse.png
+02/13/2017  03:36 PM           492,961 female06_hair_Top_diffuse.png
+              26 File(s)      3,590,631 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\PCs\new\m_avatar.fbm
+
+02/13/2017  03:38 PM           260,504 eye_mat.png
+02/13/2017  03:38 PM            72,789 male01_Bottom_diffuse.png
+02/13/2017  03:38 PM            77,030 male01_Hair_diffuse.png
+02/13/2017  03:38 PM            16,110 male01_Shoes_diffuse.png
+02/13/2017  03:38 PM           273,396 male01_Top_diffuse.png
+02/13/2017  03:38 PM           116,067 male02_Body_diffuse.png
+02/13/2017  03:38 PM            97,286 male02_Bottom_diffuse.png
+02/13/2017  03:38 PM           268,961 male02_Hair_diffuse.png
+02/13/2017  03:38 PM            24,674 male02_Shoes_diffuse.png
+02/13/2017  03:38 PM           353,962 male02_Top_diffuse.png
+02/13/2017  03:38 PM            76,468 male03_Bottom_diffuse.png
+02/13/2017  03:38 PM           264,612 male03_Hair_diffuse.png
+02/13/2017  03:38 PM            31,198 male03_Shoes_diffuse.png
+02/13/2017  03:38 PM           354,528 male03_Top_diffuse.png
+02/13/2017  03:38 PM            70,887 male04_Bottom_diffuse.png
+02/13/2017  03:38 PM            79,771 male04_Hair_diffuse.png
+02/13/2017  03:38 PM            27,598 male04_Shoes_diffuse.png
+02/13/2017  03:38 PM           298,862 male04_Top_diffuse.png
+02/13/2017  03:38 PM            82,471 male05_hair_Bottom_diffuse.png
+02/13/2017  03:38 PM            96,108 male05_hair_Glove_diffuse.png
+02/13/2017  03:38 PM            77,888 male05_hair_Hair_diffuse.png
+02/13/2017  03:38 PM            83,910 male05_hair_Shoes_diffuse.png
+02/13/2017  03:38 PM           399,412 male05_hair_Top_diffuse.png
+02/13/2017  03:38 PM            48,991 male06_hair_Bottom_diffuse.png
+02/13/2017  03:38 PM            63,170 male06_hair_Hair_diffuse.png
+02/13/2017  03:38 PM            72,836 male06_hair_Shoes_diffuse.png
+02/13/2017  03:38 PM           599,920 male06_hair_Top_diffuse.png
+              27 File(s)      4,289,409 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Bill_Gastrow.fbm
+
+02/13/2017  03:37 PM         1,220,897 Bill_Gastrow_packed0_diffuse.png
+               1 File(s)      1,220,897 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Bless.fbm
+
+02/13/2017  03:38 PM           929,382 Bless_packed0_diffuse.png
+               1 File(s)        929,382 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Charlie_Fogg.fbm
+
+02/13/2017  03:37 PM         1,062,781 Charlie_Fogg_packed0_diffuse.png
+               1 File(s)      1,062,781 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Damian_Maytal.fbm
+
+02/13/2017  03:37 PM           901,986 Damian_Maytal_packed0_diffuse.png
+               1 File(s)        901,986 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Dan_Lee.fbm
+
+02/13/2017  03:37 PM           930,443 Dan_Lee_packed0_diffuse.png
+               1 File(s)        930,443 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Dennis_McCarthy.fbm
+
+02/13/2017  03:37 PM         1,112,434 Dennis_McCarthy_packed0_diffuse.png
+               1 File(s)      1,112,434 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\DJ_Synapse.fbm
+
+02/13/2017  03:37 PM           679,337 DJ_Synapse_packed0_diffuse.png
+               1 File(s)        679,337 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Dr_Ed_Mullen.fbm
+
+02/13/2017  03:37 PM           590,891 Dr_Ed_Mullen_packed0_diffuse.png
+               1 File(s)        590,891 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Evelyn.fbm
+
+02/13/2017  03:37 PM           757,080 Evelyn_packed0_diffuse.png
+               1 File(s)        757,080 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Flora_Sharpe.fbm
+
+02/13/2017  03:37 PM           593,419 Flora_Sharpe_packed0_diffuse.png
+               1 File(s)        593,419 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Gil_Fermin.fbm
+
+02/13/2017  03:37 PM           579,562 Gil_Fermin_packed0_diffuse.png
+               1 File(s)        579,562 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Gordie_Glutton.fbm
+
+02/13/2017  03:38 PM           883,886 Gordie_Glutton_packed0_diffuse.png
+               1 File(s)        883,886 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Heather_Wineheart.fbm
+
+02/13/2017  03:37 PM           981,799 Heather_Wineheart_packed0_diffuse.png
+               1 File(s)        981,799 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Jack_Cashdollar.fbm
+
+02/13/2017  03:38 PM           606,610 Jack_Cashdollar_packed0_diffuse.png
+               1 File(s)        606,610 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Jim_Rubenstein.fbm
+
+02/13/2017  03:37 PM           655,290 Jim_Rubenstein_packed0_diffuse.png
+               1 File(s)        655,290 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Joey_Cramarossa.fbm
+
+02/13/2017  03:38 PM           653,135 Joey_Cramarossa_packed0_diffuse.png
+               1 File(s)        653,135 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Kevin_Barker.fbm
+
+02/13/2017  09:48 PM         1,344,166 Kevin_Barker_packed0_diffuse.png
+               1 File(s)      1,344,166 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Leslie_Tannenbaum.fbm
+
+02/13/2017  03:37 PM           930,926 Leslie_Tannenbaum_packed0_diffuse.png
+               1 File(s)        930,926 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Mark_Carpenter.fbm
+
+02/13/2017  03:37 PM           621,030 Mark_Carpenter_packed0_diffuse.png
+               1 File(s)        621,030 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Mayor.fbm
+
+02/13/2017  03:36 PM           769,550 mayor2_packed0_diffuse.png
+               1 File(s)        769,550 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Michael_Manducci.fbm
+
+02/13/2017  03:38 PM         1,066,969 Michael_Manducci_packed0_diffuse.png
+               1 File(s)      1,066,969 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Mickey_Duds.fbm
+
+02/13/2017  03:37 PM           899,918 Mickey_Duds_packed0_diffuse.png
+               1 File(s)        899,918 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Nurse_John_Gray.fbm
+
+02/13/2017  03:37 PM           635,316 Nurse_John_Gray_packed0_diffuse.png
+               1 File(s)        635,316 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Pablo_Cruz.fbm
+
+02/13/2017  03:36 PM           722,627 Pablo_Cruz_packed0_diffuse.png
+               1 File(s)        722,627 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Pauline.fbm
+
+02/13/2017  03:38 PM         1,098,747 Pauline_packed0_diffuse.png
+               1 File(s)      1,098,747 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Peter_Boltright.fbm
+
+02/13/2017  03:38 PM           885,728 Peter_Boltright_packed0_diffuse.png
+               1 File(s)        885,728 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Phil_Gastrow.fbm
+
+02/13/2017  03:38 PM           985,461 Phil_Gastrow_packed0_diffuse.png
+               1 File(s)        985,461 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Rita_Novell.fbm
+
+02/13/2017  03:38 PM           907,314 Rita_Novell_packed0_diffuse.png
+               1 File(s)        907,314 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Sandy_Carlson.fbm
+
+02/13/2017  09:48 PM         1,417,614 Sandy_Carlson_packed0_diffuse.png
+               1 File(s)      1,417,614 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Stan_Freeman.fbm
+
+02/13/2017  03:38 PM           580,259 Stan_Freeman_packed0_diffuse.png
+               1 File(s)        580,259 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Suzie_Sparkler.fbm
+
+02/13/2017  03:37 PM           915,780 Susie_Sparkler_packed0_diffuse.png
+               1 File(s)        915,780 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Suzuku_Kiroshi.fbm
+
+02/13/2017  03:38 PM           644,571 Suzuku_Kiroshi_packed0_diffuse.png
+               1 File(s)        644,571 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Sven_Erikson.fbm
+
+02/13/2017  03:37 PM           650,789 Sven_Erikson_packed0_diffuse.png
+               1 File(s)        650,789 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Tim_Mahoney.fbm
+
+02/13/2017  03:38 PM         1,158,109 Tim_Mahoney_packed0_diffuse.png
+               1 File(s)      1,158,109 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Tom_Barrier.fbm
+
+02/13/2017  03:37 PM         1,198,483 Tom_Barrier_packed0_diffuse.png
+               1 File(s)      1,198,483 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Tour_Guide.fbm
+
+02/13/2017  03:36 PM           937,629 Tour_Guide_packed0_diffuse.png
+               1 File(s)        937,629 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Vanessa_Wu.fbm
+
+02/13/2017  03:36 PM           690,808 Vanessa_Wu_packed0_diffuse.png
+               1 File(s)        690,808 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Webster_Dweeb.fbm
+
+02/13/2017  03:37 PM           648,511 Webster_Dweeb_packed0_diffuse.png
+               1 File(s)        648,511 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Willie_Trucks.fbm
+
+02/13/2017  03:38 PM           623,481 Willie_Trucks_packed0_diffuse.png
+               1 File(s)        623,481 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Will_Standon 1.fbm
+
+01/11/2017  10:33 PM           879,671 Will_Standon_packed0_diffuse.png
+               1 File(s)        879,671 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task1\Will_Standon.fbm
+
+02/13/2017  03:37 PM           856,786 Will_Standon2_packed0_diffuse.png
+               1 File(s)        856,786 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Ashly_Dapper.fbm
+
+02/13/2017  03:37 PM         1,211,610 Ashly_Dapper_packed0_diffuse.png
+               1 File(s)      1,211,610 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Astrologist.fbm
+
+02/13/2017  03:38 PM         1,215,742 Astrologist_packed0_diffuse.png
+               1 File(s)      1,215,742 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Avanish_Singh.fbm
+
+02/13/2017  03:38 PM           529,618 Avanish_Singh_packed0_diffuse.png
+               1 File(s)        529,618 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Bill_Dryer.fbm
+
+02/13/2017  03:37 PM           921,193 Bill_Dryer_packed0_diffuse.png
+               1 File(s)        921,193 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Cedric_Maxwell.fbm
+
+02/13/2017  03:37 PM           530,900 Cedric_Maxwell2_packed0_diffuse.png
+               1 File(s)        530,900 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Count_DeMonet.fbm
+
+02/13/2017  03:37 PM           846,720 Count_DeMonet_packed0_diffuse.png
+               1 File(s)        846,720 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Danny_Mondorian.fbm
+
+02/13/2017  03:38 PM         1,040,024 Danny_Mondorian_packed0_diffuse.png
+               1 File(s)      1,040,024 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Dave_Shortback.fbm
+
+02/13/2017  03:37 PM         1,144,851 Dave_Shortback_packed0_diffuse.png
+               1 File(s)      1,144,851 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Debra_Geffen.fbm
+
+02/13/2017  03:38 PM           725,060 Debra_Geffen_packed0_diffuse.png
+               1 File(s)        725,060 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Dverb.fbm
+
+02/13/2017  03:37 PM         1,079,343 DVerb_packed0_diffuse.png
+               1 File(s)      1,079,343 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Fiona_Judd.fbm
+
+02/13/2017  03:38 PM         1,067,476 Fiona_Judd_packed0_diffuse.png
+               1 File(s)      1,067,476 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Freida_West.fbm
+
+02/13/2017  03:37 PM           978,893 Freida_West_packed0_diffuse.png
+               1 File(s)        978,893 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\GrandmasterG.fbm
+
+02/13/2017  03:37 PM           654,093 GrandmasterG_packed0_diffuse.png
+               1 File(s)        654,093 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Igor_Stranglovich.fbm
+
+02/13/2017  03:38 PM           885,104 Igor_Stranglovich_packed0_diffuse.png
+               1 File(s)        885,104 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Lakeisha.fbm
+
+02/13/2017  03:38 PM           965,630 Lakeisha_packed0_diffuse.png
+               1 File(s)        965,630 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Madeline_Kutsch.fbm
+
+02/13/2017  03:37 PM           838,698 Madeline_Kutsch_packed0_diffuse.png
+               1 File(s)        838,698 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Mary_Ellen_Vantusio.fbm
+
+02/13/2017  03:37 PM           801,030 Mary_Ellen_Vantusio_packed0_diffuse.png
+               1 File(s)        801,030 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Old_Lady.fbm
+
+02/13/2017  09:48 PM         1,498,870 Old_Lady_packed0_diffuse.png
+               1 File(s)      1,498,870 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Samantha_Kim.fbm
+
+02/13/2017  03:37 PM           823,996 Samantha_Kim_packed0_diffuse.png
+               1 File(s)        823,996 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Sam_Shortback.fbm
+
+02/13/2017  09:48 PM         1,481,504 Sam_Shortback_packed0_diffuse.png
+               1 File(s)      1,481,504 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Shadey_Sayles.fbm
+
+02/13/2017  03:37 PM           957,497 Shadey_Sayles_packed0_diffuse.png
+               1 File(s)        957,497 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Terrell_Douglas.fbm
+
+02/13/2017  03:38 PM           637,085 Terrell_Douglas_packed0_diffuse.png
+               1 File(s)        637,085 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Vernon_Sharpe.fbm
+
+02/13/2017  03:38 PM           875,373 Vernon_Sharpe_packed0_diffuse.png
+               1 File(s)        875,373 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Wanda_Rown.fbm
+
+02/13/2017  03:37 PM           818,434 Wanda_Rown_packed0_diffuse.png
+               1 File(s)        818,434 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Wes_Berlin.fbm
+
+02/13/2017  03:37 PM           758,413 Wes_Berlin_packed0_diffuse.png
+               1 File(s)        758,413 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task2\Willie_Ketchum.fbm
+
+02/13/2017  06:44 PM           868,411 Willie_Ketchum_packed0_diffuse.png
+               1 File(s)        868,411 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Accountant.fbm
+
+02/13/2017  03:37 PM           464,063 Accountant_packed0_diffuse.png
+               1 File(s)        464,063 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Acupuncturist.fbm
+
+02/13/2017  03:38 PM         1,047,960 Acupuncturist_packed0_diffuse.png
+02/13/2017  03:38 PM           359,778 Acupuncturist_packed1_diffuse.png
+               2 File(s)      1,407,738 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Alberto_Vitelli.fbm
+
+02/13/2017  03:36 PM           779,867 Alberto_Vitelli_packed0_diffuse.png
+               1 File(s)        779,867 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Allison_Rigby.fbm
+
+02/13/2017  03:37 PM         1,081,348 Allison_Rigby_packed0_diffuse.png
+               1 File(s)      1,081,348 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Berlins_Mom.fbm
+
+02/13/2017  03:38 PM           620,163 Berlins_Mom_packed0_diffuse.png
+               1 File(s)        620,163 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Bernie_Cook.fbm
+
+02/13/2017  03:38 PM         1,167,451 Bernie_Cook_packed0_diffuse.png
+               1 File(s)      1,167,451 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Blitzo.fbm
+
+02/13/2017  09:48 PM         1,294,479 Blitzo_packed0_diffuse.png
+               1 File(s)      1,294,479 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Daryl.fbm
+
+02/13/2017  03:38 PM           551,484 Daryl_packed0_diffuse.png
+               1 File(s)        551,484 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Dennis_McCarthy_nephew.fbm
+
+02/13/2017  03:37 PM           750,721 Dennis_McCarthy_nephew_packed0_diffuse.png
+               1 File(s)        750,721 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Dweebs_girlfriend.fbm
+
+02/13/2017  03:38 PM           490,984 Dweebs_girlfriend_packed0_diffuse.png
+               1 File(s)        490,984 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Eddie_Epoch.fbm
+
+02/13/2017  03:37 PM           530,706 Eddie_Epoch_packed0_diffuse.png
+               1 File(s)        530,706 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Gordie_Glutton.fbm
+
+02/13/2017  03:38 PM           883,886 Gordie_Glutton_packed0_diffuse.png
+               1 File(s)        883,886 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Herbalist.fbm
+
+02/13/2017  03:37 PM           810,831 Herbalist_packed0_diffuse.png
+               1 File(s)        810,831 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\John_Ferris.fbm
+
+02/13/2017  03:38 PM           561,556 John_Ferris_packed0_diffuse.png
+               1 File(s)        561,556 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Juan_Wheeler.fbm
+
+02/13/2017  03:36 PM           905,423 Juan_Wheeler_packed0_diffuse.png
+               1 File(s)        905,423 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Luisa_Del_Castillo.fbm
+
+02/13/2017  03:38 PM           950,954 Luisa_Del_Castillo_packed0_diffuse.png
+               1 File(s)        950,954 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Mark_Harris.fbm
+
+02/13/2017  03:37 PM           813,270 Mark_Harris_packed0_diffuse.png
+               1 File(s)        813,270 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Roseanne_Bellagiorno.fbm
+
+02/13/2017  03:37 PM           533,230 Roseanne_Bellagiorno_packed0_diffuse.png
+               1 File(s)        533,230 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Sean_Kwerty.fbm
+
+02/13/2017  03:37 PM           943,357 Sean_Kwerty_packed0_diffuse.png
+               1 File(s)        943,357 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Shrapnel_fan.fbm
+
+02/13/2017  03:37 PM           760,523 Shrapnel_Fan_packed0_diffuse.png
+               1 File(s)        760,523 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Characters\Task3\Vladimir_Sloboloasch.fbm
+
+02/13/2017  03:37 PM           605,838 Vladimir_Sloboloasch_packed0_diffuse.png
+               1 File(s)        605,838 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\DownloadAssets
+
+01/11/2017  10:33 PM            83,667 chat.png
+01/11/2017  10:33 PM            13,699 Screen Shot 2015-09-25 at 4.03.42 PM.png
+               2 File(s)         97,366 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Environments\T3_interiors\InterstateContainment.fbm
+
+01/11/2017  10:35 PM            12,265 sludge.png
+               1 File(s)         12,265 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Graphics
+
+01/11/2017  10:35 PM             4,325 Dark_Green_Arrow_Up.png
+01/11/2017  10:35 PM             6,013 Red_Arrow_Left.png
+               2 File(s)         10,338 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Examples\Images
+
+01/11/2017  10:35 PM             2,962 Icon_Cake_100%.png
+01/11/2017  10:35 PM             3,060 Icon_Cake_200%.png
+01/11/2017  10:35 PM             3,333 Icon_Cake_400%.png
+01/11/2017  10:35 PM             3,002 ic_account_box_24px-100%.png
+01/11/2017  10:35 PM             3,131 ic_account_box_24px-200%.png
+01/11/2017  10:35 PM             3,520 ic_account_box_24px-400%.png
+               6 File(s)         19,008 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Checkbox
+
+01/11/2017  10:35 PM             2,969 checkboxchecked_100%.png
+01/11/2017  10:35 PM             3,161 checkboxchecked_200%.png
+01/11/2017  10:35 PM             3,593 checkboxchecked_400%.png
+01/11/2017  10:35 PM             2,919 checkboxframe_thin_100%.png
+01/11/2017  10:35 PM             3,047 checkboxframe_thin_200%.png
+01/11/2017  10:35 PM             3,324 checkboxframe_thin_400%.png
+01/11/2017  10:35 PM             2,968 checkbox_100%.png
+01/11/2017  10:35 PM             3,155 checkbox_200%.png
+01/11/2017  10:35 PM             3,575 checkbox_400%.png
+01/11/2017  10:35 PM               199 Checkbox_Border_100%.png
+01/11/2017  10:35 PM               334 Checkbox_Border_200%.png
+01/11/2017  10:35 PM               563 Checkbox_Border_400%.png
+01/11/2017  10:35 PM               289 Checkbox_Check_100%.png
+01/11/2017  10:35 PM               465 Checkbox_Check_200%.png
+01/11/2017  10:35 PM               858 Checkbox_Check_400%.png
+              15 File(s)         31,419 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Circle\18px
+
+01/11/2017  10:35 PM               226 circle_18px_100%.png
+01/11/2017  10:35 PM               407 circle_18px_200%.png
+01/11/2017  10:35 PM               736 circle_18px_400%.png
+               3 File(s)          1,369 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Circle\40px
+
+01/11/2017  10:35 PM               433 circle_40px_100%.png
+01/11/2017  10:35 PM               849 circle_40px_200%.png
+01/11/2017  10:35 PM             1,899 circle_40px_400%.png
+               3 File(s)          3,181 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Circle\56px
+
+01/11/2017  10:35 PM               552 circle_56px_100%.png
+01/11/2017  10:35 PM             1,253 circle_56px_200%.png
+01/11/2017  10:35 PM             2,774 circle_56px_400%.png
+               3 File(s)          4,579 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Circle_Stroke\20px
+
+01/11/2017  10:35 PM               417 circle_stroke_20px_100%.png
+01/11/2017  10:35 PM               824 circle_stroke_20px_200%.png
+01/11/2017  10:35 PM             1,596 circle_stroke_20px_400%.png
+               3 File(s)          2,837 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Circle_Stroke\40px
+
+01/11/2017  10:35 PM               765 circle_stroke_40px_100%.png
+01/11/2017  10:35 PM             1,571 circle_stroke_40px_200%.png
+01/11/2017  10:35 PM             3,158 circle_stroke_40px_400%.png
+               3 File(s)          5,494 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Circle_Stroke\56px
+
+01/11/2017  10:35 PM             2,217 circle_stroke_56px_100%.png
+01/11/2017  10:35 PM             2,217 circle_stroke_56px_200%.png
+01/11/2017  10:35 PM             4,533 circle_stroke_56px_400%.png
+               3 File(s)          8,967 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Icon_Add
+
+01/11/2017  10:35 PM               145 icon_add_100%.png
+01/11/2017  10:35 PM               179 icon_add_200%.png
+01/11/2017  10:35 PM               250 icon_add_400%.png
+               3 File(s)            574 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Icon_Arrow
+
+01/11/2017  10:35 PM             2,937 ic_arrow_back_24px-100%.png
+01/11/2017  10:35 PM             3,012 ic_arrow_back_24px-200%.png
+01/11/2017  10:35 PM             3,230 ic_arrow_back_24px-400%.png
+               3 File(s)          9,179 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\InkBlotCircle
+
+01/11/2017  10:35 PM             3,362 inkblotcircle_100%.png
+01/11/2017  10:35 PM             5,102 inkblotcircle_150%.png
+01/11/2017  10:35 PM             7,216 inkblotcircle_200%.png
+01/11/2017  10:35 PM               674 inkblotcircle_25%.png
+01/11/2017  10:35 PM             9,034 inkblotcircle_250%.png
+01/11/2017  10:35 PM            11,710 inkblotcircle_300%.png
+01/11/2017  10:35 PM            13,859 inkblotcircle_350%.png
+01/11/2017  10:35 PM            16,856 inkblotcircle_400%.png
+01/11/2017  10:35 PM             1,575 inkblotcircle_50%.png
+               9 File(s)         69,388 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\List
+
+01/11/2017  10:35 PM               155 list_dropdown_100%.png
+01/11/2017  10:35 PM               190 list_dropdown_200%.png
+01/11/2017  10:35 PM               282 list_dropdown_400%.png
+               3 File(s)            627 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Radio
+
+01/11/2017  10:35 PM               199 radio_dot_100%.png
+01/11/2017  10:35 PM               280 radio_dot_200%.png
+01/11/2017  10:35 PM               531 radio_dot_400%.png
+01/11/2017  10:35 PM               308 radio_ring_100%.png
+01/11/2017  10:35 PM               492 radio_ring_200%.png
+01/11/2017  10:35 PM               970 radio_ring_400%.png
+               6 File(s)          2,780 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\RoundedSquare
+
+01/11/2017  10:35 PM               152 roundedsquare_100%.png
+01/11/2017  10:35 PM               199 roundedsquare_200%.png
+01/11/2017  10:35 PM               339 roundedsquare_400%.png
+               3 File(s)            690 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\RoundedSquare_Stroke
+
+01/11/2017  10:35 PM             2,898 roundedsquare_stroke_100%.png
+01/11/2017  10:35 PM               373 roundedsquare_stroke_200%.png
+01/11/2017  10:35 PM               646 roundedsquare_stroke_400%.png
+               3 File(s)          3,917 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Shadow_Circle
+
+01/11/2017  10:35 PM             1,066 circle_shadow_1_20px.png
+01/11/2017  10:35 PM             1,615 circle_shadow_1_40px.png
+01/11/2017  10:35 PM             2,143 circle_shadow_1_56px.png
+01/11/2017  10:35 PM             1,387 circle_shadow_2_20px.png
+01/11/2017  10:35 PM             2,033 circle_shadow_2_40px.png
+01/11/2017  10:35 PM             2,649 circle_shadow_2_56px.png
+01/11/2017  10:35 PM             1,735 circle_shadow_3_20px.png
+01/11/2017  10:35 PM             2,712 circle_shadow_3_40px.png
+01/11/2017  10:35 PM             3,512 circle_shadow_3_56px.png
+               9 File(s)         18,852 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Shadow_RoundedSquare
+
+01/11/2017  10:35 PM             3,318 roundedsquare_shadow_1.png
+01/11/2017  10:35 PM             3,578 roundedsquare_shadow_2.png
+01/11/2017  10:35 PM            23,597 roundedsquare_shadow_3.png
+               3 File(s)         30,493 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Slider
+
+01/11/2017  10:35 PM            10,325 slider_popup_100%.png
+01/11/2017  10:35 PM            32,837 slider_popup_200%.png
+01/11/2017  10:35 PM             6,239 slider_popup_400%.png
+               3 File(s)         49,401 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Square_Stroke
+
+01/11/2017  10:35 PM             2,795 square_stroke_100%.png
+               1 File(s)          2,795 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Switch
+
+01/11/2017  10:35 PM               199 switch_back_100%.png
+01/11/2017  10:35 PM               390 switch_back_200%.png
+01/11/2017  10:35 PM               738 switch_back_400%.png
+               3 File(s)          1,327 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Materials\MaterialUI\Images\Toast
+
+01/11/2017  10:35 PM               916 toast_100%.png
+01/11/2017  10:35 PM             4,695 toast_200%.png
+01/11/2017  10:35 PM             6,291 toast_400%.png
+               3 File(s)         11,902 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Standard Assets\Characters\RollerBall\Textures
+
+01/11/2017  10:35 PM            14,630 RollerBallAlbedo.png
+01/11/2017  10:35 PM               353 RollerBallSpecularGloss.png
+               2 File(s)         14,983 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Standard Assets\Characters\ThirdPersonCharacter\Textures
+
+01/11/2017  10:36 PM         9,721,683 EthanNormals.png
+01/11/2017  10:36 PM         4,850,787 EthanOcclusion.png
+               2 File(s)     14,572,470 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Standard Assets\CrossPlatformInput\Sprites
+
+01/11/2017  10:36 PM            10,618 ButtonAcceleratorOverSprite.png
+01/11/2017  10:36 PM            10,747 ButtonAcceleratorUpSprite.png
+01/11/2017  10:36 PM             8,229 ButtonArrowOverSprite.png
+01/11/2017  10:36 PM             8,376 ButtonArrowUpSprite.png
+01/11/2017  10:36 PM             5,818 ButtonBrakeOverSprite.png
+01/11/2017  10:36 PM             5,873 ButtonBrakeUpSprite.png
+01/11/2017  10:36 PM             5,764 ButtonCameraCycleUpSprite.png
+01/11/2017  10:36 PM             8,412 ButtonResetSprite.png
+01/11/2017  10:36 PM             3,471 ButtonSpacebarSprite.png
+01/11/2017  10:36 PM             8,099 ButtonThumbstickOverSprite.png
+01/11/2017  10:36 PM             8,278 ButtonThumbstickUpSprite.png
+01/11/2017  10:36 PM             8,409 ButtonTimescaleFullUpSprite.png
+01/11/2017  10:36 PM             9,144 ButtonTimescaleSlowUpSprite.png
+01/11/2017  10:36 PM             2,309 SliderBackgroundSprite.png
+01/11/2017  10:36 PM             1,671 SliderHandleSprite.png
+01/11/2017  10:36 PM             3,828 TouchpadSprite.png
+              16 File(s)        109,046 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Standard Assets\Tessellation Shaders\_Example
+
+01/11/2017  10:36 PM           173,397 CliffRock_DISP.png
+01/11/2017  10:36 PM           552,190 CliffRock_NRM.png
+               2 File(s)        725,587 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\Textures
+
+01/11/2017  10:36 PM               129 char_shadow_darker.png
+01/11/2017  10:36 PM               126 char_shadow_ligther.png
+01/11/2017  10:36 PM               170 decal_crosshair.png
+01/11/2017  10:36 PM             1,342 env_DarkTile.png
+01/11/2017  10:36 PM             1,348 env_LightTile.png
+               5 File(s)          3,115 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\WebGLTemplates\CustomProgress
+
+01/11/2017  10:36 PM             5,284 thumbnail.png
+               1 File(s)          5,284 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\WebGLTemplates\CustomSimple
+
+01/11/2017  10:36 PM             5,284 thumbnail.png
+               1 File(s)          5,284 bytes
+
+ Directory of C:\aa\spilldec\unitysource\Assets\WebGLTemplates\CustomSimple\TemplateData
+
+01/11/2017  10:36 PM             2,792 fullbar.png
+01/11/2017  10:36 PM            15,668 fullscreen.png
+01/11/2017  10:36 PM             2,844 loadingbar.png
+01/11/2017  10:36 PM             6,284 logo.png
+01/11/2017  10:36 PM             5,041 progresslogo.png
+               5 File(s)         32,629 bytes
+
+     Total Files Listed:
+             274 File(s)    100,279,590 bytes
+               0 Dir(s)  144,071,536,640 bytes free

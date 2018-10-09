@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: f8767acffe6ad438fb1c2d66463ef17a
+timeCreated: 1446708480
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_PD
+    100004: NPC_Freeman
+    100006: NPC_MarkCCarpenter
+    100008: NPC_SheriffSamShortback
+    100010: Object01
+    100012: Object02
+    100014: Omni06.Target
+    100016: Player_Start
+    100018: PLC_BizCard_SP
+    100020: pointLight1
+    100022: pointLight2
+    100024: pointLight3
+    100026: pointLight4
+    100028: pointLight5
+    100030: //RootNode
+    100032: PowerDisplays
+    100034: Walkmesh
+    100036: Windows
+    400000: directionalLight1
+    400002: EXIT_PD
+    400004: NPC_Freeman
+    400006: NPC_MarkCCarpenter
+    400008: NPC_SheriffSamShortback
+    400010: Object01
+    400012: Object02
+    400014: Omni06.Target
+    400016: Player_Start
+    400018: PLC_BizCard_SP
+    400020: pointLight1
+    400022: pointLight2
+    400024: pointLight3
+    400026: pointLight4
+    400028: pointLight5
+    400030: //RootNode
+    400032: PowerDisplays
+    400034: Walkmesh
+    400036: Windows
+    2300000: EXIT_PD
+    2300002: Object01
+    2300004: Object02
+    2300006: PowerDisplays
+    2300008: Walkmesh
+    2300010: Windows
+    3300000: EXIT_PD
+    3300002: Object01
+    3300004: Object02
+    3300006: PowerDisplays
+    3300008: Walkmesh
+    3300010: Windows
+    4300000: Walkmesh
+    4300002: PowerDisplays
+    4300004: Windows
+    4300006: EXIT_PD
+    4300008: Object01
+    4300010: Object02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

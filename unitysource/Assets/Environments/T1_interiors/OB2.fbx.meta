@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 3c414a59824ab4fe1949b5ba6a3db9c6
+timeCreated: 1446708437
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ENTER_AACOB2
+    100002: ENTER_APSOB2
+    100004: ENTER_CHTOB2
+    100006: ENTER_EMSOB2
+    100008: ENTER_MMSOB2
+    100010: ENTER_NAVOB2
+    100012: ENTER_PAAOB2
+    100014: EXIT_OB2
+    100016: OB2
+    100018: //RootNode
+    100020: Player_AAC_End
+    100022: Player_APS_End
+    100024: Player_CHT_End
+    100026: Player_EMS_End
+    100028: Player_MMS_End
+    100030: Player_NAV_End
+    100032: Player_PAA_End
+    100034: Player_Start
+    100036: pointLight1
+    100038: pointLight2
+    100040: pointLight3
+    100042: pointLight4
+    100044: pointLight5
+    100046: pointLight6
+    100048: pointLight7
+    100050: pointLight8
+    100052: Spot02.Target
+    100054: Spot03.Target
+    100056: Spot04.Target
+    100058: Spot05.Target
+    100060: Spot06.Target
+    100062: Spot07.Target
+    100064: spotLight1
+    100066: spotLight2
+    100068: spotLight3
+    100070: spotLight4
+    100072: spotLight5
+    100074: spotLight6
+    100076: WalkMesh
+    100078: Windows
+    400000: ENTER_AACOB2
+    400002: ENTER_APSOB2
+    400004: ENTER_CHTOB2
+    400006: ENTER_EMSOB2
+    400008: ENTER_MMSOB2
+    400010: ENTER_NAVOB2
+    400012: ENTER_PAAOB2
+    400014: EXIT_OB2
+    400016: //RootNode
+    400018: OB2
+    400020: Player_AAC_End
+    400022: Player_APS_End
+    400024: Player_CHT_End
+    400026: Player_EMS_End
+    400028: Player_MMS_End
+    400030: Player_NAV_End
+    400032: Player_PAA_End
+    400034: Player_Start
+    400036: pointLight1
+    400038: pointLight2
+    400040: pointLight3
+    400042: pointLight4
+    400044: pointLight5
+    400046: pointLight6
+    400048: pointLight7
+    400050: pointLight8
+    400052: Spot02.Target
+    400054: Spot03.Target
+    400056: Spot04.Target
+    400058: Spot05.Target
+    400060: Spot06.Target
+    400062: Spot07.Target
+    400064: spotLight1
+    400066: spotLight2
+    400068: spotLight3
+    400070: spotLight4
+    400072: spotLight5
+    400074: spotLight6
+    400076: WalkMesh
+    400078: Windows
+    2300000: ENTER_AACOB2
+    2300002: ENTER_APSOB2
+    2300004: ENTER_CHTOB2
+    2300006: ENTER_EMSOB2
+    2300008: ENTER_MMSOB2
+    2300010: ENTER_NAVOB2
+    2300012: ENTER_PAAOB2
+    2300014: EXIT_OB2
+    2300016: OB2
+    2300018: WalkMesh
+    2300020: Windows
+    3300000: ENTER_AACOB2
+    3300002: ENTER_APSOB2
+    3300004: ENTER_CHTOB2
+    3300006: ENTER_EMSOB2
+    3300008: ENTER_MMSOB2
+    3300010: ENTER_NAVOB2
+    3300012: ENTER_PAAOB2
+    3300014: EXIT_OB2
+    3300016: OB2
+    3300018: WalkMesh
+    3300020: Windows
+    4300000: OB2
+    4300002: EXIT_OB2
+    4300004: ENTER_APSOB2
+    4300006: ENTER_EMSOB2
+    4300008: ENTER_CHTOB2
+    4300010: ENTER_PAAOB2
+    4300012: ENTER_MMSOB2
+    4300014: ENTER_AACOB2
+    4300016: ENTER_NAVOB2
+    4300018: WalkMesh
+    4300020: Windows
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","I just love young people today!","vs_granny_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","I remember when I was young.","vs_granny_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I want to get one of those joystick thingies!","vs_granny_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","What do you mean I'm too old for instant messaging?","vs_granny_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

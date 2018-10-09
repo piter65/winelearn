@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 658a1ff274919794c9c673284d1a7259
+timeCreated: 1462679817
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_TTS
+    100004: NPC_CountDeMonet
+    100006: NPC_Freeman
+    100008: NPC_SheriffSamShortback
+    100010: Omni06.Target
+    100012: PLANTS
+    100014: Player_Start
+    100016: PLC_BizCard_SP
+    100018: pointLight1
+    100020: pointLight2
+    100022: //RootNode
+    100024: ThroneTimeShowroom
+    100026: Walkmesh
+    100028: Wins
+    400000: directionalLight1
+    400002: EXIT_TTS
+    400004: NPC_CountDeMonet
+    400006: NPC_Freeman
+    400008: NPC_SheriffSamShortback
+    400010: Omni06.Target
+    400012: PLANTS
+    400014: Player_Start
+    400016: PLC_BizCard_SP
+    400018: pointLight1
+    400020: pointLight2
+    400022: //RootNode
+    400024: ThroneTimeShowroom
+    400026: Walkmesh
+    400028: Wins
+    2300000: EXIT_TTS
+    2300002: PLANTS
+    2300004: ThroneTimeShowroom
+    2300006: Walkmesh
+    2300008: Wins
+    3300000: EXIT_TTS
+    3300002: PLANTS
+    3300004: ThroneTimeShowroom
+    3300006: Walkmesh
+    3300008: Wins
+    4300000: Wins
+    4300002: Walkmesh
+    4300004: ThroneTimeShowroom
+    4300006: PLANTS
+    4300008: EXIT_TTS
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

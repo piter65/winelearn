@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 5c36de54ef40042be9f57ab56c2c8d26
+timeCreated: 1444020626
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Direct01.Target
+    100002: directionalLight1
+    100004: EXIT_IC
+    100006: HoledAluminum
+    100008: InternetCafe
+    100010: //RootNode
+    100012: NPC_Freeman
+    100014: NPC_SheriffSamShortback
+    100016: NPC_WebsterDweeb
+    100018: Player_Start
+    100020: PLC_BizCard_SP
+    100022: PLC_Icky1_SP
+    100024: PLC_Icky2_SP
+    100026: PLC_Icky3_SP
+    100028: pointLight1
+    100030: Spot01.Target
+    100032: Spot02.Target
+    100034: Spot03.Target
+    100036: Spot04.Target
+    100038: Spot05.Target
+    100040: Spot06.Target
+    100042: Spot07.Target
+    100044: Spot08.Target
+    100046: spotLight1
+    100048: spotLight2
+    100050: spotLight3
+    100052: spotLight4
+    100054: spotLight5
+    100056: spotLight6
+    100058: spotLight7
+    100060: spotLight8
+    100062: WALKMESH
+    100064: Windows
+    400000: Direct01.Target
+    400002: directionalLight1
+    400004: EXIT_IC
+    400006: HoledAluminum
+    400008: InternetCafe
+    400010: //RootNode
+    400012: NPC_Freeman
+    400014: NPC_SheriffSamShortback
+    400016: NPC_WebsterDweeb
+    400018: Player_Start
+    400020: PLC_BizCard_SP
+    400022: PLC_Icky1_SP
+    400024: PLC_Icky2_SP
+    400026: PLC_Icky3_SP
+    400028: pointLight1
+    400030: Spot01.Target
+    400032: Spot02.Target
+    400034: Spot03.Target
+    400036: Spot04.Target
+    400038: Spot05.Target
+    400040: Spot06.Target
+    400042: Spot07.Target
+    400044: Spot08.Target
+    400046: spotLight1
+    400048: spotLight2
+    400050: spotLight3
+    400052: spotLight4
+    400054: spotLight5
+    400056: spotLight6
+    400058: spotLight7
+    400060: spotLight8
+    400062: WALKMESH
+    400064: Windows
+    2300000: EXIT_IC
+    2300002: HoledAluminum
+    2300004: InternetCafe
+    2300006: WALKMESH
+    2300008: Windows
+    3300000: EXIT_IC
+    3300002: HoledAluminum
+    3300004: InternetCafe
+    3300006: WALKMESH
+    3300008: Windows
+    4300000: WALKMESH
+    4300002: InternetCafe
+    4300004: Windows
+    4300006: HoledAluminum
+    4300008: EXIT_IC
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

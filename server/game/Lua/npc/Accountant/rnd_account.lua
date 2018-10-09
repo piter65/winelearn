@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Accounting is the language of business.","vs_account_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","You can count on me!","vs_account_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","There's no accounting for taste.","vs_account_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","If you have any assets to record, I would really depreciate it.","vs_account_rdm4.wav"},
+	{"wait","end"},
+{"label","end"},
+}
+ return dialogtext

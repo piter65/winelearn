@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: ac91a03d8a0087149817f77169ed285c
+timeCreated: 1462679842
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_UWAOB1
+    100004: NPC_MadlineKutsch
+    100006: NPC_MartinConnelly
+    100008: //RootNode
+    100010: Object01
+    100012: Object02
+    100014: Object03
+    100016: Omni06.Target
+    100018: PLANTS
+    100020: Player_Start
+    100022: PLC_BizCard_SP
+    100024: pointLight1
+    100026: pointLight10
+    100028: pointLight11
+    100030: pointLight12
+    100032: pointLight13
+    100034: pointLight2
+    100036: pointLight3
+    100038: pointLight4
+    100040: pointLight5
+    100042: pointLight6
+    100044: pointLight7
+    100046: pointLight8
+    100048: pointLight9
+    100050: Spot01.Target
+    100052: Spot02.Target
+    100054: Spot03.Target
+    100056: Spot04.Target
+    100058: Spot05.Target
+    100060: Spot06.Target
+    100062: Spot07.Target
+    100064: Spot08.Target
+    100066: Spot09.Target
+    100068: Spot10.Target
+    100070: Spot11.Target
+    100072: Spot12.Target
+    100074: Spot13.Target
+    100076: Spot14.Target
+    100078: Spot27.Target
+    100080: spotLight1
+    100082: spotLight10
+    100084: spotLight11
+    100086: spotLight12
+    100088: spotLight13
+    100090: spotLight14
+    100092: spotLight15
+    100094: spotLight2
+    100096: spotLight3
+    100098: spotLight4
+    100100: spotLight5
+    100102: spotLight6
+    100104: spotLight7
+    100106: spotLight8
+    100108: spotLight9
+    100110: UbikWittusAd
+    100112: Walkmesh
+    100114: Window
+    400000: directionalLight1
+    400002: EXIT_UWAOB1
+    400004: NPC_MadlineKutsch
+    400006: NPC_MartinConnelly
+    400008: //RootNode
+    400010: Object01
+    400012: Object02
+    400014: Object03
+    400016: Omni06.Target
+    400018: PLANTS
+    400020: Player_Start
+    400022: PLC_BizCard_SP
+    400024: pointLight1
+    400026: pointLight10
+    400028: pointLight11
+    400030: pointLight12
+    400032: pointLight13
+    400034: pointLight2
+    400036: pointLight3
+    400038: pointLight4
+    400040: pointLight5
+    400042: pointLight6
+    400044: pointLight7
+    400046: pointLight8
+    400048: pointLight9
+    400050: Spot01.Target
+    400052: Spot02.Target
+    400054: Spot03.Target
+    400056: Spot04.Target
+    400058: Spot05.Target
+    400060: Spot06.Target
+    400062: Spot07.Target
+    400064: Spot08.Target
+    400066: Spot09.Target
+    400068: Spot10.Target
+    400070: Spot11.Target
+    400072: Spot12.Target
+    400074: Spot13.Target
+    400076: Spot14.Target
+    400078: Spot27.Target
+    400080: spotLight1
+    400082: spotLight10
+    400084: spotLight11
+    400086: spotLight12
+    400088: spotLight13
+    400090: spotLight14
+    400092: spotLight15
+    400094: spotLight2
+    400096: spotLight3
+    400098: spotLight4
+    400100: spotLight5
+    400102: spotLight6
+    400104: spotLight7
+    400106: spotLight8
+    400108: spotLight9
+    400110: UbikWittusAd
+    400112: Walkmesh
+    400114: Window
+    2300000: EXIT_UWAOB1
+    2300002: Object01
+    2300004: Object02
+    2300006: Object03
+    2300008: PLANTS
+    2300010: UbikWittusAd
+    2300012: Walkmesh
+    2300014: Window
+    3300000: EXIT_UWAOB1
+    3300002: Object01
+    3300004: Object02
+    3300006: Object03
+    3300008: PLANTS
+    3300010: UbikWittusAd
+    3300012: Walkmesh
+    3300014: Window
+    4300000: Walkmesh
+    4300002: Window
+    4300004: UbikWittusAd
+    4300006: PLANTS
+    4300008: EXIT_UWAOB1
+    4300010: Object01
+    4300012: Object02
+    4300014: Object03
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

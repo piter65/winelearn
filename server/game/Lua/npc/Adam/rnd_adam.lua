@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","You should see how these things work.","vs_billdyr_rdm01.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","These things go anywhere.","vs_billdyr_rdm02.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I feel like going camping.","vs_billdyr_rdm03.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Remember: leave no trace.","vs_billdyr_rdm04.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

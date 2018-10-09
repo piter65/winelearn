@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 6d87acf71075b43cf98a53346b457ebc
+timeCreated: 1444020634
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CaseyJonesBandLoft
+    100002: //RootNode
+    100004: EXIT_CJL
+    100006: FAN
+    100008: GLASS
+    100010: guitStrings
+    100012: HangingChains
+    100014: HangingPlant
+    100016: NPC_CharlieFogg
+    100018: NPC_TennesseeNed
+    100020: Object01
+    100022: Player_Start
+    100024: PLC_BizCard_SP
+    100026: pointLight1
+    100028: pointLight2
+    100030: pointLight3
+    100032: pointLight4
+    100034: pointLight5
+    100036: pointLight6
+    100038: Spot28.Target
+    100040: Spot33.Target
+    100042: Spot34.Target
+    100044: Spot35.Target
+    100046: Spot36.Target
+    100048: Spot37.Target
+    100050: spotLight1
+    100052: spotLight2
+    100054: spotLight3
+    100056: spotLight4
+    100058: spotLight5
+    100060: spotLight6
+    100062: Tapestries
+    100064: WalkMesh
+    400000: CaseyJonesBandLoft
+    400002: //RootNode
+    400004: EXIT_CJL
+    400006: FAN
+    400008: GLASS
+    400010: guitStrings
+    400012: HangingChains
+    400014: HangingPlant
+    400016: NPC_CharlieFogg
+    400018: NPC_TennesseeNed
+    400020: Object01
+    400022: Player_Start
+    400024: PLC_BizCard_SP
+    400026: pointLight1
+    400028: pointLight2
+    400030: pointLight3
+    400032: pointLight4
+    400034: pointLight5
+    400036: pointLight6
+    400038: Spot28.Target
+    400040: Spot33.Target
+    400042: Spot34.Target
+    400044: Spot35.Target
+    400046: Spot36.Target
+    400048: Spot37.Target
+    400050: spotLight1
+    400052: spotLight2
+    400054: spotLight3
+    400056: spotLight4
+    400058: spotLight5
+    400060: spotLight6
+    400062: Tapestries
+    400064: WalkMesh
+    2300000: CaseyJonesBandLoft
+    2300002: EXIT_CJL
+    2300004: FAN
+    2300006: GLASS
+    2300008: guitStrings
+    2300010: HangingChains
+    2300012: HangingPlant
+    2300014: Object01
+    2300016: Tapestries
+    2300018: WalkMesh
+    3300000: CaseyJonesBandLoft
+    3300002: EXIT_CJL
+    3300004: FAN
+    3300006: GLASS
+    3300008: guitStrings
+    3300010: HangingChains
+    3300012: HangingPlant
+    3300014: Object01
+    3300016: Tapestries
+    3300018: WalkMesh
+    4300000: WalkMesh
+    4300002: Object01
+    4300004: HangingPlant
+    4300006: FAN
+    4300008: HangingChains
+    4300010: GLASS
+    4300012: EXIT_CJL
+    4300014: guitStrings
+    4300016: Tapestries
+    4300018: CaseyJonesBandLoft
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","What a trip, dude!","vs_casefan_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Hey, man. What's happening?","vs_casefan_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","Far out, man!","vs_casefan_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","What a groove!","vs_casefan_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

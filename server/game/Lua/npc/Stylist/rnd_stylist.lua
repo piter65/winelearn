@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","I've got to do something about her shoes!","vs_stylist_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","I just love how she looks today.","vs_stylist_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","You could do with a makeover.","vs_stylist_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","I'll bet you look fabulous in taupe.","vs_stylist_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

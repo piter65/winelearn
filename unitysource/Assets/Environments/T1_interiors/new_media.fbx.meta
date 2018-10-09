@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 79637296e22e3425f9cebdd150ad51ef
+timeCreated: 1446708463
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box03
+    100004: Box04
+    100006: Box05
+    100008: Box08
+    100010: Box09
+    100012: Box10
+    100014: Box11
+    100016: center_null
+    100018: Cylinder02
+    100020: EXIT_NEWMEDIA
+    100022: fixed_cam
+    100024: //RootNode
+    100026: NPC_JorgeEstevaz
+    100028: Object01
+    100030: Object02
+    100032: Player_Start
+    100034: PLC_BizCard_SP
+    100036: pointLight1
+    100038: pointLight2
+    100040: pointLight3
+    100042: pointLight4
+    100044: pointLight5
+    100046: pointLight6
+    100048: room_mesh
+    100050: spotLight1
+    100052: spotLight2
+    100054: spotLight3
+    100056: spotLight4
+    100058: spotLight5
+    100060: spotLight6
+    100062: teamIcky
+    100064: teamIcky02
+    100066: teamIcky03
+    100068: uconsole
+    100070: Walkmesh
+    400000: Box01
+    400002: Box03
+    400004: Box04
+    400006: Box05
+    400008: Box08
+    400010: Box09
+    400012: Box10
+    400014: Box11
+    400016: center_null
+    400018: Cylinder02
+    400020: EXIT_NEWMEDIA
+    400022: fixed_cam
+    400024: //RootNode
+    400026: NPC_JorgeEstevaz
+    400028: Object01
+    400030: Object02
+    400032: Player_Start
+    400034: PLC_BizCard_SP
+    400036: pointLight1
+    400038: pointLight2
+    400040: pointLight3
+    400042: pointLight4
+    400044: pointLight5
+    400046: pointLight6
+    400048: room_mesh
+    400050: spotLight1
+    400052: spotLight2
+    400054: spotLight3
+    400056: spotLight4
+    400058: spotLight5
+    400060: spotLight6
+    400062: teamIcky
+    400064: teamIcky02
+    400066: teamIcky03
+    400068: uconsole
+    400070: Walkmesh
+    2300000: Box01
+    2300002: Box03
+    2300004: Box04
+    2300006: Box05
+    2300008: Box08
+    2300010: Box09
+    2300012: Box10
+    2300014: Box11
+    2300016: Cylinder02
+    2300018: EXIT_NEWMEDIA
+    2300020: Object01
+    2300022: Object02
+    2300024: room_mesh
+    2300026: teamIcky
+    2300028: teamIcky02
+    2300030: teamIcky03
+    2300032: uconsole
+    2300034: Walkmesh
+    3300000: Box01
+    3300002: Box03
+    3300004: Box04
+    3300006: Box05
+    3300008: Box08
+    3300010: Box09
+    3300012: Box10
+    3300014: Box11
+    3300016: Cylinder02
+    3300018: EXIT_NEWMEDIA
+    3300020: Object01
+    3300022: Object02
+    3300024: room_mesh
+    3300026: teamIcky
+    3300028: teamIcky02
+    3300030: teamIcky03
+    3300032: uconsole
+    3300034: Walkmesh
+    4300000: Object01
+    4300002: Object02
+    4300004: EXIT_NEWMEDIA
+    4300006: room_mesh
+    4300008: uconsole
+    4300010: Cylinder02
+    4300012: Walkmesh
+    4300014: teamIcky
+    4300016: teamIcky02
+    4300018: Box01
+    4300020: Box03
+    4300022: Box04
+    4300024: Box05
+    4300026: Box08
+    4300028: Box09
+    4300030: Box10
+    4300032: Box11
+    4300034: teamIcky03
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

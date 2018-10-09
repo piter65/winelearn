@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: becd4b1616aa348bb9f750f51ac7238b
+timeCreated: 1444020650
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BoltrightsGarage
+    100004: ChainFence
+    100006: ChainLink
+    100008: Direct02.Target
+    100010: directionalLight1
+    100012: EXIT_BG
+    100014: lightFixtures
+    100016: NPC_PeterBoltright
+    100018: Object01
+    100020: Player_Start
+    100022: PLC_BizCard_SP
+    100024: pointLight1
+    100026: POLES
+    100028: Spot01.Target
+    100030: Spot02.Target
+    100032: Spot03.Target
+    100034: Spot04.Target
+    100036: Spot05.Target
+    100038: Spot06.Target
+    100040: Spot07.Target
+    100042: Spot08.Target
+    100044: Spot09.Target
+    100046: Spot10.Target
+    100048: Spot11.Target
+    100050: Spot12.Target
+    100052: spotLight1
+    100054: spotLight10
+    100056: spotLight11
+    100058: spotLight12
+    100060: spotLight2
+    100062: spotLight3
+    100064: spotLight4
+    100066: spotLight5
+    100068: spotLight6
+    100070: spotLight7
+    100072: spotLight8
+    100074: spotLight9
+    100076: Walkmesh
+    100078: Windows
+    400000: //RootNode
+    400002: BoltrightsGarage
+    400004: ChainFence
+    400006: ChainLink
+    400008: Direct02.Target
+    400010: directionalLight1
+    400012: EXIT_BG
+    400014: lightFixtures
+    400016: NPC_PeterBoltright
+    400018: Object01
+    400020: Player_Start
+    400022: PLC_BizCard_SP
+    400024: pointLight1
+    400026: POLES
+    400028: Spot01.Target
+    400030: Spot02.Target
+    400032: Spot03.Target
+    400034: Spot04.Target
+    400036: Spot05.Target
+    400038: Spot06.Target
+    400040: Spot07.Target
+    400042: Spot08.Target
+    400044: Spot09.Target
+    400046: Spot10.Target
+    400048: Spot11.Target
+    400050: Spot12.Target
+    400052: spotLight1
+    400054: spotLight10
+    400056: spotLight11
+    400058: spotLight12
+    400060: spotLight2
+    400062: spotLight3
+    400064: spotLight4
+    400066: spotLight5
+    400068: spotLight6
+    400070: spotLight7
+    400072: spotLight8
+    400074: spotLight9
+    400076: Walkmesh
+    400078: Windows
+    2300000: BoltrightsGarage
+    2300002: ChainFence
+    2300004: ChainLink
+    2300006: EXIT_BG
+    2300008: lightFixtures
+    2300010: Object01
+    2300012: POLES
+    2300014: Walkmesh
+    2300016: Windows
+    3300000: BoltrightsGarage
+    3300002: ChainFence
+    3300004: ChainLink
+    3300006: EXIT_BG
+    3300008: lightFixtures
+    3300010: Object01
+    3300012: POLES
+    3300014: Walkmesh
+    3300016: Windows
+    4300000: Windows
+    4300002: Walkmesh
+    4300004: BoltrightsGarage
+    4300006: ChainFence
+    4300008: ChainLink
+    4300010: POLES
+    4300012: EXIT_BG
+    4300014: Object01
+    4300016: lightFixtures
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

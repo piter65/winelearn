@@ -1,0 +1,85 @@
+local dialogtext = {
+
+{"if","pilotstage","==",0,"pedro_10"},		-- 10 is entry ....
+
+{"if","pilotstage","==",10,"pedro_10"},
+{"if","pilotstage","==",20,"pedro_20"},
+
+
+{"label","default"},
+	{"ns","I am so confused.  I should never be saying this, I am Evelyn. I am supposed to know everything, but I don't know what to say right now, except thank you for help us get this thing going.","VS_WOT1_01.wav"},--audio
+	{"pg","You are welcome, I am glad to help.","end"},
+
+
+
+{"label","pedro_10"},
+	{"ns","M0! Welcome to New City! \n\n I am so happy your school is helping out! \n\n My name is Evelyn Hu, and I'm the office assistant here at Professional Services, Inc. \n\nI want to thank your teacher and school for participating in the this prototype. \n\n It is going to be much different than the regular game, and should take about 10 minutes. Before we get started, please move your mouse over a response choice below, and left-click.","VS_WOT1_01.wav"},--audio
+	{"p","You are welcome, I am glad to help."},
+	{"p","Nice to meet you Evelyn."},
+
+
+	{"ns","I'm guessing you're already familiar with the basic controls, so let's get right to business.  We'll be using the journal to keep notes.  The designers of this game will be reading your journal, so, just like the real world, don't write down something you do not want others to see! \n\n Open your Journal, go to the notes section, and type '#1'","VS_WOT1_02.wav"},--audio
+	{"p","Okay.  I've typed '#1' into my journal."},
+	
+	{"ns","Great!  Throughout this pilot, we'll ask you to enter things in your journal, usually with a number.  Now, next to #1, type in your school name, team name, and your player id at the top.  It should look something like this:\n\n#1.George Washington Schoool\nThe Fuzzy Bunnies\nDave8","VS_WOT1_02.wav"},--audio
+	{"p","Okay.  I've enterred that into info my journal."},
+
+
+
+	
+	{"ns","Now, start a new line, enter #2.  Type in the type of computer you are on, and what browser. \n\n For example, if on a Windows system, in Chrome, type \n'#2. Windows 10, Chrome.'\n\n   or you may enter \n\n '#2. Mac   Safari'\n\n\n   If you do not know exactly, it is ok.  Make your best guess.","VS_WOT1_02.wav"},--audio
+
+	{"p","I got it. I enterred my best guess."},
+
+
+
+	
+	{"ns","Great.  One last thing.  Can you test the right mouse button?  It is supposed to move the camera around.  Does it work for you? \n\n type '#3' in your journal, and write if the mouse works or does not work.","VS_WOT1_04.wav"},--audio
+	{"p","Done.  #3 mouse info enterred."},
+
+
+
+-- Huh????
+	{"ns","This is simple debug text","VS_WOT1_02.wav"},--audio
+	{"p","Yes it is."},
+-- Huh????
+
+
+	
+	{"ns","Great!  Thanks for helping.  The game designers will ll be checking your journal to see your results.  Try to keep it clean, and readable.  It's ok to add comments, or things you notice, anything that you think the designers should know.  Keep in mind, the game is not finished, and there will be problems.","VS_WOT1_05.wav"},--audio
+	{"p","Ok.  I'll be clear and polite."},
+
+
+
+	{"ns","For your next step, go find Will Standon in City Hall.  You'll need to leave the office, turn right, and enter the building with the dome just past the fountain.\n\n \n\nRemember, if you get confused, talk to me\n\n And thank You, your teacher, and your school for your help!","VS_WOT1_05.wav"},--audio
+	{"p","You're Welcoome.  I'm going to city hall."},
+	
+
+	{"fun3",setvar,"pilotstage",20},   --  Time to talk to Will
+
+	{"pg","Thank you!  Goodbye, Evelyn.","end"},
+
+
+{"label","pedro_1"},
+	{"ns","Mr. Standon is waiting for you at City Hall!  You should leave this room, go right past the fountain, and enter the big city hall with the dome!  Inside is Mr. Freeman.  If something is stopping you from doing this, then enter it in your Journal so the designers can understand your problem.","VS_WOT1_ATD1.wav"},--audio
+	{"pg","Okay, I'll go meet him.","end"},
+
+
+{"label","pedro_2"},
+	{"ns","Thank you again for all your help.  \n\n Have you talked to Webster Dweeb at the Internet Cafe?  It's at the other end of main street.  Accross from the Chinese Laundry, just past your companies office.","VS_WOT1_ATD1.wav"},--audio
+	{"pg","Okay, I'll go meet with him.","end"},
+
+
+
+
+
+
+
+
+{"label","state_3"},
+	{"n","Hi there."},
+	{"pg","You look busy.  I'll come back later.","end"},
+	
+{"label","end"},
+}
+ return dialogtext

@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 5ff127160789eea4b9c3c225735c497b
+timeCreated: 1462679811
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: EXIT_VBS
+    100002: NPC_AlbertoVitelli
+    100004: Object01
+    100006: Omni02
+    100008: Omni06
+    100010: Omni06.Target
+    100012: Omni08
+    100014: Omni08.Target
+    100016: Omni12
+    100018: Omni14
+    100020: Omni15
+    100022: Omni15.Target
+    100024: Omni16
+    100026: Omni17
+    100028: Omni18
+    100030: Omni19
+    100032: Omni19.Target
+    100034: Omni20
+    100036: Omni21
+    100038: Omni22
+    100040: Omni23
+    100042: Omni24
+    100044: Player_Start
+    100046: PLC_BizCard_SP
+    100048: VitellisButcherShop
+    100050: //RootNode
+    100052: Walkmesh
+    100054: Window
+    400000: EXIT_VBS
+    400002: NPC_AlbertoVitelli
+    400004: Object01
+    400006: Omni02
+    400008: Omni06
+    400010: Omni06.Target
+    400012: Omni08
+    400014: Omni08.Target
+    400016: Omni12
+    400018: Omni14
+    400020: Omni15
+    400022: Omni15.Target
+    400024: Omni16
+    400026: Omni17
+    400028: Omni18
+    400030: Omni19
+    400032: Omni19.Target
+    400034: Omni20
+    400036: Omni21
+    400038: Omni22
+    400040: Omni23
+    400042: Omni24
+    400044: Player_Start
+    400046: PLC_BizCard_SP
+    400048: //RootNode
+    400050: VitellisButcherShop
+    400052: Walkmesh
+    400054: Window
+    2300000: EXIT_VBS
+    2300002: Object01
+    2300004: VitellisButcherShop
+    2300006: Walkmesh
+    2300008: Window
+    3300000: EXIT_VBS
+    3300002: Object01
+    3300004: VitellisButcherShop
+    3300006: Walkmesh
+    3300008: Window
+    4300000: Walkmesh
+    4300002: Window
+    4300004: VitellisButcherShop
+    4300006: EXIT_VBS
+    4300008: Object01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

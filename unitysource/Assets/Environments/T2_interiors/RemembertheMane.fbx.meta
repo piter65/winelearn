@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: db13c35542eef11459ee7f44c5cec04e
+timeCreated: 1462679871
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_RMHS
+    100004: GLASSWINDOWS
+    100006: HairAlpha
+    100008: mirror
+    100010: NPC_FionaJudd
+    100012: NPC_Freeman
+    100014: NPC_SheriffSamShortback
+    100016: Object01
+    100018: Omni06.Target
+    100020: Player_Start
+    100022: PLC_BizCard_SP
+    100024: pointLight1
+    100026: pointLight2
+    100028: pointLight3
+    100030: pointLight4
+    100032: pointLight5
+    100034: pointLight6
+    100036: pointLight7
+    100038: pointLight8
+    100040: pointLight9
+    100042: //RootNode
+    100044: RemembertheMane
+    100046: Spot01.Target
+    100048: Spot02.Target
+    100050: Spot03.Target
+    100052: Spot04.Target
+    100054: Spot05.Target
+    100056: Spot06.Target
+    100058: spotLight1
+    100060: spotLight2
+    100062: spotLight3
+    100064: spotLight4
+    100066: spotLight5
+    100068: spotLight6
+    100070: Walkmesh
+    400000: directionalLight1
+    400002: EXIT_RMHS
+    400004: GLASSWINDOWS
+    400006: HairAlpha
+    400008: mirror
+    400010: NPC_FionaJudd
+    400012: NPC_Freeman
+    400014: NPC_SheriffSamShortback
+    400016: Object01
+    400018: Omni06.Target
+    400020: Player_Start
+    400022: PLC_BizCard_SP
+    400024: pointLight1
+    400026: pointLight2
+    400028: pointLight3
+    400030: pointLight4
+    400032: pointLight5
+    400034: pointLight6
+    400036: pointLight7
+    400038: pointLight8
+    400040: pointLight9
+    400042: RemembertheMane
+    400044: //RootNode
+    400046: Spot01.Target
+    400048: Spot02.Target
+    400050: Spot03.Target
+    400052: Spot04.Target
+    400054: Spot05.Target
+    400056: Spot06.Target
+    400058: spotLight1
+    400060: spotLight2
+    400062: spotLight3
+    400064: spotLight4
+    400066: spotLight5
+    400068: spotLight6
+    400070: Walkmesh
+    2300000: EXIT_RMHS
+    2300002: GLASSWINDOWS
+    2300004: HairAlpha
+    2300006: mirror
+    2300008: Object01
+    2300010: RemembertheMane
+    2300012: Walkmesh
+    3300000: EXIT_RMHS
+    3300002: GLASSWINDOWS
+    3300004: HairAlpha
+    3300006: mirror
+    3300008: Object01
+    3300010: RemembertheMane
+    3300012: Walkmesh
+    4300000: GLASSWINDOWS
+    4300002: Walkmesh
+    4300004: RemembertheMane
+    4300006: mirror
+    4300008: HairAlpha
+    4300010: EXIT_RMHS
+    4300012: Object01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

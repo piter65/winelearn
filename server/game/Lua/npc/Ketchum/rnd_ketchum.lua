@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","All bags are subject to search.","VS_SECURITY_RDM1.ogg"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Welcome to City Hall.","VS_SECURITY_RDM2.ogg"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I'm keeping a close eye on things.","VS_SECURITY_RDM3.ogg"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","If you see something, say something.","VS_SECURITY_RDM4.ogg"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

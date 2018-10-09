@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","'Nuff respect man.","vs_splashy_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Y'all keep cool, now.","vs_splashy_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","Jus jivin' to the beat, mon.","vs_splashy_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Lazy days, groovin' tunes mon.","vs_splashy_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

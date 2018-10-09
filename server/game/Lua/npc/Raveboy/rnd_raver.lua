@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Yeah, it's all good.","vs_ravekid_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Have you seen my glowsticks?","vs_ravekid_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I'm gonna go pierce my face.","vs_ravekid_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","You wish you had pants like these.","vs_ravekid_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

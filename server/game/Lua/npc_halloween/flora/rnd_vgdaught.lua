@@ -1,0 +1,25 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+
+{"label","1"},
+    {"ns","I used to like math but...","vs_litgrl_rdm1.wav"},
+     {"pg","okay.","end"},
+	--{"wait","end"},
+{"label","2"},
+    {"ns","The hypotenuse is equal to the, ummm.","vs_litgrl_rdm2.wav"},
+	  {"pg","okay.","end"},
+	--{"wait","end"},
+{"label","3"},
+    {"ns","Divide, multiply, subtract, bring down.","vs_litgrl_rdm3.wav"},
+	  {"pg","okay.","end"},
+	--{"wait","end"},
+{"label","4"},
+    {"ns","Einstein must have been a genius, or crazy.","vs_litgrl_rdm4.wav"},
+	  {"pg","okay.","end"},
+	--{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

@@ -1,0 +1,26 @@
+local dialogtext = {
+{"if","player","~=",2,"random"},
+{"if","week","<",3,"random"},
+{"goto","1"},
+
+{"label","random"},
+{"if","rnddialog","==",0,"3"},
+{"if","rnddialog","==",2,"3"},
+{"goto","4"},
+{"label","1"},
+{"if","rnddialog","==",0,"2"},
+{"if","rnddialog","==",2,"2"},
+    {"ns","I do hope I was useful to you.","vs_w2p2e1_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","I'd be disappointed if my information didn't help you.","vs_w2p2e1_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","Stitch one, cross over two.","vs_w2p2e1_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Needles and thread, needles and thread.","vs_w2p2e1_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

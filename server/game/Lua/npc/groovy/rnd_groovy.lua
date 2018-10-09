@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","He's not just a monkey, he's my friend.","vs_orgrind_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","He sings, he dances but he won't do windows!","vs_orgrind_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I just love a song!","vs_orgrind_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Let me entertain you!","vs_orgrind_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

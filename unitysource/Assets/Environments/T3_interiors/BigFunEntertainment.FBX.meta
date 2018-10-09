@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: b1ebc1f61d9fa134994b7e26e997e13a
+timeCreated: 1462679846
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BigFunEntertainment
+    100004: Direct01
+    100006: Direct01.Target
+    100008: EXIT_BFE
+    100010: NETS
+    100012: NPC_CharlieFogg
+    100014: NPC_EddieEpoch
+    100016: NPC_GroovyGary_SP
+    100018: Object01
+    100020: Omni01
+    100022: Omni02
+    100024: Omni03
+    100026: Omni04
+    100028: Omni05
+    100030: Omni06
+    100032: Omni07
+    100034: Omni08
+    100036: Omni09
+    100038: Omni10
+    100040: Omni11
+    100042: Omni12
+    100044: Omni13
+    100046: Omni14
+    100048: Omni15
+    100050: Player_Start
+    100052: PLC_BizCard_SP
+    100054: Spot01
+    100056: Spot01.Target
+    100058: Spot02
+    100060: Spot02.Target
+    100062: Spot03
+    100064: Spot03.Target
+    100066: Spot04
+    100068: Spot04.Target
+    100070: Spot05
+    100072: Spot05.Target
+    100074: Spot06
+    100076: Spot06.Target
+    100078: Spot07
+    100080: Spot07.Target
+    100082: Spot08
+    100084: Spot08.Target
+    100086: Spot09
+    100088: Spot09.Target
+    100090: Spot10
+    100092: Spot10.Target
+    100094: Walkmesh
+    100096: Windows
+    400000: //RootNode
+    400002: BigFunEntertainment
+    400004: Direct01
+    400006: Direct01.Target
+    400008: EXIT_BFE
+    400010: NETS
+    400012: NPC_CharlieFogg
+    400014: NPC_EddieEpoch
+    400016: NPC_GroovyGary_SP
+    400018: Object01
+    400020: Omni01
+    400022: Omni02
+    400024: Omni03
+    400026: Omni04
+    400028: Omni05
+    400030: Omni06
+    400032: Omni07
+    400034: Omni08
+    400036: Omni09
+    400038: Omni10
+    400040: Omni11
+    400042: Omni12
+    400044: Omni13
+    400046: Omni14
+    400048: Omni15
+    400050: Player_Start
+    400052: PLC_BizCard_SP
+    400054: Spot01
+    400056: Spot01.Target
+    400058: Spot02
+    400060: Spot02.Target
+    400062: Spot03
+    400064: Spot03.Target
+    400066: Spot04
+    400068: Spot04.Target
+    400070: Spot05
+    400072: Spot05.Target
+    400074: Spot06
+    400076: Spot06.Target
+    400078: Spot07
+    400080: Spot07.Target
+    400082: Spot08
+    400084: Spot08.Target
+    400086: Spot09
+    400088: Spot09.Target
+    400090: Spot10
+    400092: Spot10.Target
+    400094: Walkmesh
+    400096: Windows
+    2300000: BigFunEntertainment
+    2300002: EXIT_BFE
+    2300004: NETS
+    2300006: Object01
+    2300008: Walkmesh
+    2300010: Windows
+    3300000: BigFunEntertainment
+    3300002: EXIT_BFE
+    3300004: NETS
+    3300006: Object01
+    3300008: Walkmesh
+    3300010: Windows
+    4300000: Windows
+    4300002: Walkmesh
+    4300004: BigFunEntertainment
+    4300006: NETS
+    4300008: EXIT_BFE
+    4300010: Object01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

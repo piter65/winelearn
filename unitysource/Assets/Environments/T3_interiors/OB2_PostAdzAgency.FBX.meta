@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: dade4aebe2fd64e47b3946e233793b75
+timeCreated: 1462679867
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: EXIT_PAAOB2
+    100002: NPC_JimRubinstein
+    100004: //RootNode
+    100006: Object01
+    100008: Object02
+    100010: Object03
+    100012: Omni01
+    100014: Omni06
+    100016: Omni06.Target
+    100018: Omni07
+    100020: Omni08
+    100022: Omni09
+    100024: Omni10
+    100026: Omni11
+    100028: Omni12
+    100030: Omni13
+    100032: Omni14
+    100034: Omni15
+    100036: Omni26
+    100038: Omni27
+    100040: Omni28
+    100042: Omni29
+    100044: Omni30
+    100046: Omni31
+    100048: Omni32
+    100050: PLANTS
+    100052: Player_Start
+    100054: PLC_BizCard_SP
+    100056: PostAdAgency
+    100058: Spot01
+    100060: Spot01.Target
+    100062: Spot02
+    100064: Spot02.Target
+    100066: Spot03
+    100068: Spot03.Target
+    100070: Spot04
+    100072: Spot04.Target
+    100074: Spot05
+    100076: Spot05.Target
+    100078: Spot06
+    100080: Spot06.Target
+    100082: Spot07
+    100084: Spot07.Target
+    100086: Spot08
+    100088: Spot08.Target
+    100090: Spot09
+    100092: Spot09.Target
+    100094: Spot21
+    100096: Spot21.Target
+    100098: Spot22
+    100100: Spot22.Target
+    100102: Spot23
+    100104: Spot23.Target
+    100106: Spot24
+    100108: Spot24.Target
+    100110: Spot25
+    100112: Spot25.Target
+    100114: Spot26
+    100116: Spot26.Target
+    100118: Spot27
+    100120: Spot27.Target
+    100122: Walkmesh
+    100124: Windows
+    400000: EXIT_PAAOB2
+    400002: NPC_JimRubinstein
+    400004: //RootNode
+    400006: Object01
+    400008: Object02
+    400010: Object03
+    400012: Omni01
+    400014: Omni06
+    400016: Omni06.Target
+    400018: Omni07
+    400020: Omni08
+    400022: Omni09
+    400024: Omni10
+    400026: Omni11
+    400028: Omni12
+    400030: Omni13
+    400032: Omni14
+    400034: Omni15
+    400036: Omni26
+    400038: Omni27
+    400040: Omni28
+    400042: Omni29
+    400044: Omni30
+    400046: Omni31
+    400048: Omni32
+    400050: PLANTS
+    400052: Player_Start
+    400054: PLC_BizCard_SP
+    400056: PostAdAgency
+    400058: Spot01
+    400060: Spot01.Target
+    400062: Spot02
+    400064: Spot02.Target
+    400066: Spot03
+    400068: Spot03.Target
+    400070: Spot04
+    400072: Spot04.Target
+    400074: Spot05
+    400076: Spot05.Target
+    400078: Spot06
+    400080: Spot06.Target
+    400082: Spot07
+    400084: Spot07.Target
+    400086: Spot08
+    400088: Spot08.Target
+    400090: Spot09
+    400092: Spot09.Target
+    400094: Spot21
+    400096: Spot21.Target
+    400098: Spot22
+    400100: Spot22.Target
+    400102: Spot23
+    400104: Spot23.Target
+    400106: Spot24
+    400108: Spot24.Target
+    400110: Spot25
+    400112: Spot25.Target
+    400114: Spot26
+    400116: Spot26.Target
+    400118: Spot27
+    400120: Spot27.Target
+    400122: Walkmesh
+    400124: Windows
+    2300000: EXIT_PAAOB2
+    2300002: Object01
+    2300004: Object02
+    2300006: Object03
+    2300008: PLANTS
+    2300010: PostAdAgency
+    2300012: Walkmesh
+    2300014: Windows
+    3300000: EXIT_PAAOB2
+    3300002: Object01
+    3300004: Object02
+    3300006: Object03
+    3300008: PLANTS
+    3300010: PostAdAgency
+    3300012: Walkmesh
+    3300014: Windows
+    4300000: PostAdAgency
+    4300002: Windows
+    4300004: PLANTS
+    4300006: EXIT_PAAOB2
+    4300008: Object01
+    4300010: Object02
+    4300012: Object03
+    4300014: Walkmesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

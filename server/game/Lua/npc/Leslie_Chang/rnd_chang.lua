@@ -1,0 +1,26 @@
+local dialogtext = {
+{"if","player","~=",3,"random"},
+{"if","week","<",2,"random"},
+{"goto","1"},
+
+{"label","random"},
+{"if","rnddialog","==",0,"3"},
+{"if","rnddialog","==",2,"3"},
+{"goto","4"},
+{"label","1"},
+{"if","rnddialog","==",0,"2"},
+{"if","rnddialog","==",2,"2"},
+    {"ns","OK! Hope my information was put to good use.","vs_w1p3e1_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Hopefully my information increased your efficiency!","vs_w1p3e1_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","Keep your eye out for garbage as you walk around!","vs_w1p3e1_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Business is picking up, as usual!","vs_w1p3e1_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

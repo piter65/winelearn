@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","That's my Henry!","VS_BLIZWIFE_RDM1.ogg"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Henry used to be a star, you know!","VS_BLIZWIFE_RDM2.ogg"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I remember the first Blitzo commercial. It was crazy!","VS_BLIZWIFE_RDM3.ogg"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","I wish people wouldn't call him Blitzo.","VS_BLIZWIFE_RDM4.ogg"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

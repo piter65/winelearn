@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 57b099e8be73e4d35b4ca539cf08dc9c
+timeCreated: 1444020624
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Direct01.Target
+    100002: directionalLight1
+    100004: EXIT_HAS
+    100006: fixed_cam
+    100008: HavASeatFacility
+    100010: //RootNode
+    100012: lightFixtures
+    100014: NPC_BillGastrow
+    100016: NPC_Freeman
+    100018: NPC_PhilGastrow
+    100020: NPC_SheriffSamShortback
+    100022: Object01
+    100024: oildrum
+    100026: oildrum06
+    100028: oildrum07
+    100030: oildrum08
+    100032: oildrum09
+    100034: oildrum10
+    100036: Player_Start
+    100038: PLC_BizCard_SP
+    100040: pointLight1
+    100042: pointLight2
+    100044: Spot01.Target
+    100046: Spot02.Target
+    100048: Spot04.Target
+    100050: Spot05.Target
+    100052: Spot06.Target
+    100054: Spot07.Target
+    100056: spotLight1
+    100058: spotLight2
+    100060: spotLight3
+    100062: spotLight4
+    100064: spotLight5
+    100066: spotLight6
+    100068: WALKMESH
+    100070: Wins
+    400000: Direct01.Target
+    400002: directionalLight1
+    400004: EXIT_HAS
+    400006: fixed_cam
+    400008: HavASeatFacility
+    400010: //RootNode
+    400012: lightFixtures
+    400014: NPC_BillGastrow
+    400016: NPC_Freeman
+    400018: NPC_PhilGastrow
+    400020: NPC_SheriffSamShortback
+    400022: Object01
+    400024: oildrum
+    400026: oildrum06
+    400028: oildrum07
+    400030: oildrum08
+    400032: oildrum09
+    400034: oildrum10
+    400036: Player_Start
+    400038: PLC_BizCard_SP
+    400040: pointLight1
+    400042: pointLight2
+    400044: Spot01.Target
+    400046: Spot02.Target
+    400048: Spot04.Target
+    400050: Spot05.Target
+    400052: Spot06.Target
+    400054: Spot07.Target
+    400056: spotLight1
+    400058: spotLight2
+    400060: spotLight3
+    400062: spotLight4
+    400064: spotLight5
+    400066: spotLight6
+    400068: WALKMESH
+    400070: Wins
+    2300000: EXIT_HAS
+    2300002: HavASeatFacility
+    2300004: lightFixtures
+    2300006: Object01
+    2300008: oildrum
+    2300010: oildrum06
+    2300012: oildrum07
+    2300014: oildrum08
+    2300016: oildrum09
+    2300018: oildrum10
+    2300020: WALKMESH
+    2300022: Wins
+    3300000: EXIT_HAS
+    3300002: HavASeatFacility
+    3300004: lightFixtures
+    3300006: Object01
+    3300008: oildrum
+    3300010: oildrum06
+    3300012: oildrum07
+    3300014: oildrum08
+    3300016: oildrum09
+    3300018: oildrum10
+    3300020: WALKMESH
+    3300022: Wins
+    4300000: Wins
+    4300002: HavASeatFacility
+    4300004: EXIT_HAS
+    4300006: Object01
+    4300008: lightFixtures
+    4300010: oildrum
+    4300012: oildrum06
+    4300014: oildrum07
+    4300016: oildrum08
+    4300018: oildrum09
+    4300020: oildrum10
+    4300022: WALKMESH
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

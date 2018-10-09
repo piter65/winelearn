@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Oi!  Stand back and let us rock!","vs_shrafan_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","God save the Queen!","vs_shrafan_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","Oi!  Rock on, mate!","vs_shrafan_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Oi! Shrapnel bloomin' rocks!","vs_shrafan_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

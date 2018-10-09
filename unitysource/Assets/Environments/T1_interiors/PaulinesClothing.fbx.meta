@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 351b9dfdc7d564cc38c03cbb7abceee6
+timeCreated: 1446708435
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_PCS
+    100004: fixed_cam
+    100006: MaleClothes
+    100008: NPC_Pauline
+    100010: Object01
+    100012: Omni06.Target
+    100014: Particle View 01
+    100016: //RootNode
+    100018: PaulinesClothingShop
+    100020: Player_Start
+    100022: pointLight1
+    100024: Sphere01
+    100026: Spot01.Target
+    100028: Spot02.Target
+    100030: Spot03.Target
+    100032: Spot04.Target
+    100034: Spot05.Target
+    100036: Spot06.Target
+    100038: Spot07.Target
+    100040: Spot08.Target
+    100042: Spot09.Target
+    100044: Spot10.Target
+    100046: Spot11.Target
+    100048: Spot12.Target
+    100050: Spot13.Target
+    100052: Spot14.Target
+    100054: Spot15.Target
+    100056: Spot16.Target
+    100058: Spot17.Target
+    100060: Spot18.Target
+    100062: Spot19.Target
+    100064: spotLight1
+    100066: spotLight10
+    100068: spotLight11
+    100070: spotLight12
+    100072: spotLight13
+    100074: spotLight14
+    100076: spotLight15
+    100078: spotLight16
+    100080: spotLight17
+    100082: spotLight18
+    100084: spotLight19
+    100086: spotLight2
+    100088: spotLight3
+    100090: spotLight4
+    100092: spotLight5
+    100094: spotLight6
+    100096: spotLight7
+    100098: spotLight8
+    100100: spotLight9
+    100102: Walkmesh
+    100104: Windows
+    400000: directionalLight1
+    400002: EXIT_PCS
+    400004: fixed_cam
+    400006: MaleClothes
+    400008: NPC_Pauline
+    400010: Object01
+    400012: Omni06.Target
+    400014: Particle View 01
+    400016: //RootNode
+    400018: PaulinesClothingShop
+    400020: Player_Start
+    400022: pointLight1
+    400024: Sphere01
+    400026: Spot01.Target
+    400028: Spot02.Target
+    400030: Spot03.Target
+    400032: Spot04.Target
+    400034: Spot05.Target
+    400036: Spot06.Target
+    400038: Spot07.Target
+    400040: Spot08.Target
+    400042: Spot09.Target
+    400044: Spot10.Target
+    400046: Spot11.Target
+    400048: Spot12.Target
+    400050: Spot13.Target
+    400052: Spot14.Target
+    400054: Spot15.Target
+    400056: Spot16.Target
+    400058: Spot17.Target
+    400060: Spot18.Target
+    400062: Spot19.Target
+    400064: spotLight1
+    400066: spotLight10
+    400068: spotLight11
+    400070: spotLight12
+    400072: spotLight13
+    400074: spotLight14
+    400076: spotLight15
+    400078: spotLight16
+    400080: spotLight17
+    400082: spotLight18
+    400084: spotLight19
+    400086: spotLight2
+    400088: spotLight3
+    400090: spotLight4
+    400092: spotLight5
+    400094: spotLight6
+    400096: spotLight7
+    400098: spotLight8
+    400100: spotLight9
+    400102: Walkmesh
+    400104: Windows
+    2300000: EXIT_PCS
+    2300002: MaleClothes
+    2300004: Object01
+    2300006: PaulinesClothingShop
+    2300008: Sphere01
+    2300010: Walkmesh
+    2300012: Windows
+    3300000: EXIT_PCS
+    3300002: MaleClothes
+    3300004: Object01
+    3300006: PaulinesClothingShop
+    3300008: Sphere01
+    3300010: Walkmesh
+    3300012: Windows
+    4300000: Windows
+    4300002: Walkmesh
+    4300004: PaulinesClothingShop
+    4300006: EXIT_PCS
+    4300008: MaleClothes
+    4300010: Sphere01
+    4300012: Object01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

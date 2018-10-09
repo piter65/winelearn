@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: a6be6a0af44d3f64a98904f9e46a3ebf
+timeCreated: 1462679838
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_PPOB3
+    100004: NPC_BillFDryer
+    100006: NPC_Freeman
+    100008: NPC_HollyHock
+    100010: NPC_SheriffSamShortback
+    100012: //RootNode
+    100014: Object01
+    100016: Object02
+    100018: Omni06.Target
+    100020: PLANTS
+    100022: Player_Start
+    100024: PLC_BizCard_SP
+    100026: pointLight1
+    100028: PottyPak(OB3)
+    100030: Spot01.Target
+    100032: Spot02.Target
+    100034: Spot03.Target
+    100036: Spot04.Target
+    100038: spotLight1
+    100040: spotLight2
+    100042: spotLight3
+    100044: spotLight4
+    100046: Walkmesh
+    100048: Windows
+    400000: directionalLight1
+    400002: EXIT_PPOB3
+    400004: NPC_BillFDryer
+    400006: NPC_Freeman
+    400008: NPC_HollyHock
+    400010: NPC_SheriffSamShortback
+    400012: //RootNode
+    400014: Object01
+    400016: Object02
+    400018: Omni06.Target
+    400020: PLANTS
+    400022: Player_Start
+    400024: PLC_BizCard_SP
+    400026: pointLight1
+    400028: PottyPak(OB3)
+    400030: Spot01.Target
+    400032: Spot02.Target
+    400034: Spot03.Target
+    400036: Spot04.Target
+    400038: spotLight1
+    400040: spotLight2
+    400042: spotLight3
+    400044: spotLight4
+    400046: Walkmesh
+    400048: Windows
+    2300000: EXIT_PPOB3
+    2300002: Object01
+    2300004: Object02
+    2300006: PLANTS
+    2300008: PottyPak(OB3)
+    2300010: Walkmesh
+    2300012: Windows
+    3300000: EXIT_PPOB3
+    3300002: Object01
+    3300004: Object02
+    3300006: PLANTS
+    3300008: PottyPak(OB3)
+    3300010: Walkmesh
+    3300012: Windows
+    4300000: Windows
+    4300002: Walkmesh
+    4300004: PottyPak(OB3)
+    4300006: PLANTS
+    4300008: EXIT_PPOB3
+    4300010: Object01
+    4300012: Object02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

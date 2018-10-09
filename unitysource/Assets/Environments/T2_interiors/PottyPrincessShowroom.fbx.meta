@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 63d4c923b2f088a40b9254a25820654f
+timeCreated: 1462679813
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: directionalLight10
+    100004: directionalLight11
+    100006: directionalLight2
+    100008: directionalLight3
+    100010: directionalLight4
+    100012: directionalLight5
+    100014: directionalLight6
+    100016: directionalLight7
+    100018: directionalLight8
+    100020: directionalLight9
+    100022: EXIT_PPS
+    100024: NPC_Freeman
+    100026: NPC_SheriffSamShortback
+    100028: NPC_WandaRown
+    100030: Object01
+    100032: Omni06.Target
+    100034: Omni19.Target
+    100036: PLANTS
+    100038: Player_Start
+    100040: PLC_BizCard_SP
+    100042: pointLight1
+    100044: pointLight2
+    100046: PottyPrincessShowroom
+    100048: //RootNode
+    100050: Walkmesh
+    100052: Windows
+    400000: directionalLight1
+    400002: directionalLight10
+    400004: directionalLight11
+    400006: directionalLight2
+    400008: directionalLight3
+    400010: directionalLight4
+    400012: directionalLight5
+    400014: directionalLight6
+    400016: directionalLight7
+    400018: directionalLight8
+    400020: directionalLight9
+    400022: EXIT_PPS
+    400024: NPC_Freeman
+    400026: NPC_SheriffSamShortback
+    400028: NPC_WandaRown
+    400030: Object01
+    400032: Omni06.Target
+    400034: Omni19.Target
+    400036: PLANTS
+    400038: Player_Start
+    400040: PLC_BizCard_SP
+    400042: pointLight1
+    400044: pointLight2
+    400046: //RootNode
+    400048: PottyPrincessShowroom
+    400050: Walkmesh
+    400052: Windows
+    2300000: EXIT_PPS
+    2300002: Object01
+    2300004: PLANTS
+    2300006: PottyPrincessShowroom
+    2300008: Walkmesh
+    2300010: Windows
+    3300000: EXIT_PPS
+    3300002: Object01
+    3300004: PLANTS
+    3300006: PottyPrincessShowroom
+    3300008: Walkmesh
+    3300010: Windows
+    4300000: Windows
+    4300002: Walkmesh
+    4300004: PottyPrincessShowroom
+    4300006: PLANTS
+    4300008: EXIT_PPS
+    4300010: Object01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

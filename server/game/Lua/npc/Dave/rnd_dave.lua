@@ -1,0 +1,26 @@
+local dialogtext = {
+{"if","player","~=",3,"random"},
+{"if","week","<",4,"random"},
+{"goto","1"},
+
+{"label","random"},
+{"if","rnddialog","==",0,"3"},
+{"if","rnddialog","==",2,"3"},
+{"goto","4"},
+{"label","1"},
+{"if","rnddialog","==",0,"2"},
+{"if","rnddialog","==",2,"2"},
+    {"ns","Yahoo!  I know you just went out there and did your thing!","vs_w3p3e1_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","I did my best for ya, youngin'. Hope it all helped!","vs_w3p3e1_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","Gadzooks, I'm glad to be alive!","vs_w3p3e1_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","Shazam! Let's rustle up some fun!","vs_w3p3e1_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

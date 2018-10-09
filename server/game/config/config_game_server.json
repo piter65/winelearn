@@ -1,0 +1,12 @@
+{
+	 "VERSION"         : "2017.dec.07"
+	,"URL_MULTIPLAYER" : "http://spillmp.us/mp/"
+	,"URL_DATABASE"    : "http://spillshadow.us/"
+	,"URL_BENCHMARK"   : "http://spilldata.us/benchmark/"
+	,"TROUBLESHOOT_ONLY"              : false
+	,"LOW_BANDWIDTH"                  : false
+	,"TIME_UNTIL_IDLE"                : 15.0
+	,"IDLE_LOGOUT_TIMEOUT"            : 600.0
+	,"AUDIO_DOWNLOAD_TIMEOUT"         : 5.0
+	,"MULTIPLAYER_UPDATES_PER_SECOND" : 4.0
+}

@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","I think the big plugs go in the big hole.","vs_dmnephew_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","Wait. Is red positive or negative?","vs_dmnephew_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I can't tell a transistor from a teddy bear.","vs_dmnephew_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","I feel like going home and watching some TV in the bathtub.","vs_dmnephew_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

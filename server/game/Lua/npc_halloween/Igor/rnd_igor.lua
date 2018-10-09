@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Don't talk to me.","vs_igor_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","What do you want?","vs_igor_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I'm not a criminal.","vs_igor_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","It's in your interest to do what I say.","vs_igor_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 4a6e3f4d7a3d0d74a9d7e343a9dd438f
+timeCreated: 1462679807
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_RS
+    100004: Lights
+    100006: NPC_GrandmasterG
+    100008: Plants
+    100010: Player_Start
+    100012: PLC_BizCard_SP
+    100014: pointLight1
+    100016: pointLight2
+    100018: pointLight3
+    100020: pointLight4
+    100022: pointLight5
+    100024: pointLight6
+    100026: pointLight7
+    100028: pointLight8
+    100030: //RootNode
+    100032: RecordingStudio
+    100034: Spot01.Target
+    100036: Spot02.Target
+    100038: Spot03.Target
+    100040: Spot04.Target
+    100042: Spot05.Target
+    100044: Spot06.Target
+    100046: spotLight1
+    100048: spotLight2
+    100050: spotLight3
+    100052: spotLight4
+    100054: spotLight5
+    100056: spotLight6
+    100058: Walkmesh
+    100060: WINDOWS
+    400000: directionalLight1
+    400002: EXIT_RS
+    400004: Lights
+    400006: NPC_GrandmasterG
+    400008: Plants
+    400010: Player_Start
+    400012: PLC_BizCard_SP
+    400014: pointLight1
+    400016: pointLight2
+    400018: pointLight3
+    400020: pointLight4
+    400022: pointLight5
+    400024: pointLight6
+    400026: pointLight7
+    400028: pointLight8
+    400030: //RootNode
+    400032: RecordingStudio
+    400034: Spot01.Target
+    400036: Spot02.Target
+    400038: Spot03.Target
+    400040: Spot04.Target
+    400042: Spot05.Target
+    400044: Spot06.Target
+    400046: spotLight1
+    400048: spotLight2
+    400050: spotLight3
+    400052: spotLight4
+    400054: spotLight5
+    400056: spotLight6
+    400058: Walkmesh
+    400060: WINDOWS
+    2300000: EXIT_RS
+    2300002: Lights
+    2300004: Plants
+    2300006: RecordingStudio
+    2300008: Walkmesh
+    2300010: WINDOWS
+    3300000: EXIT_RS
+    3300002: Lights
+    3300004: Plants
+    3300006: RecordingStudio
+    3300008: Walkmesh
+    3300010: WINDOWS
+    4300000: WINDOWS
+    4300002: Walkmesh
+    4300004: RecordingStudio
+    4300006: Plants
+    4300008: EXIT_RS
+    4300010: Lights
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

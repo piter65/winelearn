@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 37227ff46aa47e3428d2d9ae0b1f49c5
+timeCreated: 1462679798
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CHAINS
+    100002: directionalLight1
+    100004: EXIT_WBMH
+    100006: GuitStrings
+    100008: lightFixtures
+    100010: NPC_WesBerlin
+    100012: Object01
+    100014: Omni06.Target
+    100016: Player_Start
+    100018: PLC_BizCard_SP
+    100020: pointLight1
+    100022: pointLight2
+    100024: pointLight3
+    100026: pointLight4
+    100028: pointLight5
+    100030: pointLight6
+    100032: SpiderWebs
+    100034: Spot01.Target
+    100036: Spot02.Target
+    100038: Spot03.Target
+    100040: Spot04.Target
+    100042: spotLight1
+    100044: spotLight2
+    100046: spotLight3
+    100048: spotLight4
+    100050: WalkMesh
+    100052: WesBerlinsHouse
+    100054: //RootNode
+    100056: Windows
+    400000: CHAINS
+    400002: directionalLight1
+    400004: EXIT_WBMH
+    400006: GuitStrings
+    400008: lightFixtures
+    400010: NPC_WesBerlin
+    400012: Object01
+    400014: Omni06.Target
+    400016: Player_Start
+    400018: PLC_BizCard_SP
+    400020: pointLight1
+    400022: pointLight2
+    400024: pointLight3
+    400026: pointLight4
+    400028: pointLight5
+    400030: pointLight6
+    400032: SpiderWebs
+    400034: Spot01.Target
+    400036: Spot02.Target
+    400038: Spot03.Target
+    400040: Spot04.Target
+    400042: spotLight1
+    400044: spotLight2
+    400046: spotLight3
+    400048: spotLight4
+    400050: WalkMesh
+    400052: WesBerlinsHouse
+    400054: //RootNode
+    400056: Windows
+    2300000: CHAINS
+    2300002: EXIT_WBMH
+    2300004: GuitStrings
+    2300006: lightFixtures
+    2300008: Object01
+    2300010: SpiderWebs
+    2300012: WalkMesh
+    2300014: WesBerlinsHouse
+    2300016: Windows
+    3300000: CHAINS
+    3300002: EXIT_WBMH
+    3300004: GuitStrings
+    3300006: lightFixtures
+    3300008: Object01
+    3300010: SpiderWebs
+    3300012: WalkMesh
+    3300014: WesBerlinsHouse
+    3300016: Windows
+    4300000: Windows
+    4300002: WalkMesh
+    4300004: WesBerlinsHouse
+    4300006: CHAINS
+    4300008: SpiderWebs
+    4300010: EXIT_WBMH
+    4300012: lightFixtures
+    4300014: Object01
+    4300016: GuitStrings
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

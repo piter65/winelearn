@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 318a8407de5b04dd8bcdb706c0e810a5
+timeCreated: 1446708432
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: directionalLight1
+    100002: EXIT_NCEMOB3
+    100004: NCEmergMedic
+    100006: NPC_GillFermin
+    100008: //RootNode
+    100010: Object01
+    100012: Object02
+    100014: Omni06.Target
+    100016: Plants
+    100018: Player_Start
+    100020: PLC_BizCard_SP
+    100022: pointLight1
+    100024: pointLight2
+    100026: Spot01.Target
+    100028: Spot02.Target
+    100030: Spot03.Target
+    100032: Spot04.Target
+    100034: Spot05.Target
+    100036: spotLight1
+    100038: spotLight2
+    100040: spotLight3
+    100042: spotLight4
+    100044: spotLight5
+    100046: Walkmesh
+    100048: Windows
+    400000: directionalLight1
+    400002: EXIT_NCEMOB3
+    400004: NCEmergMedic
+    400006: NPC_GillFermin
+    400008: //RootNode
+    400010: Object01
+    400012: Object02
+    400014: Omni06.Target
+    400016: Plants
+    400018: Player_Start
+    400020: PLC_BizCard_SP
+    400022: pointLight1
+    400024: pointLight2
+    400026: Spot01.Target
+    400028: Spot02.Target
+    400030: Spot03.Target
+    400032: Spot04.Target
+    400034: Spot05.Target
+    400036: spotLight1
+    400038: spotLight2
+    400040: spotLight3
+    400042: spotLight4
+    400044: spotLight5
+    400046: Walkmesh
+    400048: Windows
+    2300000: EXIT_NCEMOB3
+    2300002: NCEmergMedic
+    2300004: Object01
+    2300006: Object02
+    2300008: Plants
+    2300010: Walkmesh
+    2300012: Windows
+    3300000: EXIT_NCEMOB3
+    3300002: NCEmergMedic
+    3300004: Object01
+    3300006: Object02
+    3300008: Plants
+    3300010: Walkmesh
+    3300012: Windows
+    4300000: Windows
+    4300002: Walkmesh
+    4300004: NCEmergMedic
+    4300006: Plants
+    4300008: EXIT_NCEMOB3
+    4300010: Object01
+    4300012: Object02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

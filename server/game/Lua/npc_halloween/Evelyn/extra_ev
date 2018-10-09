@@ -1,0 +1,41 @@
+{"label","eve_40"},
+	{"ns","You need to go to the internet cafe, find a free computer, and look up 'lonely guy'.","ev9_22.ogg"},--audio
+	{"pg","Okay, I'll go meet with him.","end"},
+
+
+{"label","eve_41"},
+	{"ns","The last person to talk to is Joey, down by the docks.  He's wants to test your team, so bring your team mates if possible.",
+	 "ev9_22.ogg"},--audio
+	{"pg","Okay, I'll go meet with him.","end"},
+
+{"label","eve_42"},
+	{"ns","That is it!  You are done!  Just make sure your journal has all the info.  Everyone in New City, as well as the developers, want to thank you, your teacher, and your school.  ",
+	"ev9_22.ogg"},--audio
+	{"pg","You are welcome!  Thanks for the opportunity.","end"},
+
+{"label","eve_43"},
+	{"ns","Yep. We're done!  The test is over.  Thanks again."
+	","ev9_22.ogg"},--audio
+	{"pg","You are welcome!","end"},
+
+
+{"label","eve_44"},
+	{"ns","Um, it's a little strange you keep coming back for praise, but sure.  Thank you so much for helping out.  You can go now",
+	"ev9_22.ogg"},
+	{"pg","Okay, I'll go.","end"},
+
+
+=======
+{"label","tourguide_44"},
+	{"ns","Maybe you should go talk to Evelyn in the team office",
+	"ev9_22.ogg"},
+	{"pg","Okay, I'll go.","end"},
+
+
+{"label","tourguide_44"},
+	{"ns","How was your race?   Well, make a journal entry and your are done!
+	Everyone in New City appreciates your work.  Make sure to thank your teacher for us!
+	Bye Bye for now!",
+	"ev9_22.ogg"},
+	{"pg","Okay, I'll go.","end"},
+

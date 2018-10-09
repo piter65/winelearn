@@ -1,0 +1,20 @@
+local dialogtext = {
+{"if","rnddialog","==",0,"1"},
+{"if","rnddialog","==",1,"2"},
+{"if","rnddialog","==",2,"3"},
+{"if","rnddialog","==",3,"4"},
+{"label","1"},
+    {"ns","Yo, he's such a man!","vs_dweebgf_rdm1.wav"},
+	{"wait","end"},
+{"label","2"},
+    {"ns","All I can do is think about him!","vs_dweebgf_rdm2.wav"},
+	{"wait","end"},
+{"label","3"},
+    {"ns","I knew from the moment I met him!","vs_dweebgf_rdm3.wav"},
+	{"wait","end"},
+{"label","4"},
+    {"ns","I'm just glad to be his honey!","vs_dweebgf_rdm4.wav"},
+	{"wait","end"},    
+{"label","end"},
+}
+ return dialogtext

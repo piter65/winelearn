@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 17e22f485814c4b008de5cf6131ddc08
+timeCreated: 1446708424
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CandleFlame
+    100002: CHAINS
+    100004: Curtins
+    100006: directionalLight1
+    100008: directionalLight2
+    100010: directionalLight3
+    100012: directionalLight4
+    100014: EXIT_WL
+    100016: lightfixtures
+    100018: NPC_HeatherWinehart
+    100020: NPC_WinehartsAcupuncturist
+    100022: NPC_WinehartsAstrologist
+    100024: NPC_WinehartsHerbalist
+    100026: NPC_WinehartsStylist
+    100028: Object01
+    100030: Omni06.Target
+    100032: Omni17.Target
+    100034: Omni18.Target
+    100036: Omni21.Target
+    100038: PlantHolder
+    100040: PLANTS
+    100042: Player_Start
+    100044: PLC_BizCard_SP
+    100046: pointLight1
+    100048: pointLight10
+    100050: pointLight11
+    100052: pointLight12
+    100054: pointLight13
+    100056: pointLight14
+    100058: pointLight15
+    100060: pointLight16
+    100062: pointLight17
+    100064: pointLight18
+    100066: pointLight19
+    100068: pointLight2
+    100070: pointLight20
+    100072: pointLight21
+    100074: pointLight3
+    100076: pointLight4
+    100078: pointLight5
+    100080: pointLight6
+    100082: pointLight7
+    100084: pointLight8
+    100086: pointLight9
+    100088: TableGlass
+    100090: Walkmesh
+    100092: Windows
+    100094: //RootNode
+    100096: WinehartsLoft
+    400000: CandleFlame
+    400002: CHAINS
+    400004: Curtins
+    400006: directionalLight1
+    400008: directionalLight2
+    400010: directionalLight3
+    400012: directionalLight4
+    400014: EXIT_WL
+    400016: lightfixtures
+    400018: NPC_HeatherWinehart
+    400020: NPC_WinehartsAcupuncturist
+    400022: NPC_WinehartsAstrologist
+    400024: NPC_WinehartsHerbalist
+    400026: NPC_WinehartsStylist
+    400028: Object01
+    400030: Omni06.Target
+    400032: Omni17.Target
+    400034: Omni18.Target
+    400036: Omni21.Target
+    400038: PlantHolder
+    400040: PLANTS
+    400042: Player_Start
+    400044: PLC_BizCard_SP
+    400046: pointLight1
+    400048: pointLight10
+    400050: pointLight11
+    400052: pointLight12
+    400054: pointLight13
+    400056: pointLight14
+    400058: pointLight15
+    400060: pointLight16
+    400062: pointLight17
+    400064: pointLight18
+    400066: pointLight19
+    400068: pointLight2
+    400070: pointLight20
+    400072: pointLight21
+    400074: pointLight3
+    400076: pointLight4
+    400078: pointLight5
+    400080: pointLight6
+    400082: pointLight7
+    400084: pointLight8
+    400086: pointLight9
+    400088: TableGlass
+    400090: Walkmesh
+    400092: Windows
+    400094: WinehartsLoft
+    400096: //RootNode
+    2300000: CandleFlame
+    2300002: CHAINS
+    2300004: Curtins
+    2300006: EXIT_WL
+    2300008: lightfixtures
+    2300010: Object01
+    2300012: PlantHolder
+    2300014: PLANTS
+    2300016: TableGlass
+    2300018: Walkmesh
+    2300020: Windows
+    2300022: WinehartsLoft
+    3300000: CandleFlame
+    3300002: CHAINS
+    3300004: Curtins
+    3300006: EXIT_WL
+    3300008: lightfixtures
+    3300010: Object01
+    3300012: PlantHolder
+    3300014: PLANTS
+    3300016: TableGlass
+    3300018: Walkmesh
+    3300020: Windows
+    3300022: WinehartsLoft
+    4300000: Walkmesh
+    4300002: Windows
+    4300004: WinehartsLoft
+    4300006: PLANTS
+    4300008: CHAINS
+    4300010: PlantHolder
+    4300012: EXIT_WL
+    4300014: CandleFlame
+    4300016: lightfixtures
+    4300018: TableGlass
+    4300020: Object01
+    4300022: Curtins
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
