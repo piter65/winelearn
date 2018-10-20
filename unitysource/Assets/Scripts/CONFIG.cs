@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class CONFIG
 {
-	public static string VERSION         = "2018.spillmptest";
+	public static string VERSION         = "wine.learn.2018.oct.19";
 	public static string URL_GAME        = "http://spilldata.us/game/";
 	public static string URL_MULTIPLAYER = "http://spillmp.us/mp/";
 

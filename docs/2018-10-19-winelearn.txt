@@ -1,0 +1,34 @@
+General idea.
+
+ Populate a small world with several experts on aspects of wine.
+ Player interviews these experts, and learns.
+
+INITIALLLY:
+  It would start in the virtual wine academy.  (team office).
+    Several experts would be there to talk to:
+        The Dean of the academy (currennt Evelyn)
+        The Hospitality Expert.  (someone sharp looking- )
+        The Napa/Sonoma Expert - AVA guy.  (probably average looking person).
+        (etc).
+
+	Each expert would have a certain amount of content to answer questions,
+         and a quiz available at all times.
+	If the player chooses the quiz, they pass that aspect of knowlege.
+
+ 	The dean would recommend what quizes are available, and where to go to next.
+	After all quizes complete, the dean hands out virtual diploma.
+
+
+    For now, we keep main street, but start cutting out other stuff.  Try to get the size way down.
+    Very few "tricks" or gamey puzzles, but more of an interactive way to get, review, and be tested on
+  information.   I figure I'll write the initial scripts, and have an SME double check my info.
+
+
+
+
+
+-----------
+ Long Term:
+    We have maybe 12 offices, lots of hills with vineyards, outdoor characters, a farmer, etc.  
+Until I figure funding out, we use existing assets from Spill.
+
