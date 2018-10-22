@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public class UI_Debug_Field : MonoBehaviour
 {
-	public string name = "[target_field_name]";
+	public new string name = "[target_field_name]";
 	public int min_value = 0;
 	public int max_value = 5;
 	public Text txt_name;

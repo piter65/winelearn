@@ -10,7 +10,7 @@ public class InputField_DeselectOnFocus : InputField
 {
 	protected bool _newly_selected = false;
 	
-	void LateUpdate()
+	protected override void LateUpdate()
 	{
 		base.LateUpdate();
 
@@ -24,7 +24,7 @@ public class InputField_DeselectOnFocus : InputField
 		}
 	}
 
-	void OnSelect(BaseEventData eventData)
+	public override void OnSelect(BaseEventData eventData)
 	{
 		Debug.Log("InputField_DeselectOnFocus.OnSelect()");
 

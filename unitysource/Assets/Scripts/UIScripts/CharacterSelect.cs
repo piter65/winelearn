@@ -313,112 +313,14 @@ public class CharacterSelect : MonoBehaviour
 
 	/*************************** character Hair selection ********************************************/
 	public int HairCountmale,HairCountfemale;
-	// public void NextBtn_Hair()
-	// {	
-	// 	switch(gender)
-	// 	{
-	// 		case "male":
-	// 			HairCountmale = HairCountmale +1;
-	// 			if(HairCountmale>1)
-	// 			{
-	// 				HairCountmale = 0;
-	// 			}
-	// 			characterSelect.MaleCharacters[0].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().sharedMesh = Boy_HairMesh[HairCountmale];
-	// 			PlayerPrefs.SetInt("HairMale",HairCountmale);
-	// 			break;
-	// 		case "female" :
-	// 			HairCountfemale = HairCountfemale +1;
-	// 			if(HairCountfemale>3)
-	// 				HairCountfemale = 0;
-// 
-	// 			characterSelect.MaleCharacters[1].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().sharedMesh = Girl_HairMesh[HairCountfemale];
-// 
-	// 			break;
-	// 	}
-	// 	SaveData();
-	// }
-	// public void PrevBtn_Hair()
-	// {
-	// 	switch(gender)
-	// 	{
-	// 		case "male":
-	// 			HairCountmale = HairCountmale -1;
-	// 			if(HairCountmale<0)
-	// 			{
-	// 				HairCountmale = 1;
-	// 			}
-	// 			characterSelect.MaleCharacters[0].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().sharedMesh = Boy_HairMesh[HairCountmale];
-	// 			break;
-	// 		case "female" :
-	// 			HairCountfemale = HairCountfemale - 1;
-	// 			if(HairCountfemale<0)
-	// 				HairCountfemale = 3;
-	// 			characterSelect.MaleCharacters[1].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().sharedMesh = Girl_HairMesh[HairCountfemale];
-// 
-	// 			break;
-	// 	}
-	// 	SaveData();
-	// }
-	/***************************end character Hair selection ********************************************/
 
 	public void SaveData()
 	{
-		// switch(PlayerPrefs.GetString("Character"))
-		// {
-		// 	case "male" :
-		// 		PlayerPrefs.SetInt("HairMale",HairCountmale);
-		// 		break;
-		// 	case "female" :
-		// 		PlayerPrefs.SetInt("HairFemale",HairCountfemale);
-		// 		break;
-		// }
+		// TODO: Save character select.
 
-		StartCoroutine(Web_SendData());
+		//StartCoroutine(Web_SendData());
 	}
-
-
-	/********************************************************************************************/
-	//public void HairColor(GameObject obj)
-	//{
-	//	switch(gender)
-	//	{
-	//		case "male":
-	//			Debug.Log(characterSelect.MaleCharacters[0].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().material.name);
-	//			characterSelect.MaleCharacters[0].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().sharedMaterials[1].color = new Color(0.51f,0.1f,0.251f,0.251f); //obj.GetComponent<Image>().color;
-	//			//Debug.Log(obj.GetComponent<Image>().color+"\t"+obj.GetComponent<Image>().color.r*255+"\t"+obj.GetComponent<Image>().color.g*255+"\t"+obj.GetComponent<Image>().color.b*255+"\t"+obj.GetComponent<Image>().color.a*255);
-	//			break;
-	//		case "female" :
-	//			Debug.Log(characterSelect.MaleCharacters[1].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().material.name);
-	//			characterSelect.MaleCharacters[1].transform.FindChild("Hair").GetComponent<SkinnedMeshRenderer>().sharedMaterials[1].color = obj.GetComponent<Image>().color;
-	//			//Debug.Log(obj.GetComponent<Image>().color+"\t"+obj.GetComponent<Image>().color.r*255+"\t"+obj.GetComponent<Image>().color.g*255+"\t"+obj.GetComponent<Image>().color.b*255+"\t"+obj.GetComponent<Image>().color.a*255);
-//
-	//			break;
-	//	}
-	//	PlayerPrefs.SetFloat("Hair_Red",obj.GetComponent<Image>().color.r*255);
-	//	PlayerPrefs.SetFloat("Hair_green",obj.GetComponent<Image>().color.g*255);
-	//	PlayerPrefs.SetFloat("Hair_blue",obj.GetComponent<Image>().color.b*255);
-	//	PlayerPrefs.SetFloat("Hair_alpha",obj.GetComponent<Image>().color.a*255);
-//
-	//}
-	//public void SkinColor(GameObject obj)
-	//{
-	//	switch(gender)
-	//	{
-	//		case "male":
-	//			Debug.Log(characterSelect.MaleCharacters[0].transform.FindChild("Body").GetComponent<SkinnedMeshRenderer>().material.name);
-	//			characterSelect.MaleCharacters[0].transform.FindChild("Body").GetComponent<SkinnedMeshRenderer>().sharedMaterials[1].color = obj.GetComponent<Image>().color;
-	//			break;
-	//		case "female" :
-	//			Debug.Log(characterSelect.MaleCharacters[1].transform.FindChild("Body").GetComponent<SkinnedMeshRenderer>().material.name);
-	//			characterSelect.MaleCharacters[1].transform.FindChild("Body").GetComponent<SkinnedMeshRenderer>().sharedMaterials[1].color = obj.GetComponent<Image>().color;
-	//			break;
-	//	}
-	//	PlayerPrefs.SetFloat("Skin_Red",obj.GetComponent<Image>().color.r*255);
-	//	PlayerPrefs.SetFloat("Skin_green",obj.GetComponent<Image>().color.g*255);
-	//	PlayerPrefs.SetFloat("Skin_blue",obj.GetComponent<Image>().color.b*255);
-	//	PlayerPrefs.SetFloat("Skin_alpha",obj.GetComponent<Image>().color.a*255);
-	//}
-
+	
 
 	public void HairColor(GameObject obj)
 	{
@@ -474,42 +376,5 @@ public class CharacterSelect : MonoBehaviour
 		}
 
 		return objJSON_PlayerData.ToString();
-	}
-
-	private IEnumerator Web_SendData()
-	{
-		string strUrl = GLOBAL.GetUrl_Multiplayer("set_player_data.php");
-
-		WWWForm wwwForm = new WWWForm();
-		wwwForm.AddField("player_data", GetAndSetPlayerData());
-		wwwForm.AddField("key", GLOBAL.Player.username);
-		wwwForm.AddField("group", GLOBAL.Player.group);
-
-		print("-- Set to Send Message. --");
-
-		WWW www = new WWW(strUrl, wwwForm);
-
-		yield return www;
-
-		print("-- Web Result Received. --");
-
-		string strResult = www.text;
-
-		print(strResult);
-
-		JSONObject objJSON = new JSONObject(strResult);
-
-		if (   objJSON["error"] == null
-			|| objJSON["error"].type == JSONObject.Type.NULL)
-		{
-			print("-- Send Complete. --");
-		}
-		else
-		{
-			Debug.LogError("ERROR - CharacterSelect.Web_SendData():\r\n" + objJSON["error"].str);
-		}
-
-		//// Start playing the game.
-		//GetComponent<UILogin>().Play();
 	}
 }

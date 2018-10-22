@@ -329,7 +329,9 @@ public class UI_Journal : MonoBehaviour
 				_time_journal_active = 0.0f;
 				_time_notes_active = 0.0f;
 
-				StartCoroutine(GLOBAL.Player.Web_SendPlayerData_Progress());
+				// TODO: Save the journal.
+
+				//StartCoroutine(GLOBAL.Player.Web_SendPlayerData_Progress());
 
 				_fTimeSinceLastSend = 0.0f;
 				_bNotesNeedSaving = false;

@@ -74,8 +74,8 @@ public class Multiplayer_Entity : MonoBehaviour
 			// Set this as the current player.
 			if (!isProxy)
 			{
-				if (Multiplayer_ProxyController.Instance != null)
-					Multiplayer_ProxyController.Instance.currentPlayer = this;
+				//if (Multiplayer_ProxyController.Instance != null)
+				//	Multiplayer_ProxyController.Instance.currentPlayer = this;
 
 				// Retrieve the player's settings.
 				username = GLOBAL.Player.username;
@@ -185,12 +185,10 @@ public class Multiplayer_Entity : MonoBehaviour
 
 							objJSON_PlayerData.AddField("yaw", (int)transform.rotation.eulerAngles.y);
 							objJSON_PlayerData.AddField("boy", isMale);
-	//						objJSON_PlayerData.AddField("index_BodyModel", index_BodyModel);
-				// Peter playing with decreasing size.....			
-							objJSON_PlayerData.AddField("i_BM", index_BodyModel);   // was BodyModel 
-
-	// Peter was here
-	//						objJSON_PlayerData.AddField("index_HairModel", index_HairModel);
+							//objJSON_PlayerData.AddField("index_BodyModel", index_BodyModel);
+							objJSON_PlayerData.AddField("i_BM", index_BodyModel);
+							
+							//objJSON_PlayerData.AddField("index_HairModel", index_HairModel);
 							objJSON_PlayerData.AddField("i_HM", index_HairModel);
 		
 							objJSON_PlayerData.AddField("i_SC", index_SkinColor);
@@ -204,44 +202,9 @@ public class Multiplayer_Entity : MonoBehaviour
 
 
 
-						StartCoroutine(Web_SendData(objJSON_PlayerData.ToString()));
+						//StartCoroutine(Web_SendData(objJSON_PlayerData.ToString()));
 					}
 				}
-			}
-			else
-			{
-				if (Multiplayer_ProxyController.Instance != null)
-				{
-					// If the proxy's life is up, kill it.
-					if (timeSinceLastProxyUpdate >= Multiplayer_ProxyController.Instance.ProxyTimeout)
-					{
-						Multiplayer_ProxyController.Instance.KillProxy(username);
-					}
-				}
-
-				Vector3 move = proxy_TargetPosition - transform.position;
-
-				//Debug.Log("move: " + move);
-
-				if (move.magnitude > 0.01f)
-				{
-					if (move.magnitude < 5.0f)
-					{
-						_ThirdPersonCharacter.Move(move, false, false);
-					}
-					else
-					{
-						transform.position = proxy_TargetPosition;
-					}
-				}
-				else
-				{
-					transform.position = proxy_TargetPosition;
-				}
-
-				//float fInterp = 1.0f / CONFIG.MULTIPLAYER_UPDATES_PER_SECOND * timeSinceLastProxyUpdate;
-				//transform.position = Vector3.Lerp(proxy_PrevPosition, proxy_TargetPosition, fInterp);
-				//transform.rotation = Quaternion.Slerp(proxy_PrevRotation, proxy_TargetRotation, fInterp);
 			}
 		}
 	}
@@ -383,79 +346,8 @@ public class Multiplayer_Entity : MonoBehaviour
 		if (!isProxy)
 		{
 			_bDestroying = true;
-
-			if (Multiplayer_ProxyController.Instance != null)
-			{
-				// Send the player data to the server.
-				JSONObject objJSON_PlayerData = new JSONObject();
-
-				// Notify the server that the player has disconnected.
-				objJSON_PlayerData.AddField("connected", false);
-
-				// BChance: Convert the float to an int with 3 decimal points of precision.
-				int pos_x = (int)Mathf.Round(_ThirdPersonCharacter.m_EffectivePosition.x * 1000.0f);
-				objJSON_PlayerData.AddField("x", pos_x);
-				int pos_y = (int)Mathf.Round(_ThirdPersonCharacter.m_EffectivePosition.x * 1000.0f);
-				objJSON_PlayerData.AddField("y", pos_y);
-				int pos_z = (int)Mathf.Round(_ThirdPersonCharacter.m_EffectivePosition.x * 1000.0f);
-				objJSON_PlayerData.AddField("z", pos_z);
-				objJSON_PlayerData.AddField("yaw", (int)transform.rotation.eulerAngles.y);
-
-				// Send the data without yielding.
-				Web_SendData(objJSON_PlayerData.ToString(), false);
-			}
 		}
 	}
 
-	private IEnumerator Web_SendData(string strPlayerData, bool bYield = true)
-	{
-		// Only send the server the avatar data if the player isn't idle.
-		if (!GLOBAL.IsPlayerIdle)
-		{
-			// Only send the server the avatar data if there's something in scene that can use it.
-			// if (Multiplayer_ProxyController.Instance != null)
-			// {
-				string strUrl = GLOBAL.GetUrl_Multiplayer("set_player_data.php");
-
-				// Debug.Log("send");
-				// Debug.Log(strPlayerData);
-
-				WWWForm wwwForm = new WWWForm();
-				wwwForm.AddField("player_data", strPlayerData);
-				wwwForm.AddField("key", GLOBAL.Player.username);
-				wwwForm.AddField("group", GLOBAL.Player.group);
-
-				// Debug.Log("-- Set to Send Message. --");
-
-				WWW www = new WWW(strUrl, wwwForm);
-
-				if (bYield)
-				{
-					yield return www;
-				}
-
-				// Debug.Log("-- Web Result Received. --");
-
-				string strResult = www.text;
-
-				// Debug.Log(strResult);
-
-				JSONObject objJSON = new JSONObject(strResult);
-
-				if (   objJSON["error"] == null
-					|| objJSON["error"].type == JSONObject.Type.NULL)
-				{
-					// Debug.Log("-- Send Complete. --");
-				}
-				else
-				{
-					Debug.Log(objJSON["error"].str);
-				}
-			// }
-		}
-		else
-		{
-			//Debug.Log(string.Format("== PLAYER HAS BEEN IDLE FOR: {0} seconds - Stopped sending data to multiplayer server. ==", GLOBAL.idle_time));
-		}
-	}
+	
 }

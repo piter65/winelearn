@@ -24,14 +24,14 @@ public class Subtext_item : MonoBehaviour {
 		}
 
 		Vector3 globalMousePos;
-		if (RectTransformUtility.ScreenPointToWorldPointInRectangle((RectTransform) UI_Inventory.instance.canvas.transform, Input.mousePosition, null, out globalMousePos))
-		{
-			UI_Inventory.SubText_Show(itemName, globalMousePos, UI_Inventory.instance.canvas.transform.rotation);
-		}
+		//if (RectTransformUtility.ScreenPointToWorldPointInRectangle((RectTransform) UI_Inventory.instance.canvas.transform, Input.mousePosition, null, out globalMousePos))
+		//{
+		//	UI_Inventory.SubText_Show(itemName, globalMousePos, UI_Inventory.instance.canvas.transform.rotation);
+		//}
 	}
 
 	void OnMouseExit(){
 
-		UI_Inventory.SubText_Hide();
+		//UI_Inventory.SubText_Hide();
 	}
 }

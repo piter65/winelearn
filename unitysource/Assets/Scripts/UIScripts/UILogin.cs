@@ -118,105 +118,99 @@ public class UILogin : MonoBehaviour
 	/******************** login validation Action Event ********************/
 	public void validation()
 	{
-		LoginInstance.StrUserName = LoginInstance.UserName.text+"";
-		LoginInstance.StrPassword = LoginInstance.Password.text+"";
+		// TODO: Handle login validation.
 
-		if(LoginInstance.StrUserName.Length > 0 && LoginInstance.StrPassword.Length > 0)
-		{
-			if(Application.internetReachability != NetworkReachability.NotReachable)
-			{
-				StartCoroutine(ResponseWaiting());
-			}
-			else
-			{
-				LoginInstance.LoginInfo.text = "network error...";
-			}
-			LoginInstance.LoginInfo.color = Color.white;
+		//LoginInstance.StrUserName = LoginInstance.UserName.text+"";
+		//LoginInstance.StrPassword = LoginInstance.Password.text+"";
 
-		}
-		else
-		{
-			LoginInstance.LoginInfo.text = "please enter valid fields";
-			LoginInstance.LoginInfo.color = Color.red;
-		}
+		//if(LoginInstance.StrUserName.Length > 0 && LoginInstance.StrPassword.Length > 0)
+		//{
+		//	if(Application.internetReachability != NetworkReachability.NotReachable)
+		//	{
+		//		StartCoroutine(ResponseWaiting());
+		//	}
+		//	else
+		//	{
+		//		LoginInstance.LoginInfo.text = "network error...";
+		//	}
+		//	LoginInstance.LoginInfo.color = Color.white;
+
+		//}
+		//else
+		//{
+		//	LoginInstance.LoginInfo.text = "please enter valid fields";
+		//	LoginInstance.LoginInfo.color = Color.red;
+		//}
 	}
 
 	/********************   login Response Action Event ********************/
-	IEnumerator ResponseWaiting()
-	{
-		yield return new  WaitForSeconds(0.1f);
+	//IEnumerator ResponseWaiting()
+	//{
+	//	yield return new  WaitForSeconds(0.1f);
+
+	//	//string url = "http://spilltest.com/webservice/webservices.php?action=login&username="+LoginInstance.StrUserName+"&password="+LoginInstance.StrPassword+"&usertype=s";
+	//	//string url = "http://www.spillweb.us/webservice/webservices.php?action=login&username="+LoginInstance.StrUserName+"&password="+LoginInstance.StrPassword+"&usertype=s";
+	//	//string url = GLOBAL.GetUrl_Database("webservice/webservices.php?action=login&username="+LoginInstance.StrUserName+"&password="+LoginInstance.StrPassword+"&usertype=s");
+
+
+
+	//	string url = GLOBAL.GetUrl_Database("webservice/webservices.php");
 		
-		//string url	= GLOBAL.GetUrl_Database("webservice/webservices.php");
-//
-		//WWWForm wwwForm = new WWWForm(); //calling the getArContent Webservice
-//
-		//wwwForm.AddField("action", "login");
-		//wwwForm.AddField("username", LoginInstance.StrUserName);
-		//wwwForm.AddField("password", LoginInstance.StrPassword);
-		//wwwForm.AddField("usertype", "s");
-//
-		//WWW www = new WWW(url, wwwForm);
+	//	Debug.Log("url: " + url);
 
-		//string url = "http://spilltest.com/webservice/webservices.php?action=login&username="+LoginInstance.StrUserName+"&password="+LoginInstance.StrPassword+"&usertype=s";
-		//string url = "http://www.spillweb.us/webservice/webservices.php?action=login&username="+LoginInstance.StrUserName+"&password="+LoginInstance.StrPassword+"&usertype=s";
-		//string url = GLOBAL.GetUrl_Database("webservice/webservices.php?action=login&username="+LoginInstance.StrUserName+"&password="+LoginInstance.StrPassword+"&usertype=s");
-		string url = GLOBAL.GetUrl_Database("webservice/webservices.php");
+	//	//WWW www = new WWW(url);
+
+	//	WWWForm wwwForm = new WWWForm();
 		
-		Debug.Log("url: " + url);
+	//	wwwForm.AddField("action", "login");
+	//	wwwForm.AddField("username", LoginInstance.StrUserName);
+	//	wwwForm.AddField("password", LoginInstance.StrPassword);
+	//	wwwForm.AddField("usertype", "s");
 
-		//WWW www = new WWW(url);
+	//	WWW www = new WWW(url, wwwForm);
 
-		WWWForm wwwForm = new WWWForm();
-		
-		wwwForm.AddField("action", "login");
-		wwwForm.AddField("username", LoginInstance.StrUserName);
-		wwwForm.AddField("password", LoginInstance.StrPassword);
-		wwwForm.AddField("usertype", "s");
+	//	LoginInstance.LoginInfo.text = "waiting for server response...";
+	//	yield return www;
+	//	var N = JSONNode.Parse (www.text);	
+	//	if (string.IsNullOrEmpty(www.error))
+	//	{
+	//		Debug.Log("UILogin.ResponseWaiting() - N['status']: " + N["status"]);
+	//		switch(N["status"])
+	//		{
+	//			case "1" :
+	//				LoginInstance.LoginInfo.color = Color.white;
+	//				LoginInstance.LoginInfo.text = N["username"]+" "+N["message"]+".";
 
-		WWW www = new WWW(url, wwwForm);
+	//				// BChance: (2016-01-07) - Store the current player's username.
+	//				GLOBAL.Player.username = N["username"];
+	//				GLOBAL.Player.group = N["group"];
+	//				GLOBAL.Player.password = LoginInstance.StrPassword;
 
-		LoginInstance.LoginInfo.text = "waiting for server response...";
-		yield return www;
-		var N = JSONNode.Parse (www.text);	
-		if (string.IsNullOrEmpty(www.error))
-		{
-			Debug.Log("UILogin.ResponseWaiting() - N['status']: " + N["status"]);
-			switch(N["status"])
-			{
-				case "1" :
-					LoginInstance.LoginInfo.color = Color.white;
-					LoginInstance.LoginInfo.text = N["username"]+" "+N["message"]+".";
+	//				//StartCoroutine(LoadingScene(0.0f));
 
-					// BChance: (2016-01-07) - Store the current player's username.
-					GLOBAL.Player.username = N["username"];
-					GLOBAL.Player.group = N["group"];
-					GLOBAL.Player.password = LoginInstance.StrPassword;
+	//				// Retrieve the player data progress.
+	//				StartCoroutine(GLOBAL.Player.Web_GetPlayerData_Progress(true, Loaded_PlayerData, Load_PlayerData_Errored));
 
-					//StartCoroutine(LoadingScene(0.0f));
+	//				break;
+	//			case "0":
+	//				LoginInstance.LoginInfo.color = Color.red;
+	//				LoginInstance.LoginInfo.text = ""+N["message"];
+	//				break;
 
-					// Retrieve the player data progress.
-					StartCoroutine(GLOBAL.Player.Web_GetPlayerData_Progress(true, Loaded_PlayerData, Load_PlayerData_Errored));
-
-					break;
-				case "0":
-					LoginInstance.LoginInfo.color = Color.red;
-					LoginInstance.LoginInfo.text = ""+N["message"];
-					break;
-
-			}
-			LoginInstance.StrUserName = "";
-			LoginInstance.StrPassword = "";
+	//		}
+	//		LoginInstance.StrUserName = "";
+	//		LoginInstance.StrPassword = "";
 			
-			Debug.Log("UILogin.ResponseWaiting() - GLOBAL.PlayerUsername: " + GLOBAL.Player.username);
-		}
-		else
-		{
-			Debug.LogError(string.Format("HTTP ERROR: '{0}'", www.error));
+	//		Debug.Log("UILogin.ResponseWaiting() - GLOBAL.PlayerUsername: " + GLOBAL.Player.username);
+	//	}
+	//	else
+	//	{
+	//		Debug.LogError(string.Format("HTTP ERROR: '{0}'", www.error));
 
-			LoginInstance.LoginInfo.text ="No response.";
-		}
+	//		LoginInstance.LoginInfo.text ="No response.";
+	//	}
 		
-	}
+	//}
 
 	void Load_PlayerData_Errored(string strResult)
 	{
@@ -238,7 +232,7 @@ public class UILogin : MonoBehaviour
 		{
 			// Debug.Log("!!! -- Week Changed --");
 
-			GLOBAL.Reset_WeeklyFields(GLOBAL.Player);
+			//GLOBAL.Reset_WeeklyFields(GLOBAL.Player);
 			GLOBAL.Player.progress["week_changed"] = false;
 
 			// // Append 'WEEK [X} STARTED' to the journal notes when the week changes.
@@ -286,8 +280,8 @@ public class UILogin : MonoBehaviour
 		// int new_timestamp = (int)(DateTime.Now.Ticks / 10000000);
 		// GLOBAL.Player.progress["starttime"] = new_timestamp;
 
-		// Update the tracking.
-		PlayerData.SaveTrackingData();
+		//// Update the tracking.
+		//PlayerData.SaveTrackingData();
 
 		MemoryWarning();
 

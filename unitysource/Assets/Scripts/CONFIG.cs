@@ -5,19 +5,15 @@ using UnityEngine;
 
 public static class CONFIG
 {
+	public static bool OFFLINE = true;
+
+
 	public static string VERSION         = "wine.learn.2018.oct.19";
+	
 	public static string URL_GAME        = "http://spilldata.us/game/";
-	public static string URL_MULTIPLAYER = "http://spillmp.us/mp/";
-
-//  Peter asks if we're still doing this?
-	public static string URL_DATABASE    = "http://spillweb.us/";
-
-
 	public static string URL_BENCHMARK   = "http://spilldata.us/benchmark/";
-
-// Change as needed- off of URL_GAME	- Peter was here
+	
     public static string CFG_GETTER   = "config/get_config_game_server.php";
-//	public static string CFG_GETTER   = "config/get_config_shadow_server.php";
 
 
 
@@ -37,7 +33,8 @@ public static class CONFIG
 		,Action<string> callback_finished = null
 	)
 	{
-		if (_getting_config_data)
+		if (   OFFLINE
+			|| _getting_config_data)
 		{
 			// Exit if we're already getting player data.
 			yield return false;
@@ -80,8 +77,6 @@ public static class CONFIG
 					JSONObject objJSON_Config = objJSON["data"];
 
 					// VERSION         = objJSON_Config["VERSION"].str;
-					URL_MULTIPLAYER = objJSON_Config["URL_MULTIPLAYER"].str;
-					URL_DATABASE    = objJSON_Config["URL_DATABASE"].str;
 					URL_BENCHMARK   = objJSON_Config["URL_BENCHMARK"].str;
 
 					TROUBLESHOOT_ONLY = objJSON_Config["TROUBLESHOOT_ONLY"].b;

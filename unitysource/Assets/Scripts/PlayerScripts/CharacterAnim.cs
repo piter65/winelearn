@@ -37,10 +37,7 @@ public class CharacterAnim : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-		if (UI_ChatApp.isSelectInput == true)
-			return;
-
+		
 		// BChance: (2015-11-16) - Special handling for proxies.
 		if (multiplayer_Entity != null && multiplayer_Entity.isProxy)
 		{

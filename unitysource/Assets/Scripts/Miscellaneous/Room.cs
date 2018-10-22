@@ -16,7 +16,7 @@ public class Room : MonoBehaviour
 		// If we have a valid room num, increment the 'explored' field.
 		if (room_index > -1)
 		{
-			LuaFunctions.incexplored(room_index);
+			//LuaFunctions.incexplored(room_index);
 		}
 	}
 }

@@ -325,88 +325,89 @@ public class UIMetricsDialog : MonoBehaviour
 
 //		_strbText.AppendLine();
 
-		StartCoroutine(GatherMetrics_MultiplayerServerConnection());
-	}
-
-	private IEnumerator GatherMetrics_MultiplayerServerConnection()
-	{
-		_strbText.Append("Checking Multiplayer (spillmp.us) Connect: ");
-		UpdateText();
-
-		yield return new WaitForSeconds(1.0f);
-
-		_fTimeStamp = Time.unscaledTime;
-
-		// Attempt to connect to a page on the server and measure the time.
-		string strUrl = GLOBAL.GetUrl_Multiplayer("metrics/ping.php");
-		WWW www = new WWW(strUrl);
-
-		yield return www;
-		if (www.text.Equals("ping"))
-		{
-			float fTimeDelta = Time.unscaledTime - _fTimeStamp;
-
-			fPeteConTime = fTimeDelta;
-
-			_data_web_server_connection = Pround(fTimeDelta).ToString();
-
-			bMultiplayerConnect = true;				// success!
-
-		}
-		else
-		{
-			_data_web_server_connection = "FAILED";
-
-
-			bMultiplayerConnect = false;				// failure!
-
-		}
-
-		_strbText.AppendLine("\t\t"+_data_web_server_connection);  // Peter tweaking
-
-		StartCoroutine(GatherMetrics_DataServerConnection());
-	}
-
-	private IEnumerator GatherMetrics_DataServerConnection()
-	{
-
-		_strbText.Append("Checking Database (spillweb.us) Connect: ");
-		UpdateText();
-
-		yield return new WaitForSeconds(1.0f);
-
-		_fTimeStamp = Time.unscaledTime;
-
-		// Attempt to connect to a page on the server and measure the time.
-		string strUrl = GLOBAL.GetUrl_Database("metrics/ping.php");
-		WWW www = new WWW(strUrl);
-
-		yield return www;
-		
-		if (www.text.Equals("ping"))
-		{
-			float fTimeDelta = Time.unscaledTime - _fTimeStamp;
-
-			fPeteConTime = fTimeDelta;
-
-			_data_web_server_connection = Pround(fTimeDelta).ToString();
-
-			bDataConnect = true;				// success!
-
-		}
-		else
-		{
-			_data_web_server_connection = "FAILED";
-
-			bDataConnect = false;				// failure!
-
-		}
-
-		_strbText.AppendLine("\t\t"+_data_web_server_connection);  // Peter tweaking
-
-
+		//StartCoroutine(GatherMetrics_MultiplayerServerConnection());
 		StartCoroutine(FinishMetrics_PlaySound());
 	}
+
+	//private IEnumerator GatherMetrics_MultiplayerServerConnection()
+	//{
+	//	_strbText.Append("Checking Multiplayer (spillmp.us) Connect: ");
+	//	UpdateText();
+
+	//	yield return new WaitForSeconds(1.0f);
+
+	//	_fTimeStamp = Time.unscaledTime;
+
+	//	// Attempt to connect to a page on the server and measure the time.
+	//	string strUrl = GLOBAL.GetUrl_Multiplayer("metrics/ping.php");
+	//	WWW www = new WWW(strUrl);
+
+	//	yield return www;
+	//	if (www.text.Equals("ping"))
+	//	{
+	//		float fTimeDelta = Time.unscaledTime - _fTimeStamp;
+
+	//		fPeteConTime = fTimeDelta;
+
+	//		_data_web_server_connection = Pround(fTimeDelta).ToString();
+
+	//		bMultiplayerConnect = true;				// success!
+
+	//	}
+	//	else
+	//	{
+	//		_data_web_server_connection = "FAILED";
+
+
+	//		bMultiplayerConnect = false;				// failure!
+
+	//	}
+
+	//	_strbText.AppendLine("\t\t"+_data_web_server_connection);  // Peter tweaking
+
+	//	StartCoroutine(GatherMetrics_DataServerConnection());
+	//}
+
+	//private IEnumerator GatherMetrics_DataServerConnection()
+	//{
+
+	//	_strbText.Append("Checking Database (spillweb.us) Connect: ");
+	//	UpdateText();
+
+	//	yield return new WaitForSeconds(1.0f);
+
+	//	_fTimeStamp = Time.unscaledTime;
+
+	//	// Attempt to connect to a page on the server and measure the time.
+	//	string strUrl = GLOBAL.GetUrl_Database("metrics/ping.php");
+	//	WWW www = new WWW(strUrl);
+
+	//	yield return www;
+		
+	//	if (www.text.Equals("ping"))
+	//	{
+	//		float fTimeDelta = Time.unscaledTime - _fTimeStamp;
+
+	//		fPeteConTime = fTimeDelta;
+
+	//		_data_web_server_connection = Pround(fTimeDelta).ToString();
+
+	//		bDataConnect = true;				// success!
+
+	//	}
+	//	else
+	//	{
+	//		_data_web_server_connection = "FAILED";
+
+	//		bDataConnect = false;				// failure!
+
+	//	}
+
+	//	_strbText.AppendLine("\t\t"+_data_web_server_connection);  // Peter tweaking
+
+
+	//	StartCoroutine(FinishMetrics_PlaySound());
+	//}
 
 	private IEnumerator FinishMetrics_PlaySound()
 	{
@@ -600,43 +601,45 @@ public class UIMetricsDialog : MonoBehaviour
 
 	private IEnumerator Web_SendData(bool bYield = true)
 	{
-		string strUrl = GLOBAL.GetUrl_Multiplayer("save_metrics_data.php");
+		yield return true;
 
-		WWWForm wwwForm = new WWWForm();
+		//string strUrl = GLOBAL.GetUrl_Multiplayer("save_metrics_data.php");
 
-		string data = PrepJSON();
+		//WWWForm wwwForm = new WWWForm();
 
-		wwwForm.AddField("data", data);
+		//string data = PrepJSON();
 
-		// Debug.Log("-- Set to Send Message. --");
+		//wwwForm.AddField("data", data);
 
-		WWW www = new WWW(strUrl, wwwForm);
+		//// Debug.Log("-- Set to Send Message. --");
 
-		if (bYield)
-		{
-			yield return www;
-		}
+		//WWW www = new WWW(strUrl, wwwForm);
 
-		// Debug.Log("-- Web Result Received. --");
+		//if (bYield)
+		//{
+		//	yield return www;
+		//}
 
-		string strResult = www.text;
+		//// Debug.Log("-- Web Result Received. --");
 
-		// Debug.Log(strResult);
+		//string strResult = www.text;
 
-		JSONObject objJSON = new JSONObject(strResult);
+		//// Debug.Log(strResult);
 
-		if (   objJSON["error"] == null
-			|| objJSON["error"].type == JSONObject.Type.NULL)
-		{
+		//JSONObject objJSON = new JSONObject(strResult);
+
+		//if (   objJSON["error"] == null
+		//	|| objJSON["error"].type == JSONObject.Type.NULL)
+		//{
 			// Exit the scene.
 			Exit();
-		}
-		else
-		{
-			Debug.Log(objJSON["error"].str);
+		//}
+		//else
+		//{
+		//	Debug.Log(objJSON["error"].str);
 
-			_strbText.AppendLine();
-			_strbText.AppendLine("\tERROR: UNABLE TO SAVE DATA TO SERVER.");
-		}
+		//	_strbText.AppendLine();
+		//	_strbText.AppendLine("\tERROR: UNABLE TO SAVE DATA TO SERVER.");
+		//}
 	}
 }

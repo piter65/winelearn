@@ -61,14 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
-    <Compile Include="Assets\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
     <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
@@ -98,14 +90,12 @@
     <Compile Include="Assets\Standard Assets\Utility\DynamicShadowSettings.cs" />
     <Compile Include="Assets\Standard Assets\Utility\EventSystemChecker.cs" />
     <Compile Include="Assets\Standard Assets\Utility\FollowTarget.cs" />
-    <Compile Include="Assets\Standard Assets\Utility\ForcedReset.cs" />
     <Compile Include="Assets\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\Standard Assets\Utility\LerpControlledBob.cs" />
     <Compile Include="Assets\Standard Assets\Utility\ObjectResetter.cs" />
     <Compile Include="Assets\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
     <Compile Include="Assets\Standard Assets\Utility\PlatformSpecificContent.cs" />
-    <Compile Include="Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
     <Compile Include="Assets\Standard Assets\Utility\SimpleMouseRotator.cs" />
     <Compile Include="Assets\Standard Assets\Utility\TimedObjectActivator.cs" />
     <Compile Include="Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
@@ -115,7 +105,6 @@
     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />

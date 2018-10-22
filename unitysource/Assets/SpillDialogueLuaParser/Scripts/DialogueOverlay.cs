@@ -2066,8 +2066,10 @@ public class DialogueOverlay : MonoBehaviour
 
 		is_open = false;
 
-		// Ensure that the player data is saved.
-		_instance.StartCoroutine(GLOBAL.Player.Web_SendPlayerData_Progress());
+		// TODO: Save player data when dialogue closes.
+
+		//// Ensure that the player data is saved.
+		//_instance.StartCoroutine(GLOBAL.Player.Web_SendPlayerData_Progress());
 	}
 
 	// BChance: (2015-12-08) - Processes the LUA functions.
@@ -2087,7 +2089,9 @@ public class DialogueOverlay : MonoBehaviour
 				func.arg2.str
 			));
 
-			LuaFunctions.Process_DiaEntry_Function(func);
+			// TODO: Process Lua functions.
+
+			//LuaFunctions.Process_DiaEntry_Function(func);
 		}
 	}
 	

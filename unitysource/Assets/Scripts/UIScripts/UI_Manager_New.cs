@@ -24,15 +24,15 @@ public class UI_Manager_New : MonoBehaviour
 		// BChance: (2016-08-27) - Ensure UI_Character_Sheet is setup.
 		UI_Character_Sheet.Load();
 
-		// Dustin: (2016-04-02) - Ensure UI_Inventory is setup.
-		UI_Inventory.Load();
+		//// Dustin: (2016-04-02) - Ensure UI_Inventory is setup.
+		//UI_Inventory.Load();
 
 		// Dustin: (2016-05-02) - Ensure UI_MiniMap is setup.
 		UI_MiniMap.Load();
 
-		// BChance: (2016-06-03) - Ensure UI_ChatApp is setup.
-		if (GLOBAL.Player.progress["week"].i != 0)
-			UI_ChatApp.Load();
+		//// BChance: (2016-06-03) - Ensure UI_ChatApp is setup.
+		//if (GLOBAL.Player.progress["week"].i != 0)
+		//	UI_ChatApp.Load();
 
 		// BChance: (2016-08-27) - Ensure UI_Character_Sheet is setup.
 		UI_Game_Options.Load();
@@ -49,9 +49,6 @@ public class UI_Manager_New : MonoBehaviour
 	{
 		if (GLOBAL.HotkeysEnabled)
 		{
-			if (UI_ChatApp.isSelectInput)
-				return;
-
 			if (Input.GetKeyUp(KeyCode.Q))
 			{
 				btn_options_Click();
@@ -98,7 +95,7 @@ public class UI_Manager_New : MonoBehaviour
 	public void btn_map_Click()
 	{
 		UI_MiniMap.ToggleOpenClose();
-		UI_Inventory.ToggleOpenClose(false);
+		//UI_Inventory.ToggleOpenClose(false);
 		UI_Journal.Close();
 		UI_Character_Sheet.Close();
 		UI_Game_Options.Close();
@@ -107,7 +104,7 @@ public class UI_Manager_New : MonoBehaviour
 	public void btn_inventory_Click()
 	{
 		UI_MiniMap.ToggleOpenClose(false);
-		UI_Inventory.ToggleOpenClose();
+		//UI_Inventory.ToggleOpenClose();
 		UI_Journal.Close();
 		UI_Character_Sheet.Close();
 		UI_Game_Options.Close();
@@ -116,7 +113,7 @@ public class UI_Manager_New : MonoBehaviour
 	public void btn_journal_Click()
 	{
 		UI_MiniMap.ToggleOpenClose(false);
-		UI_Inventory.ToggleOpenClose(false);
+		//UI_Inventory.ToggleOpenClose(false);
 		UI_Journal.ToggleOpenClose();
 		UI_Character_Sheet.Close();
 		UI_Game_Options.Close();
@@ -125,7 +122,7 @@ public class UI_Manager_New : MonoBehaviour
 	public void btn_progress_Click()
 	{
 		UI_MiniMap.ToggleOpenClose(false);
-		UI_Inventory.ToggleOpenClose(false);
+		//UI_Inventory.ToggleOpenClose(false);
 		UI_Journal.Close();
 		UI_Character_Sheet.ToggleOpenClose();
 		UI_Game_Options.Close();
@@ -134,7 +131,7 @@ public class UI_Manager_New : MonoBehaviour
 	public void btn_options_Click()
 	{
 		UI_MiniMap.ToggleOpenClose(false);
-		UI_Inventory.ToggleOpenClose(false);
+		//UI_Inventory.ToggleOpenClose(false);
 		UI_Journal.Close();
 		UI_Character_Sheet.Close();
 		UI_Game_Options.ToggleOpenClose();
