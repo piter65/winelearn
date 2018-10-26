@@ -354,7 +354,7 @@ public class CharacterSelect : MonoBehaviour
 		objJSON_PlayerData.AddField("isMale", isMale);
 
 		// Store the player's global settings.
-		GLOBAL.Player.progress["isMale"] = isMale;
+		GLOBAL_old.Player.progress["isMale"] = isMale;
 
 		if (isMale)
 		{
@@ -362,8 +362,8 @@ public class CharacterSelect : MonoBehaviour
 			objJSON_PlayerData.AddField("index_HairModel", index_HairMale);
 
 			// Store the player's global settings.
-			GLOBAL.Player.progress["index_BodyModel"] = index_BodyMale;
-			GLOBAL.Player.progress["index_HairModel"] = index_HairMale;
+			GLOBAL_old.Player.progress["index_BodyModel"] = index_BodyMale;
+			GLOBAL_old.Player.progress["index_HairModel"] = index_HairMale;
 		}
 		else
 		{
@@ -371,8 +371,8 @@ public class CharacterSelect : MonoBehaviour
 			objJSON_PlayerData.AddField("index_HairModel", index_HairFemale);
 
 			// Store the player's global settings.
-			GLOBAL.Player.progress["index_BodyModel"] = index_BodyFemale;
-			GLOBAL.Player.progress["index_HairModel"] = index_HairFemale;
+			GLOBAL_old.Player.progress["index_BodyModel"] = index_BodyFemale;
+			GLOBAL_old.Player.progress["index_HairModel"] = index_HairFemale;
 		}
 
 		return objJSON_PlayerData.ToString();

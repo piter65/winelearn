@@ -267,7 +267,7 @@ public class UI_Journal : MonoBehaviour
 		_instance = this;
 
 		// BChance: (2016-01-07) - Ensure GLOBALs are setup.
-		GLOBAL.Init();
+		GLOBAL_old.Init();
 	}
 
 	// Use this for initialization
@@ -320,10 +320,10 @@ public class UI_Journal : MonoBehaviour
 				Debug.Log("== Journal saving... ==");
 
 				// BChance: Increment the time in seconds the journal and notes are open, and flag the them for tracking.
-				GLOBAL.Player.progress["sJournalTime"] = GLOBAL.Player.progress["sJournalTime"].i + (int)Mathf.Round(_time_journal_active);
-				GLOBAL.Player.progress["tkjournaltime"] = true;
-				GLOBAL.Player.progress["sNotePadTime"] = GLOBAL.Player.progress["sNotePadTime"].i + (int)Mathf.Round(_time_notes_active);
-				GLOBAL.Player.progress["tknotepadtime"] = true;
+				GLOBAL_old.Player.progress["sJournalTime"] = GLOBAL_old.Player.progress["sJournalTime"].i + (int)Mathf.Round(_time_journal_active);
+				GLOBAL_old.Player.progress["tkjournaltime"] = true;
+				GLOBAL_old.Player.progress["sNotePadTime"] = GLOBAL_old.Player.progress["sNotePadTime"].i + (int)Mathf.Round(_time_notes_active);
+				GLOBAL_old.Player.progress["tknotepadtime"] = true;
 
 				// Clear the times.
 				_time_journal_active = 0.0f;
@@ -413,7 +413,7 @@ public class UI_Journal : MonoBehaviour
 
 		// Setup the journal_notes to be saved.
 		//GLOBAL.Player.progress["journal_notes"] = ConvertSpecialCharsToTags(input_Notes.text);
-		GLOBAL.Player.progress[_key_journal_notes] = ConvertSpecialCharsToTags(input_Notes.text);
+		GLOBAL_old.Player.progress[_key_journal_notes] = ConvertSpecialCharsToTags(input_Notes.text);
 	}
 
 	public void input_Notes_OnSelected(string text)
@@ -467,12 +467,12 @@ public class UI_Journal : MonoBehaviour
 	{
 		_instance.canvas.SetActive(true);
 
-		GLOBAL.Player.Log(string.Format
+		GLOBAL_old.Player.Log(string.Format
 		(
 			"Journal Opened - jrnsz_1: {0}; jrnsz_2: {1}; jrnsz_3: {2}",
-			GLOBAL.JSize(1),
-			GLOBAL.JSize(2),
-			GLOBAL.JSize(3)
+			GLOBAL_old.JSize(1),
+			GLOBAL_old.JSize(2),
+			GLOBAL_old.JSize(3)
 		));
 	}
 
@@ -480,12 +480,12 @@ public class UI_Journal : MonoBehaviour
 	{
 		_instance.canvas.SetActive(false);
 
-		GLOBAL.Player.Log(string.Format
+		GLOBAL_old.Player.Log(string.Format
 		(
 			"Journal Closed - jrnsz_1: {0}; jrnsz_2: {1}; jrnsz_3: {2}",
-			GLOBAL.JSize(1),
-			GLOBAL.JSize(2),
-			GLOBAL.JSize(3)
+			GLOBAL_old.JSize(1),
+			GLOBAL_old.JSize(2),
+			GLOBAL_old.JSize(3)
 		));
 	}
 
@@ -496,13 +496,13 @@ public class UI_Journal : MonoBehaviour
 
 		Debug.Log("UI_Journal - ToggleOpenClose() - Active: " + _instance.canvas.activeSelf);
 
-		GLOBAL.Player.Log(string.Format
+		GLOBAL_old.Player.Log(string.Format
 		(
 			"Journal {0} - jrnsz_1: {1}; jrnsz_2: {2}; jrnsz_3: {3}",
 			IsOpen() ? "Opened" : "Closed",
-			GLOBAL.JSize(1),
-			GLOBAL.JSize(2),
-			GLOBAL.JSize(3)
+			GLOBAL_old.JSize(1),
+			GLOBAL_old.JSize(2),
+			GLOBAL_old.JSize(3)
 		));
 	}
 
@@ -518,14 +518,14 @@ public class UI_Journal : MonoBehaviour
 			_setting_journal_text = true;
 
 			if (   _instance != null
-				&& GLOBAL.Player != null)
+				&& GLOBAL_old.Player != null)
 			{
-				int current_week = GLOBAL.Player.progress["week"].i;
+				int current_week = GLOBAL_old.Player.progress["week"].i;
 				current_week = Mathf.Max(1, current_week);
 
 				// If we have a journal open, ensure that it's data is saved before changing.
 				if (_key_journal_notes != null)
-					GLOBAL.Player.progress[_key_journal_notes] = ConvertSpecialCharsToTags(_instance.input_Notes.text);
+					GLOBAL_old.Player.progress[_key_journal_notes] = ConvertSpecialCharsToTags(_instance.input_Notes.text);
 
 				_journal_week = week;
 
@@ -536,7 +536,7 @@ public class UI_Journal : MonoBehaviour
 				_key_journal_notes = "journal_notes_" + _journal_week;
 				
 				// _instance.input_Notes.text = ConvertTagsToSpecialChars(GLOBAL.Player.progress["journal_notes"].str);
-				_instance.input_Notes.text = ConvertTagsToSpecialChars(GLOBAL.Player.progress[_key_journal_notes].str);
+				_instance.input_Notes.text = ConvertTagsToSpecialChars(GLOBAL_old.Player.progress[_key_journal_notes].str);
 
 				_instance.input_Notes.readOnly = _journal_week < current_week;
 				if (_instance.input_Notes.readOnly)
@@ -589,15 +589,15 @@ public class UI_Journal : MonoBehaviour
 
 	private void DetermineJournalProgress()
 	{
-		int index_journal_progress = GLOBAL.Player.progress["journalprogress"].i - 1;
-		int index_week = GLOBAL.Player.progress["week"].i - 1;
+		int index_journal_progress = GLOBAL_old.Player.progress["journalprogress"].i - 1;
+		int index_week = GLOBAL_old.Player.progress["week"].i - 1;
 
 		if (   index_week > -1
 			&& index_week < 3
 			&& index_journal_progress > -1
 			&& _prev_index_journal_progress != index_journal_progress)
 		{
-			int index_player_num = GLOBAL.Player.progress["playernum"].i - 1;
+			int index_player_num = GLOBAL_old.Player.progress["playernum"].i - 1;
 
 			Debug.Log("== Journal Progres: index: " + index_journal_progress + ", week index: " + index_week + ", player num index: " + index_player_num);
 

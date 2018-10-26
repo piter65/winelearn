@@ -24,7 +24,7 @@ public class UI_Debug_Progress : MonoBehaviour
         _instance = null;
 
         // Stop showing the progress report.
-        GLOBAL.debug_show_progress = false;
+        GLOBAL_old.debug_show_progress = false;
     }
 
 	public void Close()

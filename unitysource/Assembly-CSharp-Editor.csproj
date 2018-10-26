@@ -62,15 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\JSON\Editor\JSONChecker.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\CheckboxConfigEditor.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\EZAnimEditor.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\MaterialUIEditorTools.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\RectTransformSnapEditor.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\RippleConfigEditor.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\ScreenConfigEditor.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\ShadowGenEditor.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\SnapButtonToTextEditor.cs" />
-    <Compile Include="Assets\Materials\MaterialUI\Editor\TexturePostProcessor.cs" />
     <Reference Include="Assembly-UnityScript">
       <HintPath>C:/Work/peter_adams/wine_git/unitysource/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
     </Reference>

@@ -10,8 +10,8 @@ public class npc_vitelli : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 2)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 2)
 		{
 			return "Vitelli/t3_wp2_vitelli.lua";
 		}

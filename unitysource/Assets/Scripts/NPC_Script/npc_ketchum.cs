@@ -7,14 +7,14 @@ public class npc_ketchum : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 2)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 2)
 		{
 			return "Ketchum/t2p2_ex_ketchum.lua";
 		}
 
 // All Ketchum task 3 script
-		else if (   GLOBAL.Player.progress["week"] == 3)
+		else if (   GLOBAL_old.Player.progress["week"] == 3)
 		{
 			return "Ketchum/t3_ketchum.lua";
 		}

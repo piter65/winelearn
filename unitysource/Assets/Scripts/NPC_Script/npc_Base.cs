@@ -15,7 +15,7 @@ public class npc_Base : MonoBehaviour
 //		strPath = "file:///" + strPath;
 //	#endif
 
-		string strPath = GLOBAL.GetUrl_Assets("Lua/npc/" + GetLuaFileName());
+		string strPath = GLOBAL_old.GetUrl_Assets("Lua/npc/" + GetLuaFileName());
 		
 		// Start a dialogue with the npc using the selected file.
 		DialogueOverlay.strFilePath_Dialogue = strPath;
@@ -30,7 +30,7 @@ public class npc_Base : MonoBehaviour
 
 		DialogueOverlay.character = character;
 
-		DialogueOverlay.Load();
+		//DialogueOverlay.Load();
 	}
 
 	protected virtual string GetLuaFileName()

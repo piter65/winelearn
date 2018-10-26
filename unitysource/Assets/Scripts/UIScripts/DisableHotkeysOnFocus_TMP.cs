@@ -16,7 +16,7 @@ public class DisableHotkeysOnFocus_TMP : MonoBehaviour
 		_input = GetComponent<TMP_InputField>();
 		if (_input != null)
 		{
-			GLOBAL.lst_disable_hotkeys_on_focus_tmp.Add(_input);
+			GLOBAL_old.lst_disable_hotkeys_on_focus_tmp.Add(_input);
 		}
 	}
 
@@ -31,7 +31,7 @@ public class DisableHotkeysOnFocus_TMP : MonoBehaviour
 			_input = GetComponent<TMP_InputField>();
 			if (_input != null)
 			{
-				GLOBAL.lst_disable_hotkeys_on_focus_tmp.Add(_input);
+				GLOBAL_old.lst_disable_hotkeys_on_focus_tmp.Add(_input);
 				Debug.Log(string.Format("== DisableHotkeysOnFocus Input successfully regiestered for '{0}'. ==", name));
 			}
 		}
@@ -42,7 +42,7 @@ public class DisableHotkeysOnFocus_TMP : MonoBehaviour
 		// Unregister this input field from the disable hotkeys list.
 		if (_input != null)
 		{
-			GLOBAL.lst_disable_hotkeys_on_focus_tmp.Remove(_input);
+			GLOBAL_old.lst_disable_hotkeys_on_focus_tmp.Remove(_input);
 		}
 	}
 }

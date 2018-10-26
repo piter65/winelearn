@@ -39,7 +39,7 @@ public class RemoteSound
 					//new_value = Application.dataPath + "/../sounds/" + new_value;
 				#endif
 
-				new_value = GLOBAL.GetUrl_Assets("sounds/" + new_value);
+				new_value = GLOBAL_old.GetUrl_Assets("sounds/" + new_value);
 			}
 			
 			_url = new_value;
@@ -56,7 +56,7 @@ public class RemoteSound
 			WWW www = new WWW(_url);
 
 			// Timeout the the download if it's taking too long.
-			GLOBAL.Instance.StartCoroutine(AudioDownloadTimeout(www));
+			GLOBAL_old.Instance.StartCoroutine(AudioDownloadTimeout(www));
 
 			// Wait until we've fully downloaded the audio.
 			yield return www;
@@ -123,7 +123,7 @@ public class DiaEntry_IfGoto
 		if (op.Equals("NO_CONDITION"))
 			return true;
 
-		if (!GLOBAL.Player.progress.ContainsKey(key))
+		if (!GLOBAL_old.Player.progress.ContainsKey(key))
 			return false;
 		
 		// Determine if we're comparing to a constant or a variable.
@@ -133,29 +133,29 @@ public class DiaEntry_IfGoto
 		else if (value.IsBool)
 			right_side = value;
 		else if (value.IsString)
-			right_side = GLOBAL.Player.progress[value.str];
+			right_side = GLOBAL_old.Player.progress[value.str];
 
 		// Determine how we're comparing.
 		if (op.Equals("=="))
-			return GLOBAL.Player.progress[key] == right_side;
+			return GLOBAL_old.Player.progress[key] == right_side;
 		
 		if (op.Equals(">"))
-			return GLOBAL.Player.progress[key] > right_side;
+			return GLOBAL_old.Player.progress[key] > right_side;
 		
 		if (op.Equals("<"))
-			return GLOBAL.Player.progress[key] < right_side;
+			return GLOBAL_old.Player.progress[key] < right_side;
 		
 		if (op.Equals(">="))
-			return GLOBAL.Player.progress[key] >= right_side;
+			return GLOBAL_old.Player.progress[key] >= right_side;
 		
 		if (op.Equals("<="))
-			return GLOBAL.Player.progress[key] <= right_side;
+			return GLOBAL_old.Player.progress[key] <= right_side;
 		
 		if (op.Equals("!="))
-			return GLOBAL.Player.progress[key] != right_side;
+			return GLOBAL_old.Player.progress[key] != right_side;
 		
 		if (op.Equals("~="))
-			return GLOBAL.Player.progress[key] != right_side;
+			return GLOBAL_old.Player.progress[key] != right_side;
 
 		return false;
 	}
@@ -279,8 +279,8 @@ public class DialogueOverlay : MonoBehaviour
 		//Debug.Log("_min_pos_y_grp_pc: " + _min_pos_y_grp_pc);
 
 		// BChance: (2016-08-09) - Ensure that score fields are empty at the start of the dialogue.
-		GLOBAL.Player.progress["scoreconvo"] = (string)null;
-		GLOBAL.Player.progress["scorestr"] = (string)null;
+		GLOBAL_old.Player.progress["scoreconvo"] = (string)null;
+		GLOBAL_old.Player.progress["scorestr"] = (string)null;
 
 		if (!String.IsNullOrEmpty(strFilePath_Dialogue))
 		{
@@ -396,6 +396,8 @@ public class DialogueOverlay : MonoBehaviour
 	
 	public static void Load()
 	{
+		Debug.Log("Load");
+
 		SceneManager.LoadScene("dialogue_overlay", LoadSceneMode.Additive);
 
 
@@ -1660,7 +1662,7 @@ public class DialogueOverlay : MonoBehaviour
 		// If it's a string, then it's a reference to a variable.
 		string strInsert;
 		if (arg.IsString)
-			strInsert = GLOBAL.Player.progress[arg.str].ToString();
+			strInsert = GLOBAL_old.Player.progress[arg.str].ToString();
 		// Otherwise, take the value straight.
 		else
 			strInsert = arg.ToString();
@@ -2118,10 +2120,10 @@ public class DialogueOverlay : MonoBehaviour
 		// If the option has a score token, append it to the 'scorestr' field.
 		if (option.score != null)
 		{
-			if (GLOBAL.Player.progress["scorestr"].str == null)
-				GLOBAL.Player.progress["scorestr"] = option.score;
+			if (GLOBAL_old.Player.progress["scorestr"].str == null)
+				GLOBAL_old.Player.progress["scorestr"] = option.score;
 			else
-				GLOBAL.Player.progress["scorestr"] += option.score;
+				GLOBAL_old.Player.progress["scorestr"] += option.score;
 		}
 		
 		// if the option has a goto label, jump to the label.

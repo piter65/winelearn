@@ -27,8 +27,8 @@ public class UI_Instruction : MonoBehaviour
 	void Update()
 	{
 		// If we're playing the tutorial and haven't talked to Evelyn yet, display the message on the HUD.
-		if (   GLOBAL.Player.progress["week"].i == 0
-			&& GLOBAL.Player.progress["talked_to_evelyn"].b == false)
+		if (   GLOBAL_old.Player.progress["week"].i == 0
+			&& GLOBAL_old.Player.progress["talked_to_evelyn"].b == false)
 		{
 			txt_TalkToEvelyn.gameObject.SetActive(true);
 		}

@@ -5,21 +5,21 @@ public class npc_Stan_Freeman : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (GLOBAL.Player.progress["week"].i == 4)
+		if (GLOBAL_old.Player.progress["week"].i == 4)
 		{
-			if (GLOBAL.Player.progress["playnum"].i == 1)
+			if (GLOBAL_old.Player.progress["playnum"].i == 1)
 			{
 				return "Stan_Freeman/w4p1_ceo.lua";
 			}
-			else if (GLOBAL.Player.progress["playnum"].i == 2)
+			else if (GLOBAL_old.Player.progress["playnum"].i == 2)
 			{
 				return "Stan_Freeman/w4p2_ceo.lua";
 			}
-			else if (GLOBAL.Player.progress["playnum"].i == 3)
+			else if (GLOBAL_old.Player.progress["playnum"].i == 3)
 			{
 				return "Stan_Freeman/w4p3_ceo.lua";
 			}
-			else if (GLOBAL.Player.progress["playnum"].i == 4)
+			else if (GLOBAL_old.Player.progress["playnum"].i == 4)
 			{
 				return "Stan_Freeman/w4p4_ceo.lua";
 			}
@@ -29,11 +29,11 @@ public class npc_Stan_Freeman : npc_Base
 			}
 		}
 
-		else if (GLOBAL.Player.progress["week"].i == 9)
+		else if (GLOBAL_old.Player.progress["week"].i == 9)
 		{
 			return "Stan_Freeman/task9_ceostan.lua";
 		}
-		else if (GLOBAL.Player.progress["week"].i == 0)
+		else if (GLOBAL_old.Player.progress["week"].i == 0)
 		{
 			return "Stan_Freeman/task0_ceostan.lua";
 		}

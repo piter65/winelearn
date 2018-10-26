@@ -15,7 +15,7 @@ public class DisableHotkeysOnFocus : MonoBehaviour
 		_input = GetComponent<InputField>();
 		if (_input != null)
 		{
-			GLOBAL.lst_disable_hotkeys_on_focus.Add(_input);
+			GLOBAL_old.lst_disable_hotkeys_on_focus.Add(_input);
 		}
 	}
 
@@ -30,7 +30,7 @@ public class DisableHotkeysOnFocus : MonoBehaviour
 			_input = GetComponent<InputField>();
 			if (_input != null)
 			{
-				GLOBAL.lst_disable_hotkeys_on_focus.Add(_input);
+				GLOBAL_old.lst_disable_hotkeys_on_focus.Add(_input);
 				Debug.Log(string.Format("== DisableHotkeysOnFocus Input successfully regiestered for '{0}'. ==", name));
 			}
 		}
@@ -42,7 +42,7 @@ public class DisableHotkeysOnFocus : MonoBehaviour
 		InputField _input = GetComponent<InputField>();
 		if (_input != null)
 		{
-			GLOBAL.lst_disable_hotkeys_on_focus.Remove(_input);
+			GLOBAL_old.lst_disable_hotkeys_on_focus.Remove(_input);
 		}
 	}
 }

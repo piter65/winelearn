@@ -6,14 +6,14 @@ public class npc_ashley : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 3)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 3)
 		{
 			return "Ashley/t2p3_va_ashley.lua";
 		}
 
 // peter grabbed from original sandy script...
-		else if (   GLOBAL.Player.progress["week"] == 3)
+		else if (   GLOBAL_old.Player.progress["week"] == 3)
 		{
 			return "Ashley/t3_mq_npc2_ashley.lua";
 		}

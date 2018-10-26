@@ -9,7 +9,7 @@ public class npc_Charlie_Fogg : MonoBehaviour {
 	{
 
 		strPath = Application.dataPath + "/../Lua/npc/";
-		switch(GLOBAL.Player.progress["week"].i)
+		switch(GLOBAL_old.Player.progress["week"].i)
 		{
 			case 1:
 				strPath += "Charlie_Fogg/t1_edt_charlie.lua";
@@ -21,7 +21,7 @@ public class npc_Charlie_Fogg : MonoBehaviour {
 				strPath += "Charlie_Fogg/t3p3_l1r_charlie.lua";
 				break;
 			default :
-				if(GLOBAL.Player.progress["rnddialog"].i <= 3)				
+				if(GLOBAL_old.Player.progress["rnddialog"].i <= 3)				
 					strPath += "Charlie_Fogg/rnd_cjguitr.lua";
 				break;				
 		}
@@ -33,7 +33,7 @@ public class npc_Charlie_Fogg : MonoBehaviour {
 		
 		// Start a dialogue with the npc using the selected file.
 		DialogueOverlay.strFilePath_Dialogue = strPath;
-		DialogueOverlay.Load();
+		//DialogueOverlay.Load();
 
 	}
 

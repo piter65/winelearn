@@ -15,27 +15,27 @@ public class test_unified_mouse : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (GLOBAL.IsLeftMouseDown())
+		if (GLOBAL_old.IsLeftMouseDown())
 		{
 			txt_message.text = "LEFT MOUSE DOWN";
 		}
-		else if (GLOBAL.IsLeftMouseUp())
+		else if (GLOBAL_old.IsLeftMouseUp())
 		{
 			txt_message.text = "LEFT MOUSE UP";
 		}
-		else if (GLOBAL.IsLeftMousePressed())
+		else if (GLOBAL_old.IsLeftMousePressed())
 		{
 			txt_message.text = "LEFT MOUSE PRESSED";
 		}
-		else if (GLOBAL.IsRightMouseDown())
+		else if (GLOBAL_old.IsRightMouseDown())
 		{
 			txt_message.text = "RIGHT MOUSE DOWN";
 		}
-		else if (GLOBAL.IsRightMouseUp())
+		else if (GLOBAL_old.IsRightMouseUp())
 		{
 			txt_message.text = "RIGHT MOUSE UP";
 		}
-		else if (GLOBAL.IsRightMousePressed())
+		else if (GLOBAL_old.IsRightMousePressed())
 		{
 			txt_message.text = "RIGHT MOUSE PRESSED";
 		}

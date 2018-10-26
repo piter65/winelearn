@@ -53,8 +53,8 @@ public class Multiplayer_Entity : MonoBehaviour
 
 	void Awake()
 	{
-		// BChance: (2016-01-07) - Ensure GLOBALs are setup.
-		GLOBAL.Init();
+		//// BChance: (2016-01-07) - Ensure GLOBALs are setup.
+		//GLOBAL_old.Init();
 
 		_animator = GetComponent<Animator>();
 		_character_type = GetComponent<CharacterType>();
@@ -69,7 +69,7 @@ public class Multiplayer_Entity : MonoBehaviour
 		// Determine if the player is outside.
 		_outside = SceneManager.GetActiveScene().name == "Outside";
 
-		if (GLOBAL.Player != null)
+		if (GLOBAL_old.Player != null)
 		{
 			// Set this as the current player.
 			if (!isProxy)
@@ -78,12 +78,12 @@ public class Multiplayer_Entity : MonoBehaviour
 				//	Multiplayer_ProxyController.Instance.currentPlayer = this;
 
 				// Retrieve the player's settings.
-				username = GLOBAL.Player.username;
-				isMale = GLOBAL.Player.progress["isMale"].b;
-				index_BodyModel = GLOBAL.Player.progress["index_BodyModel"].i;
-				index_HairModel = GLOBAL.Player.progress["index_HairModel"].i;
-				index_SkinColor = GLOBAL.Player.progress["index_SkinColor"].i;
-				index_HairColor = GLOBAL.Player.progress["index_HairColor"].i;
+				username = GLOBAL_old.Player.username;
+				isMale = GLOBAL_old.Player.progress["isMale"].b;
+				index_BodyModel = GLOBAL_old.Player.progress["index_BodyModel"].i;
+				index_HairModel = GLOBAL_old.Player.progress["index_HairModel"].i;
+				index_SkinColor = GLOBAL_old.Player.progress["index_SkinColor"].i;
+				index_HairColor = GLOBAL_old.Player.progress["index_HairColor"].i;
 
 				Debug.Log(string.Format
 				(
@@ -99,13 +99,13 @@ public class Multiplayer_Entity : MonoBehaviour
 				GetComponent<Collider>().isTrigger = false;
 
 				// Let the everyone know of the current player entity.
-				GLOBAL.player_entity = this;
+				GLOBAL_old.player_entity = this;
 
 				// Try to spawn the player on the spawn target.
-				if (!String.IsNullOrEmpty(GLOBAL.target_spawn))
+				if (!String.IsNullOrEmpty(GLOBAL_old.target_spawn))
 				{
 					// If we find an object with the target spawn name, copy its position and rotation.
-					GameObject obj_spawn = GameObject.Find(GLOBAL.target_spawn);
+					GameObject obj_spawn = GameObject.Find(GLOBAL_old.target_spawn);
 					if (obj_spawn != null)
 					{
 						transform.position = obj_spawn.transform.position;
@@ -113,7 +113,7 @@ public class Multiplayer_Entity : MonoBehaviour
 					}
 					else
 					{
-						Debug.LogError(String.Format("Could not find spawn target '{0}'.", GLOBAL.target_spawn));
+						Debug.LogError(String.Format("Could not find spawn target '{0}'.", GLOBAL_old.target_spawn));
 					}
 				}
 			}
@@ -156,10 +156,10 @@ public class Multiplayer_Entity : MonoBehaviour
 				if (allowInput)
 				{
 					// Keep the player data positioning up to date.
-					if (GLOBAL.Player != null)
+					if (GLOBAL_old.Player != null)
 					{
-						GLOBAL.Player.position = transform.position;
-						GLOBAL.Player.rotation = transform.rotation;
+						GLOBAL_old.Player.position = transform.position;
+						GLOBAL_old.Player.rotation = transform.rotation;
 					}
 
 					if (_fTimeSinceLastUpdate >= 1.0f / CONFIG.MULTIPLAYER_UPDATES_PER_SECOND)

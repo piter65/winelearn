@@ -105,13 +105,13 @@ public class UILandingScreen : MonoBehaviour
 
 	private IEnumerator LoadTutorial()
 	{
-		GLOBAL.Init();
+		GLOBAL_old.Init();
 
 		yield return new WaitForSeconds(0.1f);
 
 		// Set flags for the tutorial.
-		GLOBAL.Player.progress["playernum"] = 1;
-		GLOBAL.Player.progress["week"] = 0;
+		GLOBAL_old.Player.progress["playernum"] = 1;
+		GLOBAL_old.Player.progress["week"] = 0;
 
 		SceneManager.LoadScene("character_customizer");
 	}

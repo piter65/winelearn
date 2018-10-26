@@ -7,15 +7,15 @@ public class npc_zeke : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 1
-			&& GLOBAL.Player.progress["playernum"] == 2)
+		if (   GLOBAL_old.Player.progress["week"] == 1
+			&& GLOBAL_old.Player.progress["playernum"] == 2)
 		{
 			return "Zeke/t1p2_zeke.lua";
 		}
 
 // peter grabbed from original sandy script...
-		else if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 4)
+		else if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 4)
 		{
 			return "Zeke/t3p4_va_zeke.lua";
 		}

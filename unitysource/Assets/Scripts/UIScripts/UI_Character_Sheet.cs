@@ -21,7 +21,7 @@ public class UI_Character_Sheet : MonoBehaviour
 		_instance = this;
 
 		// BChance: (2016-01-07) - Ensure GLOBALs are setup.
-		GLOBAL.Init();
+		GLOBAL_old.Init();
 	}
 
 	void Start()
@@ -83,11 +83,11 @@ public class UI_Character_Sheet : MonoBehaviour
 		Debug.Log("_instance: " + _instance);
 
 		// NOTE: Taken from old code file '/application/showchar.lua':Line 44.
-		_instance.txt_world_explored.text       = GLOBAL.Player.progress["explored"].i.ToString() + "/60";
-		_instance.txt_dollars_earned.text       = GLOBAL.Player.progress["earnedplayercash"].i.ToString();
-		_instance.txt_weekly_vendors.text       = GLOBAL.Player.progress["interviewed"].i.ToString();
-		_instance.txt_weekly_cards.text         = GLOBAL.Player.progress["busicards"].i.ToString();
-		_instance.txt_trash_redeemed.text       = GLOBAL.Player.progress["trashcash"].i.ToString();
-		_instance.txt_weekly_opportunities.text = GLOBAL.Player.progress["sidequests"].i.ToString() + "/8";
+		_instance.txt_world_explored.text       = GLOBAL_old.Player.progress["explored"].i.ToString() + "/60";
+		_instance.txt_dollars_earned.text       = GLOBAL_old.Player.progress["earnedplayercash"].i.ToString();
+		_instance.txt_weekly_vendors.text       = GLOBAL_old.Player.progress["interviewed"].i.ToString();
+		_instance.txt_weekly_cards.text         = GLOBAL_old.Player.progress["busicards"].i.ToString();
+		_instance.txt_trash_redeemed.text       = GLOBAL_old.Player.progress["trashcash"].i.ToString();
+		_instance.txt_weekly_opportunities.text = GLOBAL_old.Player.progress["sidequests"].i.ToString() + "/8";
 	}
 }

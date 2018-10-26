@@ -12,7 +12,7 @@ public class npc_Gastrow : MonoBehaviour {
 	{
 
 		strPath = Application.dataPath + "/../Lua/npc/";
-		switch(GLOBAL.Player.progress["rnddialog"].i)
+		switch(GLOBAL_old.Player.progress["rnddialog"].i)
 		{
 			case 0:	
 				strPath += "Bill_Gastrow/rnd_bgastrow.lua";
@@ -38,7 +38,7 @@ public class npc_Gastrow : MonoBehaviour {
 		
 		// Start a dialogue with the npc using the selected file.
 		DialogueOverlay.strFilePath_Dialogue = strPath;
-		DialogueOverlay.Load();
+		//DialogueOverlay.Load();
 
 	}
 

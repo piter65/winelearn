@@ -11,7 +11,7 @@ public class UI_Character_Customizer : MonoBehaviour
 	void Awake()
 	{
 		// If the avatar is set, skip character customization.
-		if (GLOBAL.Player.progress["is_avatar_set"].b)
+		if (GLOBAL_old.Player.progress["is_avatar_set"].b)
 		{
 			SceneManager.LoadScene("team_office");
 		}
@@ -64,18 +64,18 @@ public class UI_Character_Customizer : MonoBehaviour
 
 	public void ui_Ok()
 	{
-		GLOBAL.Player.progress["isMale"] = player.isMale;
-		GLOBAL.Player.progress["index_BodyModel"] = player.index_BodyModel;
-		GLOBAL.Player.progress["index_HairModel"] = player.index_HairModel;
-		GLOBAL.Player.progress["index_SkinColor"] = player.index_SkinColor;
-		GLOBAL.Player.progress["index_HairColor"] = player.index_HairColor;
-		GLOBAL.Player.progress["is_avatar_set"] = true;
+		GLOBAL_old.Player.progress["isMale"] = player.isMale;
+		GLOBAL_old.Player.progress["index_BodyModel"] = player.index_BodyModel;
+		GLOBAL_old.Player.progress["index_HairModel"] = player.index_HairModel;
+		GLOBAL_old.Player.progress["index_SkinColor"] = player.index_SkinColor;
+		GLOBAL_old.Player.progress["index_HairColor"] = player.index_HairColor;
+		GLOBAL_old.Player.progress["is_avatar_set"] = true;
 
 
 		if (player.isMale)
-			{GLOBAL.Player.Log("Male Avatar chosen.");}
+			{GLOBAL_old.Player.Log("Male Avatar chosen.");}
 		else
-			{GLOBAL.Player.Log("Female Avatar chosen.");}
+			{GLOBAL_old.Player.Log("Female Avatar chosen.");}
 
 
 		SceneManager.LoadScene("team_office");

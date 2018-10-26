@@ -6,8 +6,8 @@ public class npc_count : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 3)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 3)
 		{
 			return "Count/t2p3_ex_count.lua";
 		}

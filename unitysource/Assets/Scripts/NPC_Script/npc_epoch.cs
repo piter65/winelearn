@@ -6,8 +6,8 @@ public class npc_epoch : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 3)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 3)
 		{
 			return "Epoch/t3p3_l2r_epoch.lua";
 		}

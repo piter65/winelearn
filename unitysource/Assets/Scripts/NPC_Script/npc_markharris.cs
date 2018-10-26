@@ -7,8 +7,8 @@ public class npc_markharris : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 3)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 3)
 		{
 			return "markharris/t3p3_l2w1_mark.lua";
 		}

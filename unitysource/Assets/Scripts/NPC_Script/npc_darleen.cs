@@ -11,8 +11,8 @@ public class npc_darleen : npc_Base
 
 
 // peter grabbed from original sandy script...
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 4)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 4)
 		{
 			return "darleen/t3p4_l2r_darleen.lua";
 		}

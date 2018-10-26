@@ -8,13 +8,13 @@ public class npc_joey : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 1
-			&& GLOBAL.Player.progress["playernum"] == 2)
+		if (   GLOBAL_old.Player.progress["week"] == 1
+			&& GLOBAL_old.Player.progress["playernum"] == 2)
 		{
 			return "Joey/t1p2_utt_joey.lua";
 		}
-		else if (   GLOBAL.Player.progress["week"] == 3
-				 && GLOBAL.Player.progress["playernum"] == 3)
+		else if (   GLOBAL_old.Player.progress["week"] == 3
+				 && GLOBAL_old.Player.progress["playernum"] == 3)
 		{
 			return "Joey/t3p3_l1w1_joey.lua";
 		}

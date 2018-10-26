@@ -9,8 +9,8 @@ public class npc_debra : npc_Base
 
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 4)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 4)
 		{
 			return "Debra/t2p4_ex_debra.lua";
 		}

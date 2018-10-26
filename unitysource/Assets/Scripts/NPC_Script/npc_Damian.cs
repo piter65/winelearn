@@ -12,24 +12,24 @@ public class npc_Damian : MonoBehaviour {
 	{
 
 		strPath = Application.dataPath + "/../Lua/npc/";
-		switch(GLOBAL.Player.progress["week"].i)
+		switch(GLOBAL_old.Player.progress["week"].i)
 		{
 			case 1:
 			Debug.Log("path >>>>><<<<<<<<"+strPath);
-				switch(GLOBAL.Player.progress["playnum"].i)
+				switch(GLOBAL_old.Player.progress["playnum"].i)
 				{					
 					case 4:
-					if(GLOBAL.Player.progress["vendor1progress"].i <= 10)
+					if(GLOBAL_old.Player.progress["vendor1progress"].i <= 10)
 					strPath += "Damian_Maytal/t1p4_va_nathaniel_wailer.lua";
 
 						break;					
 				}
 				break;
 			case 3:				
-				switch(GLOBAL.Player.progress["playnum"].i)
+				switch(GLOBAL_old.Player.progress["playnum"].i)
 				{
 					case 2:
-				if(GLOBAL.Player.progress["vendor1progress"].i <= 3)
+				if(GLOBAL_old.Player.progress["vendor1progress"].i <= 3)
 					strPath += "Damian_Maytal/t3p2_vb_nathaniel.lua";
 												
 					break;
@@ -40,14 +40,14 @@ public class npc_Damian : MonoBehaviour {
 					break;				
 		}
 
-		Debug.Log(">>>_________>>>>\t"+GLOBAL.Player.progress["week"].i+"\t"+GLOBAL.Player.progress["playnum"].i);
+		Debug.Log(">>>_________>>>>\t"+GLOBAL_old.Player.progress["week"].i+"\t"+GLOBAL_old.Player.progress["playnum"].i);
 		#if UNITY_EDITOR
 		strPath = "file:///" + strPath;
 		#endif
 		
 		// Start a dialogue with the npc using the selected file.
 		DialogueOverlay.strFilePath_Dialogue = strPath;
-		DialogueOverlay.Load();
+		//DialogueOverlay.Load();
 
 	}
 

@@ -6,8 +6,8 @@ public class npc_liddie : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 4)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 4)
 		{
 			return "Liddie/t2p4_vd_liddie.lua";
 		}

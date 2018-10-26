@@ -6,8 +6,8 @@ public class npc_bernice : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 1)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 1)
 		{
 			return "Bernice/t3p1_l1r_bernice.lua";
 		}

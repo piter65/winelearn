@@ -16,7 +16,7 @@ public class QuickTravel : MonoBehaviour
 	{
 		#if UNITY_EDITOR
 
-			if (GLOBAL.HotkeysEnabled)
+			if (GLOBAL_old.HotkeysEnabled)
 			{
 				if (Input.GetButton("Alt"))
 				{

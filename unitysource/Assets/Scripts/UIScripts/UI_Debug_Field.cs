@@ -21,7 +21,7 @@ public class UI_Debug_Field : MonoBehaviour
 		txt_name.text = name;
 		sldr_value.minValue = min_value;
 		sldr_value.maxValue = max_value;
-		sldr_value.value = GLOBAL.Player.progress[name].i;
+		sldr_value.value = GLOBAL_old.Player.progress[name].i;
 		//Debug.LogError(string.Format("GLOBAL.Player.progress[{0}]: {1}, sldr_value.value: {2}", name, GLOBAL.Player.progress[name].i, sldr_value.value));
 		txt_value.text = sldr_value.value.ToString();
 
@@ -35,7 +35,7 @@ public class UI_Debug_Field : MonoBehaviour
 			//Debug.Log("!!! sldr_value_Changed() !!!");
 
 			int i_value = (int)f_value;
-			GLOBAL.Player.progress[name] = i_value;
+			GLOBAL_old.Player.progress[name] = i_value;
 			txt_value.text = i_value.ToString();
 		}
 	}

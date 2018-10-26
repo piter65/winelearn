@@ -43,7 +43,7 @@ public class PlayerInputControl : MonoBehaviour
 
 	private void Update()
 	{
-		if (GLOBAL.HotkeysEnabled)
+		if (GLOBAL_old.HotkeysEnabled)
 		{
 			if (!m_Jump)
 			{
@@ -58,7 +58,7 @@ public class PlayerInputControl : MonoBehaviour
 	{
 		// Don't allow player movement while dialogue is open.
 		if (   !DialogueOverlay.is_open
-			&& GLOBAL.HotkeysEnabled)
+			&& GLOBAL_old.HotkeysEnabled)
 		{
 			_stopping_duration = stopping_delay;
 
@@ -68,12 +68,12 @@ public class PlayerInputControl : MonoBehaviour
 			//bool crouch = Input.GetKey(KeyCode.C);
 
 			// Auto mate walking if we're flagged for debug run.
-			if (GLOBAL.debug_run)
+			if (GLOBAL_old.debug_run)
 			{
 				// Jump cancels debug run as a fail safe.
 				if (m_Jump)
 				{
-					GLOBAL.debug_run = false;
+					GLOBAL_old.debug_run = false;
 				}
 				else
 				{
@@ -116,7 +116,7 @@ public class PlayerInputControl : MonoBehaviour
 					int random2 = UnityEngine.Random.Range(0,100);
 					if (random2<2)
 					{
-						GLOBAL.debug_room=true;
+						GLOBAL_old.debug_room=true;
 					}
 
 
@@ -153,7 +153,7 @@ public class PlayerInputControl : MonoBehaviour
 			if (   m_Jump
 				|| m_Move.sqrMagnitude > 0.0f)
 			{
-				GLOBAL.ResetIdleTimer();
+				GLOBAL_old.ResetIdleTimer();
 			}
 
 			// pass all parameters to the character control script

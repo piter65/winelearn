@@ -8,13 +8,13 @@ public class npc_demeter : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 4)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 4)
 		{
 			return "Demeter/t3p4_l1r_demeter.lua";
 		}
 
-		else if (   GLOBAL.Player.progress["week"] == 2)
+		else if (   GLOBAL_old.Player.progress["week"] == 2)
 		{
 			return "Demeter/t2_utt_demeter.lua";
 		}

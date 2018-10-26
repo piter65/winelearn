@@ -6,7 +6,7 @@ public class npc_tourguide : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		switch (GLOBAL.Player.progress["week"].i)
+		switch (GLOBAL_old.Player.progress["week"].i)
 		{
 			case 0:
 				return "tourguide/w0_tourguide.lua";

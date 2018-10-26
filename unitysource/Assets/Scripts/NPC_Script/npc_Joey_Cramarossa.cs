@@ -5,12 +5,12 @@ public class npc_Joey_Cramarossa : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		switch (GLOBAL.Player.progress["week"].i)
+		switch (GLOBAL_old.Player.progress["week"].i)
 		{
 			case 0:				
 				return "Joey_Cramarossa/rnd_joey.lua";
 			case 1:
-				switch (GLOBAL.Player.progress["playnum"].i)
+				switch (GLOBAL_old.Player.progress["playnum"].i)
 				{					
 					case 2:
 						return "Joey_Cramarossa/t1p2_utt_joey.lua";
@@ -20,7 +20,7 @@ public class npc_Joey_Cramarossa : npc_Base
 			case 2:
 				return "Joey_Cramarossa/rnd_joey.lua";
 			case 3:
-				switch(GLOBAL.Player.progress["playnum"].i)
+				switch(GLOBAL_old.Player.progress["playnum"].i)
 				{
 					case 3:
 						return "Joey_Cramarossa/t3p3_l1w1_joey.lua";

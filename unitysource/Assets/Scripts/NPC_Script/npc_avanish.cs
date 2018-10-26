@@ -7,14 +7,14 @@ public class npc_avanish : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 4)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 4)
 		{
 			return "Avanish/t2p4_va_avanish.lua";
 		}
 
 // peter grabbed from original sandy script...
-		else if (   GLOBAL.Player.progress["week"] == 3)
+		else if (   GLOBAL_old.Player.progress["week"] == 3)
 		{
 			return "Avanish/t3_mq_npc4_avanish.lua";
 		}

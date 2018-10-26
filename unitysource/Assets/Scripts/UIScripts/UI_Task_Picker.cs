@@ -16,7 +16,7 @@ public class UI_Task_Picker : MonoBehaviour
 
 		txt_version.text = "v." + CONFIG.VERSION;
 
-		GLOBAL.Init();
+		GLOBAL_old.Init();
 
 
 		//Set_Task(2, true);
@@ -68,15 +68,15 @@ public class UI_Task_Picker : MonoBehaviour
 
 		foreach (var item in roles_group.ActiveToggles()) 
 		{
-			GLOBAL.Player.progress["playernum"] = int.Parse(item.name);
+			GLOBAL_old.Player.progress["playernum"] = int.Parse(item.name);
 		}
 
 		foreach (var item in tasks_group.ActiveToggles()) 
 		{
-			GLOBAL.Player.progress["week"] = int.Parse(item.name);
+			GLOBAL_old.Player.progress["week"] = int.Parse(item.name);
 		}
 
-		Debug.Log("OK Button role: "+ GLOBAL.Player.progress["playernum"].i + "  task: "+ GLOBAL.Player.progress["week"].i);
+		Debug.Log("OK Button role: "+ GLOBAL_old.Player.progress["playernum"].i + "  task: "+ GLOBAL_old.Player.progress["week"].i);
 
 		SceneManager.LoadScene("character_customizer");
 

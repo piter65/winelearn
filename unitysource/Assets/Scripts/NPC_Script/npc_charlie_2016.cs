@@ -7,16 +7,16 @@ public class npc_charlie_2016 : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 1)
+		if (   GLOBAL_old.Player.progress["week"] == 1)
 		{
 			return "Charlie/t1_edt_charlie.lua";
 		}
-		else if (   GLOBAL.Player.progress["week"] == 2)
+		else if (   GLOBAL_old.Player.progress["week"] == 2)
 		{
 			return "Charlie/t2_equ_npc5_charlie.lua";
 		}
 
-		else if (   GLOBAL.Player.progress["week"] == 3)
+		else if (   GLOBAL_old.Player.progress["week"] == 3)
 		{
 //			return "Charlie/t3p3_l1r+charlie.lua";
 			return "Charlie/t3p3_l1r_charlie.lua";

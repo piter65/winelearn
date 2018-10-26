@@ -7,13 +7,13 @@ public class npc_fiona : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 1)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 1)
 		{
 			return "Fiona/t2p1_vd_fiona.lua";
 		}
 
-		else if (GLOBAL.Player.progress["week"] == 0)
+		else if (GLOBAL_old.Player.progress["week"] == 0)
 		{
 			return "Fiona/w0_fiona.lua";
 		}

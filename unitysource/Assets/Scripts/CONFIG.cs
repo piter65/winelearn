@@ -48,7 +48,7 @@ public static class CONFIG
 
 // Peter was here
 //			string strUrl = GLOBAL.GetUrl_Game("config/get_config_game_server.php");
-			string strUrl = GLOBAL.GetUrl_Game(CFG_GETTER);
+			string strUrl = GLOBAL_old.GetUrl_Game(CFG_GETTER);
 
 
 			WWWForm wwwForm = new WWWForm();

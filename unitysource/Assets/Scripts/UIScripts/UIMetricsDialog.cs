@@ -180,7 +180,7 @@ public class UIMetricsDialog : MonoBehaviour
 		// BChance: (2016-10-30) - Added GET param 't' at the end to ensure non-cached image downloaded.
 //		string strUrl = GLOBAL.GetUrl_Benchmark("med_image_asset_" + UnityEngine.Random.Range(1,10) + ".jpg?t=" + DateTime.Now.Ticks.ToString());
 		
-		string strUrl = GLOBAL.GetUrl_Benchmark("huge_image_asset.jpg?t=" + DateTime.Now.Ticks.ToString());
+		string strUrl = GLOBAL_old.GetUrl_Benchmark("huge_image_asset.jpg?t=" + DateTime.Now.Ticks.ToString());
 
 		Debug.Log("Happy Presidents Day");
 		Debug.Log(strUrl);
@@ -578,7 +578,7 @@ public class UIMetricsDialog : MonoBehaviour
 	{
 		//SceneManager.LoadScene("LandingScreen");
 
-		GLOBAL.QuitGame();
+		GLOBAL_old.QuitGame();
 	}
 
 	private string PrepJSON()

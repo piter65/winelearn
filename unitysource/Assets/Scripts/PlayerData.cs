@@ -447,9 +447,9 @@ public class PlayerData
 	// BChance: Wrapper for coroutine call.
 	public void Log(string text)
 	{
-		if (GLOBAL.Instance != null)
+		if (GLOBAL_old.Instance != null)
 		{
-			GLOBAL.Instance.StartCoroutine(Web_Log(text));
+			GLOBAL_old.Instance.StartCoroutine(Web_Log(text));
 		}
 	}
 

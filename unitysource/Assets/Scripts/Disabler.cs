@@ -47,7 +47,7 @@ public class Disabler : MonoBehaviour
 					// Only enable for the specified player type.
 					gameObject.SetActive
 					(
-						GLOBAL.Player.progress["playernum"] == (int)for_Player
+						GLOBAL_old.Player.progress["playernum"] == (int)for_Player
 					);
 				}
 			}
@@ -58,7 +58,7 @@ public class Disabler : MonoBehaviour
 					// Only enable on the specified task.
 					gameObject.SetActive
 					(
-						GLOBAL.Player.progress["week"] == (int)on_Task
+						GLOBAL_old.Player.progress["week"] == (int)on_Task
 					);
 				}
 				else
@@ -66,8 +66,8 @@ public class Disabler : MonoBehaviour
 					// Only enable on the specified task and for the specified player type.
 					gameObject.SetActive
 					(
-						   GLOBAL.Player.progress["week"] == (int)on_Task
-						&& GLOBAL.Player.progress["playernum"] == (int)for_Player
+						   GLOBAL_old.Player.progress["week"] == (int)on_Task
+						&& GLOBAL_old.Player.progress["playernum"] == (int)for_Player
 					);
 				}
 			}
@@ -86,7 +86,7 @@ public class Disabler : MonoBehaviour
 					// Only disable for the specified player type.
 					gameObject.SetActive
 					(
-						GLOBAL.Player.progress["playernum"] != (int)for_Player
+						GLOBAL_old.Player.progress["playernum"] != (int)for_Player
 					);
 				}
 			}
@@ -97,7 +97,7 @@ public class Disabler : MonoBehaviour
 					// Only disable on the specified task.
 					gameObject.SetActive
 					(
-						GLOBAL.Player.progress["week"] != (int)on_Task
+						GLOBAL_old.Player.progress["week"] != (int)on_Task
 					);
 				}
 				else
@@ -105,8 +105,8 @@ public class Disabler : MonoBehaviour
 					// Only disable on the specified task and for the specified player type.
 					gameObject.SetActive
 					(
-						   GLOBAL.Player.progress["week"] != (int)on_Task
-						|| GLOBAL.Player.progress["playernum"] != (int)for_Player
+						   GLOBAL_old.Player.progress["week"] != (int)on_Task
+						|| GLOBAL_old.Player.progress["playernum"] != (int)for_Player
 					);
 				}
 			}

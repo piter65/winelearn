@@ -19,8 +19,6 @@ public class ExitInterior : MonoBehaviour
 		// }
 
 		UI_Manager_New.Load();
-
-		Debug.Log("HELLO");
 	}
 
 	private void Start()

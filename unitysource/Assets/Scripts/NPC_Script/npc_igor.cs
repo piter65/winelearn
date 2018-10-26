@@ -7,8 +7,8 @@ public class npc_igor : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 2
-			&& GLOBAL.Player.progress["playernum"] == 4)
+		if (   GLOBAL_old.Player.progress["week"] == 2
+			&& GLOBAL_old.Player.progress["playernum"] == 4)
 		{
 			return "Igor/t2p4_vb_igor.lua";
 		}

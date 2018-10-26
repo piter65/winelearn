@@ -6,8 +6,8 @@ public class npc_vlad : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 1)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 1)
 		{
 			return "Vlad/t3_wp1_vlad.lua";
 		}

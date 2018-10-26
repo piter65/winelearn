@@ -21,7 +21,7 @@ public class UILogin : MonoBehaviour
 
 	void Awake()
 	{
-		GLOBAL.Init();
+		GLOBAL_old.Init();
 	}
 
 	/************************** initialization ******************/
@@ -223,43 +223,43 @@ public class UILogin : MonoBehaviour
 	void Loaded_PlayerData(PlayerData player)
 	{
 		//Debug.Log("Loaded player data- Peter wass here");
-		GLOBAL.Player.Log("Logged in:  V:"+CONFIG.VERSION);
+		GLOBAL_old.Player.Log("Logged in:  V:"+CONFIG.VERSION);
 
-		GLOBAL.VStatsLog("Login V:"+CONFIG.VERSION+": ");   // peter added
+		GLOBAL_old.VStatsLog("Login V:"+CONFIG.VERSION+": ");   // peter added
 
 		// If the week has changed, reset the weekly fields.
-		if (GLOBAL.Player.progress["week_changed"].b)
+		if (GLOBAL_old.Player.progress["week_changed"].b)
 		{
 			// Debug.Log("!!! -- Week Changed --");
 
 			//GLOBAL.Reset_WeeklyFields(GLOBAL.Player);
-			GLOBAL.Player.progress["week_changed"] = false;
+			GLOBAL_old.Player.progress["week_changed"] = false;
 
 			// // Append 'WEEK [X} STARTED' to the journal notes when the week changes.
 			// string str_week_started = string.Format("<br><br>[TASK {0} STARTED]<br><br>", GLOBAL.Player.progress["week"].i);
 			// GLOBAL.Player.progress["journal_notes"] = GLOBAL.Player.progress["journal_notes"].str + str_week_started;
 			// UI_Journal.SetJournalText();
 
-			GLOBAL.Player.Log("Started week " + GLOBAL.Player.progress["week"].i + ".");
+			GLOBAL_old.Player.Log("Started week " + GLOBAL_old.Player.progress["week"].i + ".");
 		}
 
 		// BChance: If we're logging in on a particular week, make 
 		//   sure that we have flag that we've started it.
-		if (GLOBAL.Player.progress["week"].i == 0)
+		if (GLOBAL_old.Player.progress["week"].i == 0)
 		{
-			GLOBAL.Player.progress["week_0_started"] = true;
+			GLOBAL_old.Player.progress["week_0_started"] = true;
 		}
-		else if (GLOBAL.Player.progress["week"].i == 1)
+		else if (GLOBAL_old.Player.progress["week"].i == 1)
 		{
-			GLOBAL.Player.progress["week_1_started"] = true;
+			GLOBAL_old.Player.progress["week_1_started"] = true;
 		}
-		else if (GLOBAL.Player.progress["week"].i == 2)
+		else if (GLOBAL_old.Player.progress["week"].i == 2)
 		{
-			GLOBAL.Player.progress["week_2_started"] = true;
+			GLOBAL_old.Player.progress["week_2_started"] = true;
 		}
-		else if (GLOBAL.Player.progress["week"].i == 3)
+		else if (GLOBAL_old.Player.progress["week"].i == 3)
 		{
-			GLOBAL.Player.progress["week_3_started"] = true;
+			GLOBAL_old.Player.progress["week_3_started"] = true;
 		}
 
 
@@ -271,10 +271,10 @@ public class UILogin : MonoBehaviour
 	void Loaded_Avatar(PlayerData player)
 	{
 		// Increment 'sSessions' every time the player logs in.
-		GLOBAL.Player.progress["sSessions"] = GLOBAL.Player.progress["sSessions"].i + 1;
+		GLOBAL_old.Player.progress["sSessions"] = GLOBAL_old.Player.progress["sSessions"].i + 1;
 
 		// Flag that we want to record the session count.
-		GLOBAL.Player.progress["tksessions"] = true;
+		GLOBAL_old.Player.progress["tksessions"] = true;
 
 		// // Track the session length in seconds.
 		// int new_timestamp = (int)(DateTime.Now.Ticks / 10000000);

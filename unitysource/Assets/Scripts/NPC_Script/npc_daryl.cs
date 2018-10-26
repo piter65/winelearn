@@ -7,8 +7,8 @@ public class npc_daryl : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 3
-			&& GLOBAL.Player.progress["playernum"] == 2)
+		if (   GLOBAL_old.Player.progress["week"] == 3
+			&& GLOBAL_old.Player.progress["playernum"] == 2)
 		{
 			return "Daryl/t3p2_l1w2_daryl.lua";
 		}

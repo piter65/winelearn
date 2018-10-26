@@ -6,8 +6,8 @@ public class npc_dennis : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if (   GLOBAL.Player.progress["week"] == 1
-			&& GLOBAL.Player.progress["playernum"] == 2)
+		if (   GLOBAL_old.Player.progress["week"] == 1
+			&& GLOBAL_old.Player.progress["playernum"] == 2)
 		{
 			return "Dennis_McCarthy/t1p2_dennis.lua";
 		}

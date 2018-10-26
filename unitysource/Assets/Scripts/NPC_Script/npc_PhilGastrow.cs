@@ -12,11 +12,11 @@ public class npc_PhilGastrow : MonoBehaviour {
 	{
 
 		strPath = Application.dataPath + "/../Lua/npc/";
-		switch(GLOBAL.Player.progress["week"].i)
+		switch(GLOBAL_old.Player.progress["week"].i)
 		{
 			case 1:
 			//if(GLOBAL.Player.progress["vendor3progress"] <=10)
-				switch(GLOBAL.Player.progress["playnum"].i)
+				switch(GLOBAL_old.Player.progress["playnum"].i)
 				{
 					case 3:
 						strPath += "Phil_Gastrow/t1p3_vc_phil.lua";
@@ -28,7 +28,7 @@ public class npc_PhilGastrow : MonoBehaviour {
 				break;
 			case 3:
 			//if(GLOBAL.Player.progress["vendor1progress"] <=3)
-					switch(GLOBAL.Player.progress["playnum"].i)
+					switch(GLOBAL_old.Player.progress["playnum"].i)
 					{
 						case 1:
 							strPath += "Phil_Gastrow/t3p1_va_burrels.lua";
@@ -43,14 +43,14 @@ public class npc_PhilGastrow : MonoBehaviour {
 				break;
 		}
 
-		Debug.Log(">>>>>>>\t"+GLOBAL.Player.progress["week"]+"\t"+GLOBAL.Player.progress["playnum"]);
+		Debug.Log(">>>>>>>\t"+GLOBAL_old.Player.progress["week"]+"\t"+GLOBAL_old.Player.progress["playnum"]);
 		#if UNITY_EDITOR
 		strPath = "file:///" + strPath;
 		#endif
 		
 		// Start a dialogue with the npc using the selected file.
 		DialogueOverlay.strFilePath_Dialogue = strPath;
-		DialogueOverlay.Load();
+		//DialogueOverlay.Load();
 
 	}
 

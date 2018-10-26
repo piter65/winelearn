@@ -5,10 +5,10 @@ public class npc_WebsterDweeb : npc_Base
 {
 	protected override string GetLuaFileName()
 	{
-		if(    GLOBAL.Player.progress["week"].i == 1
-			&& GLOBAL.Player.progress["playernum"].i == 1)
+		if(    GLOBAL_old.Player.progress["week"].i == 1
+			&& GLOBAL_old.Player.progress["playernum"].i == 1)
 		{
-			switch (GLOBAL.Player.progress["mickey"].i)
+			switch (GLOBAL_old.Player.progress["mickey"].i)
 			{
 				case 1:
 					return "Webster_Dweeb/t1p1_utt_webster.lua";
@@ -22,7 +22,7 @@ public class npc_WebsterDweeb : npc_Base
 					return "Webster_Dweeb/rnd_webster.lua";
 			}
 		}
-		else if (GLOBAL.Player.progress["week"].i == 9)
+		else if (GLOBAL_old.Player.progress["week"].i == 9)
 		{
 			return "Webster_Dweeb/task9_webster.lua";
 		}
