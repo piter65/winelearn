@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class CONFIG
+public static class CONFIG_old
 {
 	public static bool OFFLINE = true;
 

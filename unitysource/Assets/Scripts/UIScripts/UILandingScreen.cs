@@ -27,14 +27,14 @@ public class UILandingScreen : MonoBehaviour
 
 		Debug.Log("-- All destroyed.");
 
-		StartCoroutine(CONFIG.Web_GetConfigData(true, ServerConfigRecieved));
+		StartCoroutine(CONFIG_old.Web_GetConfigData(true, ServerConfigRecieved));
 	}
 	
 	void Update()
 	{
 		if (is_config_retrieved)
 		{
-			if (!CONFIG.TROUBLESHOOT_ONLY)
+			if (!CONFIG_old.TROUBLESHOOT_ONLY)
 			{
 				// Alt + T + S + K triggers showing the task picker button.
 				if (   Input.GetButton("Alt")
@@ -65,10 +65,10 @@ public class UILandingScreen : MonoBehaviour
 
 			is_config_retrieved = true;
 
-			txt_version.text = "v." + CONFIG.VERSION;
+			txt_version.text = "v." + CONFIG_old.VERSION;
 
 			// If we're flagged for troubleshoot only, only allow the metrics test.
-			if (CONFIG.TROUBLESHOOT_ONLY)
+			if (CONFIG_old.TROUBLESHOOT_ONLY)
 			{
 				btn_Login.SetActive(false);
 				btn_Tutorial.SetActive(false);

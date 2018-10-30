@@ -45,7 +45,7 @@ public class GLOBAL_old : MonoBehaviour
 			return 
 				   // The player is idle if we're not in a game scene.
 				   OrbitCam == null
-				|| idle_time >= CONFIG.TIME_UNTIL_IDLE;
+				|| idle_time >= CONFIG_old.TIME_UNTIL_IDLE;
 		}
 	}
 
@@ -92,7 +92,7 @@ public class GLOBAL_old : MonoBehaviour
 
 	public static string GetUrl_Game(string url_end)
 	{
-		return CONFIG.URL_GAME + url_end;
+		return CONFIG_old.URL_GAME + url_end;
 	}
 
 	//public static string GetUrl_Multiplayer(string url_end)
@@ -108,7 +108,7 @@ public class GLOBAL_old : MonoBehaviour
 	public static string GetUrl_Benchmark(string url_end)
 	{
 		#if UNITY_EDITOR
-			return CONFIG.URL_BENCHMARK + url_end;
+			return CONFIG_old.URL_BENCHMARK + url_end;
 		#else
 			return Application.dataPath + "/../../benchmark/" + url_end;
 		#endif
@@ -574,7 +574,7 @@ public class GLOBAL_old : MonoBehaviour
 			}
 
 			// Log the user out if they're idle for longer than the logout timeout.
-			if (idle_time >= CONFIG.IDLE_LOGOUT_TIMEOUT)
+			if (idle_time >= CONFIG_old.IDLE_LOGOUT_TIMEOUT)
 			{
 				GLOBAL_old.Player.Log("Idle Logout");
 				QuitGame();

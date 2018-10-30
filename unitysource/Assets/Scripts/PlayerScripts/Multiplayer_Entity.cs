@@ -162,7 +162,7 @@ public class Multiplayer_Entity : MonoBehaviour
 						GLOBAL_old.Player.rotation = transform.rotation;
 					}
 
-					if (_fTimeSinceLastUpdate >= 1.0f / CONFIG.MULTIPLAYER_UPDATES_PER_SECOND)
+					if (_fTimeSinceLastUpdate >= 1.0f / CONFIG_old.MULTIPLAYER_UPDATES_PER_SECOND)
 					{
 						_fTimeSinceLastUpdate = 0.0f;
 

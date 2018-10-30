@@ -49,7 +49,7 @@ public class RemoteSound
 	public IEnumerator DownloadAndPlay(AudioSource source)
 	{
 		// BChance: Don't download if we're in low bandwidth mode.
-		if (!CONFIG.LOW_BANDWIDTH)
+		if (!CONFIG_old.LOW_BANDWIDTH)
 		{
 			Debug.Log("== Downloading '" + _url + "' . . .");
 
@@ -87,7 +87,7 @@ public class RemoteSound
 
 	private IEnumerator AudioDownloadTimeout(WWW www)
 	{
-		yield return new WaitForSeconds(CONFIG.AUDIO_DOWNLOAD_TIMEOUT);
+		yield return new WaitForSeconds(CONFIG_old.AUDIO_DOWNLOAD_TIMEOUT);
 
 		// If we're not done downloading, stop downloading.
 		if (!www.isDone)

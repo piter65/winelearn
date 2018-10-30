@@ -14,7 +14,7 @@ public class UI_Task_Picker : MonoBehaviour
 	void Start()
 	{
 
-		txt_version.text = "v." + CONFIG.VERSION;
+		txt_version.text = "v." + CONFIG_old.VERSION;
 
 		GLOBAL_old.Init();
 

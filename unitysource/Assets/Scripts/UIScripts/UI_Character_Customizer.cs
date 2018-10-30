@@ -19,7 +19,7 @@ public class UI_Character_Customizer : MonoBehaviour
 
 	void Start()
 	{
-		txt_version.text = "v." + CONFIG.VERSION;
+		txt_version.text = "v." + CONFIG_old.VERSION;
 	}
 	
 	void Update()

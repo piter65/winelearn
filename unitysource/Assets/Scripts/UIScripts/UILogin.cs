@@ -27,7 +27,7 @@ public class UILogin : MonoBehaviour
 	/************************** initialization ******************/
 	void Start()
 	{
-		txt_version.text = "v." + CONFIG.VERSION;
+		txt_version.text = "v." + CONFIG_old.VERSION;
 
 		PlayerPrefs.SetInt("posPlay" , 0);
 		alphaValueBg = 1;
@@ -223,9 +223,9 @@ public class UILogin : MonoBehaviour
 	void Loaded_PlayerData(PlayerData player)
 	{
 		//Debug.Log("Loaded player data- Peter wass here");
-		GLOBAL_old.Player.Log("Logged in:  V:"+CONFIG.VERSION);
+		GLOBAL_old.Player.Log("Logged in:  V:"+CONFIG_old.VERSION);
 
-		GLOBAL_old.VStatsLog("Login V:"+CONFIG.VERSION+": ");   // peter added
+		GLOBAL_old.VStatsLog("Login V:"+CONFIG_old.VERSION+": ");   // peter added
 
 		// If the week has changed, reset the weekly fields.
 		if (GLOBAL_old.Player.progress["week_changed"].b)

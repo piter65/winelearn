@@ -64,12 +64,16 @@
     <Compile Include="Assets\[wine_learn]\Scripts\Camera\OrbitCamera.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\Character\CharacterType.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\Character\NPC.cs" />
+    <Compile Include="Assets\[wine_learn]\Scripts\CONFIG.cs" />
+    <Compile Include="Assets\[wine_learn]\Scripts\DataTypes\EasyDictionary.cs" />
+    <Compile Include="Assets\[wine_learn]\Scripts\DataTypes\MultiType.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\GLOBAL.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\NPC_Script_Parser.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\UI\UI_DialogueOverlay.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\UI\UI_Game_Options.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\UI\UI_Init.cs" />
     <Compile Include="Assets\[wine_learn]\Scripts\UI\UI_Manager_New.cs" />
+    <Compile Include="Assets\[wine_learn]\Scripts\User.cs" />
     <Compile Include="Assets\DownloadAssets\MainCharacterController.cs" />
     <Compile Include="Assets\DownloadAssets\ToolTip.cs" />
     <Compile Include="Assets\JSON\ButtonAction.cs" />
@@ -102,7 +106,7 @@
     <Compile Include="Assets\Scripts\Character\SmoothLookAt.cs" />
     <Compile Include="Assets\Scripts\CharAnim.cs" />
     <Compile Include="Assets\Scripts\CollisionScripts\SceneChange.cs" />
-    <Compile Include="Assets\Scripts\CONFIG.cs" />
+    <Compile Include="Assets\Scripts\CONFIG_old.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\CharacterManager.cs" />
     <Compile Include="Assets\Scripts\ControlScripts\SmoothFollow.cs" />
     <Compile Include="Assets\Scripts\Data\BusinessCardsData.cs" />
